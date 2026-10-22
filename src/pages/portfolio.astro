@@ -1,0 +1,59 @@
+---
+import PhotoCard from '../components/PhotoCard.astro';
+import { projects } from '../lib/portfolio';
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout title="Construction Permit Projects & Portfolio" description="Permit expediting and code consulting projects by Burnham Nationwide, from the Obama Presidential Center and Wilshire Grand Center to Lincoln Center and national retail rollouts." nav="portfolio">
+  <div class="page-band">
+    <div class="wrap">
+      <ol class="crumbs"><li><a href="/">Home</a></li><li>Portfolio</li></ol>
+    </div>
+  </div>
+
+  <section class="page-hero page-hero--plain">
+    <div class="wrap stack">
+      <div class="eyebrow">Our portfolio</div>
+      <h1 class="h-display">Projects that had to <span class="hl-block">get done.</span></h1>
+      <p class="lede">Presidential centers, supertalls, landmark hotels and national rollouts. Each one came with its own jurisdictions, reviewers and deadlines, and each one opened.</p>
+    </div>
+  </section>
+
+  <section class="section section--flush-top">
+    <div class="wrap stack stack--lg">
+      <div class="portfolio-filter" data-portfolio-filter hidden>
+        <span class="label" id="filter-label">Filter by sector</span>
+        <div class="tags" role="group" aria-labelledby="filter-label">
+          <button class="tag" type="button" data-filter="all" aria-pressed="true">All projects</button>
+          <button class="tag" type="button" data-filter="commercial" aria-pressed="false">Commercial</button>
+          <button class="tag" type="button" data-filter="residential" aria-pressed="false">Residential</button>
+          <button class="tag" type="button" data-filter="hospitality" aria-pressed="false">Hospitality</button>
+          <button class="tag" type="button" data-filter="education" aria-pressed="false">Education</button>
+          <button class="tag" type="button" data-filter="retail" aria-pressed="false">Retail</button>
+          <button class="tag" type="button" data-filter="historic" aria-pressed="false">Special &amp; historic</button>
+          <button class="tag" type="button" data-filter="government" aria-pressed="false">Government &amp; public</button>
+        </div>
+        <p class="small" aria-live="polite" data-filter-status></p>
+      </div>
+
+      <ul class="grid grid--4 portfolio-grid">
+        {projects.map((p) => (
+        <li data-sectors={p.sector_keys}><PhotoCard project={p} showSummary /></li>
+      ))}
+      </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap cta-block">
+      <div class="stack stack--sm">
+        <h2>Your project could be next.</h2>
+        <p>From a single tenant build-out to a national rollout, one project manager stays with it from first review to final sign-off.</p>
+      </div>
+      <a class="btn btn--primary" href="/contact/">Start a project</a>
+    </div>
+  </section>
+
+  <script>
+    import '../scripts/portfolio.js';
+  </script>
+</BaseLayout>

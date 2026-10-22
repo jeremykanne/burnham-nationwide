@@ -1,0 +1,96 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { offices, type Office } from '../../lib/offices';
+
+export function getStaticPaths() {
+  return offices.map((office) => ({ params: { slug: office.slug }, props: { office } }));
+}
+
+interface Props {
+  office: Office;
+}
+const { office: o } = Astro.props;
+---
+<BaseLayout title={o.meta_title} description={o.meta_description} nav="contact">
+  <div class="page-band">
+    <div class="wrap">
+      <ol class="crumbs"><li><a href="/">Home</a></li><li><a href="/contact/">Contact</a></li><li>{o.city}</li></ol>
+      <nav aria-label="On this page">{o.guides.map((g) => <a href={`#${g.id}`}>{g.title}</a>)}</nav>
+    </div>
+  </div>
+
+  <section class="page-hero">
+    <div class="wrap grid grid--2">
+      <div class="stack">
+        <div class="eyebrow">{o.city} office{o.hq && ' · Headquarters'}</div>
+        <h1 class="h-display">{o.headline}</h1>
+        <div class="office-intro" set:html={o.intro_html} />
+        <div class="row">
+          <a class="btn btn--primary" href="/contact/">Start a project</a>
+          <a class="btn btn--outline" href={`tel:${o.phone_digits}`}>Call {o.phone}</a>
+        </div>
+      </div>
+      <div class="stack">
+        <div class="media office-media"><img src={o.image} alt={o.image_alt}></div>
+        <div class="card office-card">
+          <span class="label">Burnham Nationwide, {o.city}</span>
+          <address class="office-card__address" set:html={o.address_html} />
+          <div class="office-card__links">
+            <a href={`tel:${o.phone_digits}`}>{o.phone}</a>
+            <a href={`mailto:${o.email}`}>{o.email}</a>
+          </div>
+          <div><a class="link" href={o.maps_url}>Get directions</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--muted" id="guide">
+    <div class="wrap stack stack--lg">
+      <div class="stack stack--sm section-head">
+        <div class="eyebrow">{o.city} permitting</div>
+        <h2 class="h-section">{o.guide_title}</h2>
+        <p class="lede">{o.guide_intro}</p>
+      </div>
+      <div class="office-guides">
+        {o.guides.map((g) => (
+          <section class="office-guide" id={g.id} aria-labelledby={`${g.id}-title`}>
+            <h3 class="h-card" id={`${g.id}-title`}>{g.title}</h3>
+            <div class="prose office-guide__body" set:html={g.body_html} />
+          </section>
+        ))}
+      </div>
+      <div class="callout" style="max-width: 900px;">
+        <div class="callout__title">Not sure which path fits?</div>
+        <div class="callout__body">Send us the address and scope. A {o.city} project manager will confirm the right submission method and timeline, and stay with the project through issuance.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap stack stack--lg">
+      <div class="stack stack--sm section-head">
+        <div class="eyebrow">Serving clients nationwide</div>
+        <h2 class="h-section">Our other offices</h2>
+      </div>
+      <div class="link-rows">
+        {o.others.map((x) => (
+          <a href={`/contact/${x.slug}/`}><span class="link-rows__title">{x.city}</span><span class="small">{x.city}, {x.state}</span></a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--flush-top">
+    <div class="wrap cta-block">
+      <div class="stack stack--sm">
+        <h2>Building in {o.city}?</h2>
+        <p>Tell us about the project and our {o.city} team will map the permit path.</p>
+      </div>
+      <div class="row">
+        <a class="btn btn--primary" href="/contact/">Start a project</a>
+        <a class="btn btn--on-dark" href={`tel:${o.phone_digits}`}>{o.phone}</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

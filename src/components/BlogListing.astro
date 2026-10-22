@@ -1,0 +1,85 @@
+---
+import { Image } from 'astro:assets';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PostCard from './PostCard.astro';
+import BlogSubscribe from './BlogSubscribe.astro';
+import { BLOG, type Post, type Topic, dateDisplay, excerpt, pagination, postUrl, primaryTopic } from '../lib/blog';
+
+interface Props {
+  heading: string;
+  intro: string;
+  /** Base URL of this listing, e.g. /final-review-blog/ or /final-review-blog/topic/chicago/ */
+  base: string;
+  /** Set on topic archives */
+  topicSlug?: string;
+  topics: Topic[];
+  page: { n: number; total: number; featured?: Post; posts: Post[] };
+}
+const { heading, intro, base, topicSlug, topics, page } = Astro.props;
+const pager = pagination(page.n, page.total, base);
+const title = page.n === 1 ? heading : `${heading} (page ${page.n})`;
+const featured = page.featured;
+---
+<BaseLayout title={title} description={intro} nav="learn">
+  <div class="page-band">
+    <div class="wrap">
+      <ol class="crumbs"><li><a href="/">Home</a></li><li><a href={BLOG}>The Final Review</a></li>{topicSlug && <li>{heading}</li>}</ol>
+      <nav aria-label="Blog"><a href={`${BLOG}rss.xml`}>RSS</a><a href="#subscribe">Subscribe</a></nav>
+    </div>
+  </div>
+
+  <section class="page-hero page-hero--plain">
+    <div class="wrap stack">
+      <div class="eyebrow">{topicSlug ? 'Topic' : 'Blog'}</div>
+      <h1 class="h-display">{heading}</h1>
+      <p class="lede">{intro}</p>
+      <nav aria-label="Topics">
+        <ul class="tags blog-topics">
+          <li><a class="tag" href={BLOG} aria-current={!topicSlug ? 'page' : undefined}>All topics</a></li>
+          {topics.map((t) => (
+            <li><a class="tag" href={t.url} aria-current={t.slug === topicSlug ? 'page' : undefined}>{t.name} <span class="blog-topics__count">{t.count}</span></a></li>
+          ))}
+        </ul>
+      </nav>
+    </div>
+  </section>
+
+  {featured && (
+    <section class="section section--flush-top">
+      <div class="wrap">
+        <a class="featured-post" href={postUrl(featured)}>
+          {featured.data.image && <Image src={featured.data.image} alt={featured.data.imageAlt} widths={[640, 1200]} sizes="(max-width: 900px) 100vw, 600px" loading="eager" />}
+          <div class="featured-post__body">
+            <span class="chip chip--orange">Latest</span>
+            <span class="post-card__meta"><span>{primaryTopic(featured)?.name ?? 'The Final Review'}</span><span>{dateDisplay(featured)}</span></span>
+            <span class="featured-post__title">{featured.data.title}</span>
+            <span class="post-card__excerpt">{excerpt(featured)}</span>
+            <span class="link">Read the article</span>
+          </div>
+        </a>
+      </div>
+    </section>
+  )}
+
+  <section class="section section--muted">
+    <div class="wrap stack stack--lg">
+      {page.n > 1 && <p class="label">Page {page.n}</p>}
+      <div class="grid grid--3">
+        {page.posts.map((post) => <PostCard post={post} />)}
+      </div>
+      {pager.multiple && (
+        <nav class="pagination" aria-label="Pagination">
+          {pager.prevUrl && <a href={pager.prevUrl} rel="prev">Newer</a>}
+          {pager.items.map((item) =>
+            item.gap ? <span class="pagination__gap" aria-hidden="true">…</span>
+            : item.current ? <span aria-current="page">{item.n}</span>
+            : <a href={item.url}>{item.n}</a>
+          )}
+          {pager.nextUrl && <a href={pager.nextUrl} rel="next">Older</a>}
+        </nav>
+      )}
+    </div>
+  </section>
+
+  <BlogSubscribe />
+</BaseLayout>

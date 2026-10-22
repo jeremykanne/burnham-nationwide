@@ -1,0 +1,43 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/burnham.css';
+import '../styles/services.css';
+import '../styles/about.css';
+import '../styles/portfolio.css';
+import '../styles/learn.css';
+import '../styles/blog.css';
+
+interface Props {
+  title: string;
+  description?: string;
+  /** Top-level nav section to mark as current */
+  nav?: string;
+}
+const { title, description = '', nav } = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{title} | Burnham Nationwide</title>
+  <meta name="description" content={description}>
+  <link rel="canonical" href={canonical}>
+  <link rel="icon" href="/assets/favicon.jpg">
+  <link rel="alternate" type="application/rss+xml" title="The Final Review" href="/final-review-blog/rss.xml">
+  <link rel="sitemap" href="/sitemap-index.xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <Header nav={nav} />
+  <main id="main">
+    <slot />
+  </main>
+  <Footer />
+</body>
+</html>

@@ -1,0 +1,616 @@
+[
+  {
+    "slug": "chicago",
+    "city": "Chicago",
+    "state": "IL",
+    "hq": true,
+    "address_html": "111 W Washington St, Suite 1700<br>Chicago, IL 60602",
+    "phone": "312-407-7990",
+    "phone_digits": "3124077990",
+    "email": "chicago@burnhamnationwide.com",
+    "meta_title": "Chicago Permit Expediter & Building Code Consultant",
+    "meta_description": "Chicago permit expediting and building code consulting from Burnham Nationwide’s headquarters, helping secure building permits and approvals for projects of every size since 1992.",
+    "headline": "Chicago building permits",
+    "intro_html": "<p>Burnham Nationwide is the recognized name in permit expediting and building code consulting in the City of Chicago. Headquartered here since 1992, Burnham has worked on the iconic buildings that make up the Chicago skyline.</p><p>We assist with everything from a complex office tower going through Developer Services to a residential remodel in Standard Plan Review. Beyond the building permits for a project’s full life cycle, our expediters handle grants of privilege, driveway permits, business licenses, tank permits, capacity signs and magnetic lock approvals.</p><p>Our code consultants review plans for compliance with the Chicago Building Code, the Chicago Energy Conservation Code, the Americans with Disabilities Act and state and municipal accessibility requirements, and regularly represent clients before the Chicago Committee on Standards and Tests.</p>",
+    "image": "/assets/img/offices/chicago.jpg",
+    "image_alt": "Chicago skyline and lakefront at dusk",
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Burnham+Nationwide%2C+111+W+Washington+St%2C+Suite+1700%2C+Chicago%2C+IL+60602",
+    "guide_title": "Guiding you through building permits in Chicago",
+    "guide_intro": "Chicago offers several submission methods matched to the scale of the work, so projects avoid unnecessary reviews. These are the most common paths.",
+    "guides": [
+      {
+        "id": "self-certification-application",
+        "title": "Self-certification application",
+        "body_html": "<p>Self-certification is faster than the Standard Plan Application, but the project and its architect must be eligible through the City of Chicago. Out-of-state stakeholders can go through standard plan review instead.</p><p>Start with the basics: the construction cost, whether there is structural work or excavation, and whether the project is ready for a debt check.</p><h4>Self-certification checklist</h4><ul class=\"list\"><li>Project drawings</li><li>Building Permit Application (BPA)</li><li>Professional of Record (POR) statement</li><li>Mayor’s Office for People with Disabilities (MOPD) form</li><li>Commercial compliance statement</li><li>Hold-harmless letter</li><li>Certificate of insurance (COI)</li></ul><p>Burnham has more than 25 years of experience with self-certification projects, including the Lou Malnati’s addition at the Wrigley Building. A self-certification application typically takes 6–8 weeks and can take up to 3 months.</p>"
+      },
+      {
+        "id": "standard-plan-application",
+        "title": "Standard plan application",
+        "body_html": "<p>Standard Plan Review takes longer than self-certification and is common when working with out-of-state architecture firms whose architect lacks self-certification standing.</p><h4>Standard plan checklist</h4><ul class=\"list\"><li>Project drawings</li><li>Mayor’s Office for People with Disabilities (MOPD) form</li><li>Department of Buildings (DOB) Building Permit Application (BPA)</li><li>Department of Buildings (DOB) Electrical Permit Application (EPA)</li><li>Energy code compliance form</li><li>Owner’s letters</li></ul><h4>City department approvals</h4><ul class=\"list\"><li>Architecture</li><li>Accessibility</li><li>Electrical</li><li>Fire prevention</li><li>Ventilation</li><li>Refrigeration</li><li>Plumbing</li><li>Structural</li><li>Environmental</li><li>Zoning</li><li>Planning</li><li>Lakefront</li><li>Landmark</li></ul><p>Burnham’s standard plan work includes the World’s Largest Starbucks on Michigan Avenue. A standard plan application typically takes 8–10 weeks and can take up to 3 months.</p>"
+      },
+      {
+        "id": "grant-of-privilege",
+        "title": "Grant of privilege",
+        "body_html": "<p>A grant of privilege is required for any occupation of public way space, including encroachments on, over or under the street, sidewalk, parkway or alley. Grants are issued for five years and are renewable.</p><p>Before submitting, the project needs sign-off from the alderman, the Public Way Unit and City Council.</p><h4>Grant of privilege checklist</h4><ul class=\"list\"><li>Application</li><li>Printed plans</li><li>Certificate of insurance (COI)</li><li>Photos of the existing public way encroachment</li><li>Account with the Department of Business Affairs and Consumer Protection (BACP)</li></ul><p>In Chicago, grants of privilege are handled as ordinances that must pass City Council before a permit can be issued. The process typically takes 3–6 months.</p>"
+      },
+      {
+        "id": "public-way",
+        "title": "Public way",
+        "body_html": "<p>Burnham has extensive experience navigating Chicago’s public way process. Elements that require a permit when placed in the public way include:</p><ul class=\"list\"><li>Permanent public way</li><li>Peak hour exemptions</li><li>Tent permits</li><li>Grants of privilege</li><li>Canopies</li><li>Harbor and bridge permits</li></ul>"
+      }
+    ],
+    "others": [
+      {
+        "slug": "new-york",
+        "city": "New York",
+        "state": "NY"
+      },
+      {
+        "slug": "los-angeles",
+        "city": "Los Angeles",
+        "state": "CA"
+      },
+      {
+        "slug": "san-francisco",
+        "city": "San Francisco",
+        "state": "CA"
+      },
+      {
+        "slug": "san-jose",
+        "city": "San Jose",
+        "state": "CA"
+      },
+      {
+        "slug": "denver",
+        "city": "Denver",
+        "state": "CO"
+      },
+      {
+        "slug": "dallas",
+        "city": "Dallas",
+        "state": "TX"
+      },
+      {
+        "slug": "orlando",
+        "city": "Orlando",
+        "state": "FL"
+      }
+    ]
+  },
+  {
+    "slug": "new-york",
+    "city": "New York",
+    "state": "NY",
+    "hq": false,
+    "address_html": "86 Chambers St #203<br>New York, NY 10007",
+    "phone": "212-577-2541",
+    "phone_digits": "2125772541",
+    "email": "newyork@burnhamnationwide.com",
+    "meta_title": "Permit Expediting & Code Consulting in New York",
+    "meta_description": "Burnham Nationwide’s New York office expedites building permits, DOB filings, DOT approvals and ADA compliance across New York City, with one project manager from start to finish.",
+    "headline": "Permit expediting in New York",
+    "intro_html": "<p>Burnham has operated in New York City for two decades. Our expediters know every phase of the permit process, and the same project manager works with you for the life of the project.</p><p>We review every submittal package for completeness and accuracy and coordinate owners, developers, municipal authorities and design and construction teams. Beyond building permits, we handle solar permits, after-hours variances, sidewalk cafe permits and Department of Transportation approvals, along with place of assembly permits, contractor licensing and landmark approvals.</p><p>Every document is archived and tracked in our secure database, which aligns with the New York City Department of Buildings online portal. Our code consultants review plans against the New York City Construction Code, the New York City Energy Conservation Code, the Americans with Disabilities Act and state and municipal accessibility requirements.</p>",
+    "image": "/assets/img/offices/new-york.jpg",
+    "image_alt": "Lower Manhattan skyline and One World Trade Center behind the Brooklyn Bridge",
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Burnham+Nationwide%2C+86+Chambers+St+%23203%2C+New+York%2C+NY+10007",
+    "guide_title": "Guiding you through building permits in New York",
+    "guide_intro": "Permitting, code consulting and accessibility support for projects across the five boroughs.",
+    "guides": [
+      {
+        "id": "code-consulting",
+        "title": "Code consulting",
+        "body_html": "<p>Our New York code consultants run thorough plan reviews to identify and resolve issues with building codes, zoning and accessibility standards. We prepare code compliance reports, coordinate with code enforcement officials and solve code challenges as they come up, keeping your project safe, legal and on schedule.</p>"
+      },
+      {
+        "id": "ada-compliance",
+        "title": "ADA compliance",
+        "body_html": "<p>We review plans and facilities against the Americans with Disabilities Act, covering entrances, exits, pathways, restrooms and parking, as well as often-overlooked requirements such as signage placement and braille. We advise on design modifications, assist with compliance documentation and liaise with regulatory agencies.</p>"
+      },
+      {
+        "id": "permit-expediting",
+        "title": "Permit expediting",
+        "body_html": "<p>New clients often come to us after a Department of Buildings application was incorrect, ambiguous or missing detail. Because we know how to navigate the city’s permit management systems, our expediters move applications through faster, for corporate clients and major municipal projects alike.</p>"
+      }
+    ],
+    "others": [
+      {
+        "slug": "chicago",
+        "city": "Chicago",
+        "state": "IL"
+      },
+      {
+        "slug": "los-angeles",
+        "city": "Los Angeles",
+        "state": "CA"
+      },
+      {
+        "slug": "san-francisco",
+        "city": "San Francisco",
+        "state": "CA"
+      },
+      {
+        "slug": "san-jose",
+        "city": "San Jose",
+        "state": "CA"
+      },
+      {
+        "slug": "denver",
+        "city": "Denver",
+        "state": "CO"
+      },
+      {
+        "slug": "dallas",
+        "city": "Dallas",
+        "state": "TX"
+      },
+      {
+        "slug": "orlando",
+        "city": "Orlando",
+        "state": "FL"
+      }
+    ]
+  },
+  {
+    "slug": "los-angeles",
+    "city": "Los Angeles",
+    "state": "CA",
+    "hq": false,
+    "address_html": "515 S. Figueroa Street, Suite 1275<br>Los Angeles, CA 90071",
+    "phone": "213-233-2133",
+    "phone_digits": "2132332133",
+    "email": "la@burnhamnationwide.com",
+    "meta_title": "Los Angeles Building Permit Expediting & Code Consulting",
+    "meta_description": "Burnham Nationwide’s Los Angeles office expedites LADBS and Los Angeles County building permits, clearances and approvals across Southern California.",
+    "headline": "Los Angeles building permits",
+    "intro_html": "<p>Burnham Nationwide is a leading specialist in building permit expediting for the Greater Los Angeles Area. Operating in Southern California for more than a decade, Burnham has worked on most of the large-scale developments and towers in downtown Los Angeles and the surrounding area.</p><p>Our Los Angeles office applies its knowledge of California and municipal building codes to plan reviews and project advice. Burnham pioneered the use of phased building permits in Los Angeles.</p><p>In addition to the Los Angeles Department of Building and Safety and other Southern California jurisdictions, our expediters handle historic preservation approvals, noise variance permits, contractor licensing, peak hour exemptions and traffic approvals.</p>",
+    "image": "/assets/img/offices/los-angeles.jpg",
+    "image_alt": "Downtown Los Angeles skyline above the city at sunset",
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Burnham+Nationwide%2C+515+S.+Figueroa+Street%2C+Suite+1275%2C+Los+Angeles%2C+CA+90071",
+    "guide_title": "Guiding you through building permits in Los Angeles",
+    "guide_intro": "The submission paths most projects take through LADBS and Los Angeles County.",
+    "guides": [
+      {
+        "id": "standard-paper-submission",
+        "title": "Standard paper submission",
+        "body_html": "<p>The common path for larger, complex projects, issued through the Regular Plan Check process. The screening appointment is scheduled at the time of paper drawing submittal, typically 2–4 days out. Once fees are paid, plans are routed to the plan check queue.</p>"
+      },
+      {
+        "id": "over-the-counter-vs-backroom",
+        "title": "Over-the-counter vs. backroom",
+        "body_html": "<p>Simple, small to medium projects can go through Counter Plan Check and may be reviewed the same day as submittal. Backroom plan checks are for medium to large residential and commercial projects. Projects that can be reviewed in 2–3 hours may qualify for an Expanded Counter Plan Check (ECPC), with a slightly longer lead time than standard over-the-counter review.</p><h4>Timelines</h4><ul class=\"list\"><li>Over-the-counter corrections are released in 3–5 working days</li><li>Over-the-counter rechecks are first come, first served</li><li>Backroom corrections are released in 5–7 weeks for expedited reviews</li><li>Backroom rechecks are by appointment</li></ul><h4>LADBS clearances</h4><p>Start obtaining clearances as soon as they are generated; the project cannot be approved without them.</p><ul class=\"list\"><li>Disabled access</li><li>Green</li><li>Planning</li><li>Engineering</li><li>Fire</li><li>Sanitation</li><li>Transportation</li><li>Health</li></ul>"
+      },
+      {
+        "id": "eplanla-submission",
+        "title": "ePlanLA submission",
+        "body_html": "<p>Electronic Plan Review follows most of the same process, with plans screened remotely in 1–2 business days. Corrections, correspondence and rechecks are handled through the ePlan portal and video conferencing, with virtual verification appointments.</p>"
+      },
+      {
+        "id": "county-of-los-angeles-submission",
+        "title": "County of Los Angeles submission",
+        "body_html": "<p>County projects are submitted online through EPIC-LA, where stakeholders can track plans and permits. Check first whether the local jurisdiction requires a separate planning submission.</p><p>After screening, a notice is sent when fees are ready to pay. Fire plan checks are conducted separately through LA County Fire. The first building plan check can take 6–8 weeks; the first MEP plan check 4–5 weeks.</p>"
+      }
+    ],
+    "others": [
+      {
+        "slug": "chicago",
+        "city": "Chicago",
+        "state": "IL"
+      },
+      {
+        "slug": "new-york",
+        "city": "New York",
+        "state": "NY"
+      },
+      {
+        "slug": "san-francisco",
+        "city": "San Francisco",
+        "state": "CA"
+      },
+      {
+        "slug": "san-jose",
+        "city": "San Jose",
+        "state": "CA"
+      },
+      {
+        "slug": "denver",
+        "city": "Denver",
+        "state": "CO"
+      },
+      {
+        "slug": "dallas",
+        "city": "Dallas",
+        "state": "TX"
+      },
+      {
+        "slug": "orlando",
+        "city": "Orlando",
+        "state": "FL"
+      }
+    ]
+  },
+  {
+    "slug": "san-francisco",
+    "city": "San Francisco",
+    "state": "CA",
+    "hq": false,
+    "address_html": "650 California St, 7th Floor<br>San Francisco, CA 94108",
+    "phone": "415-912-8366",
+    "phone_digits": "4159128366",
+    "email": "sanfrancisco@burnhamnationwide.com",
+    "meta_title": "San Francisco Building Permit Expediting & Code Consulting",
+    "meta_description": "Burnham Nationwide’s San Francisco office expedites building permits, conditional use authorizations and historic approvals across the Bay Area.",
+    "headline": "San Francisco building permits",
+    "intro_html": "<p>Burnham Nationwide is the San Francisco Bay Area’s expert in permit expediting. Along with building permits and approvals for every phase of construction, we provide due diligence support and handle historic preservation approvals, noise variance permits, contractor licensing, street space permits and traffic approvals.</p><p>Operating in Northern California for the past decade, we apply our knowledge of California and municipal building codes to plan reviews and project advice. The same project manager works with you through the entire project.</p>",
+    "image": "/assets/img/offices/san-francisco.jpg",
+    "image_alt": "Aerial view of downtown San Francisco and the Transamerica Pyramid",
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Burnham+Nationwide%2C+650+California+St%2C+7th+Floor%2C+San+Francisco%2C+CA+94108",
+    "guide_title": "Guiding you through building permits in San Francisco",
+    "guide_intro": "Whether a project qualifies for over-the-counter review or needs a conditional use authorization changes its whole timeline. These are the main paths.",
+    "guides": [
+      {
+        "id": "over-the-counter-otc-application",
+        "title": "Over-the-counter (OTC) application",
+        "body_html": "<p>There are two types of OTC applications, with plans and without. OTC is faster than in-house review, but the project must be eligible; projects that don’t qualify are directed to in-house review.</p><h4>Submittal checklist</h4><ul class=\"list\"><li>Two sets of signed and sealed plans (wet signature on the cover sheet of each trade)</li><li>One set of structural calculations, if applicable</li><li>DA checklist completed and printed on plans</li><li>Building permit application</li><li>Cost of construction</li></ul><h4>Drop-off appointments</h4><p>OTC applications without plans can be dropped off at the Department of Building Inspection Monday through Friday, 7:30–9:30 a.m. OTC with plans requires an appointment, Monday through Friday, 9:30 a.m.–3:30 p.m. Burnham can help get you on a waitlist for an earlier appointment.</p><h4>Departmental plan reviews</h4><ul class=\"list\"><li>Architecture and accessibility</li><li>Fire</li><li>Mechanical</li><li>Electrical</li><li>Plumbing</li><li>Structural</li><li>Planning and zoning</li><li>Public Works</li><li>Health (if applicable)</li></ul>"
+      },
+      {
+        "id": "in-house-intake-plan",
+        "title": "In-house / intake plan",
+        "body_html": "<p>Larger or more complicated projects typically go through in-house review. It includes pre-screening to confirm that specific areas of the proposed design are code compliant and whether existing non-conforming conditions can remain, so the applicant can review details before fully committing.</p><h4>Submittal checklist</h4><ul class=\"list\"><li>Two sets of signed and sealed plans (wet signature on the cover sheet of each trade)</li><li>One set of structural calculations, if applicable</li><li>DA checklist completed and printed on plans</li><li>Building permit application</li><li>Cost of construction</li><li>Landlord authorization letter</li></ul><p>Departmental reviews match the over-the-counter list above.</p>"
+      },
+      {
+        "id": "conditional-use-authorization-cua",
+        "title": "Conditional use authorization (CUA)",
+        "body_html": "<p>A conditional use is one not principally permitted in a zoning district. The Planning Commission holds a hearing to decide whether the use is necessary or desirable for the neighborhood. CUAs mostly apply to formula retail (11 or more locations worldwide), and not every district accepts formula retail.</p><h4>What the process requires</h4><ul class=\"list\"><li>Pre-application process</li><li>Project scope and contact information</li><li>Findings related to the CUA and Priority General Plan Policies</li><li>Additional findings, depending on scope</li><li>Authorization from owner, applicant, contact person and community liaison</li><li>Drawings</li><li>Photographs</li><li>Additional conditional use criteria</li></ul><p>This is a long and intensive process. Check in with Burnham before you start.</p>"
+      },
+      {
+        "id": "exterior-work",
+        "title": "Exterior work",
+        "body_html": "<p>San Francisco’s Historic Preservation Commission protects historic sites and structures from alterations that would diminish their historical and architectural value. To determine whether you can make exterior changes:</p><ul class=\"list\"><li>Complete a Historic Resource Assessment (HRA)</li><li>Buildings within an Article 10 historic district need a Certificate of Appropriateness</li><li>New construction also requires a Certificate of Appropriateness</li></ul>"
+      }
+    ],
+    "others": [
+      {
+        "slug": "chicago",
+        "city": "Chicago",
+        "state": "IL"
+      },
+      {
+        "slug": "new-york",
+        "city": "New York",
+        "state": "NY"
+      },
+      {
+        "slug": "los-angeles",
+        "city": "Los Angeles",
+        "state": "CA"
+      },
+      {
+        "slug": "san-jose",
+        "city": "San Jose",
+        "state": "CA"
+      },
+      {
+        "slug": "denver",
+        "city": "Denver",
+        "state": "CO"
+      },
+      {
+        "slug": "dallas",
+        "city": "Dallas",
+        "state": "TX"
+      },
+      {
+        "slug": "orlando",
+        "city": "Orlando",
+        "state": "FL"
+      }
+    ]
+  },
+  {
+    "slug": "san-jose",
+    "city": "San Jose",
+    "state": "CA",
+    "hq": false,
+    "address_html": "75 East Santa Clara Street, 6th Floor<br>San Jose, CA 95113",
+    "phone": "408-418-1880",
+    "phone_digits": "4084181880",
+    "email": "sanjose@burnhamnationwide.com",
+    "meta_title": "San Jose Building Permit Expediting & Code Consulting",
+    "meta_description": "Burnham Nationwide’s San Jose office expedites new construction, tenant improvement and change of use permits across Northern California.",
+    "headline": "San Jose building permits",
+    "intro_html": "<p>Burnham Nationwide’s San Jose office supports our work across Northern California, where Burnham has operated for the last decade.</p><p>The office handles every building permit and approval for a project’s life cycle, from new construction and tenant improvements to contractor licenses, historic preservation approvals, noise variance permits and traffic approvals. Our expediters know California and municipal building codes well enough to guide a project proactively.</p><p>Burnham organizes meetings between municipal departments and the design and construction teams, reviews every submittal package for completeness and accuracy, and monitors plan review with regular updates and correction items.</p>",
+    "image": "/assets/img/offices/san-jose.jpg",
+    "image_alt": "Tower Hall and lawn at San José State University",
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Burnham+Nationwide%2C+75+East+Santa+Clara+Street%2C+6th+Floor%2C+San+Jose%2C+CA+95113",
+    "guide_title": "Guiding you through building permits in San Jose",
+    "guide_intro": "The main permit paths through the City of San Jose.",
+    "guides": [
+      {
+        "id": "new-construction",
+        "title": "New construction",
+        "body_html": "<p>New construction generally goes through the entitlement process and/or a change of use. Burnham will set your project up with the right contacts at the city and a strategy for permitting through every required authority.</p><p>Burnham pioneered phased permitting, which lets construction run continuously rather than waiting for all plans to be complete.</p>"
+      },
+      {
+        "id": "tenant-improvement-permits",
+        "title": "Tenant improvement permits",
+        "body_html": "<p>The most common commercial permit process in San Jose. Every tenant improvement project is now submitted electronically through standard intake review.</p><p>Start with the basics: is there a change of use or exterior work, what is the construction cost, is there structural work, and does any scope need health review?</p><h4>Permit review checklist</h4><ul class=\"list\"><li>Project drawings</li><li>Building permit application</li><li>Building occupancy classification form</li><li>Accessibility compliance form</li><li>Industrial use designation form</li><li>A general contractor with workers’ compensation to have the permit issued</li><li>Certificate of insurance (COI)</li><li>If health review is required, a separate submittal to the Santa Clara County Department of Environmental Health</li></ul><p>First review typically takes 4–8 weeks, and full approval and issuance can take 4–5 months.</p>"
+      },
+      {
+        "id": "exterior-work-or-change-of-use",
+        "title": "Exterior work or change of use",
+        "body_html": "<p>These take additional time for Planning Department review. A change of use can take roughly 8–10 months to approve before submitting to the Building Department. Exterior work without a full change of use may go through Planning’s Major or Minor Permit to Alter process.</p><h4>City department approvals</h4><ul class=\"list\"><li>Architecture and accessibility</li><li>Electrical</li><li>Fire</li><li>Mechanical</li><li>Plumbing</li><li>Structural</li><li>Planning and zoning</li><li>Public Works</li><li>Health (if applicable)</li></ul><p>A Minor Permit to Alter may add 1–2 weeks to the first review. A Major Permit to Alter can take anywhere from 2 weeks to 2 months for its first Planning review.</p>"
+      },
+      {
+        "id": "solar-and-remote-verification",
+        "title": "Solar and remote verification",
+        "body_html": "<p>With the <a href=\"/our-technology/burnham-eye/\">BurnhamEYE</a> app, field crews document installations in real time. Data is geo-tagged and time-stamped, then reviewed by your team or Burnham’s quality control team as a third-party inspection, producing a report and scorecard referenced to industry codes and standards.</p><ul class=\"list\"><li>Document installations consistently</li><li>Identify deficiencies before system interruptions</li><li>Simplify and standardize audits</li><li>Provide secure storage and access for authorized users</li><li>Affordably document every installation</li></ul>"
+      }
+    ],
+    "others": [
+      {
+        "slug": "chicago",
+        "city": "Chicago",
+        "state": "IL"
+      },
+      {
+        "slug": "new-york",
+        "city": "New York",
+        "state": "NY"
+      },
+      {
+        "slug": "los-angeles",
+        "city": "Los Angeles",
+        "state": "CA"
+      },
+      {
+        "slug": "san-francisco",
+        "city": "San Francisco",
+        "state": "CA"
+      },
+      {
+        "slug": "denver",
+        "city": "Denver",
+        "state": "CO"
+      },
+      {
+        "slug": "dallas",
+        "city": "Dallas",
+        "state": "TX"
+      },
+      {
+        "slug": "orlando",
+        "city": "Orlando",
+        "state": "FL"
+      }
+    ]
+  },
+  {
+    "slug": "denver",
+    "city": "Denver",
+    "state": "CO",
+    "hq": false,
+    "address_html": "Denver Place, 999 18th Street, Suite 3000<br>Denver, CO 80202",
+    "phone": "800-407-7990",
+    "phone_digits": "8004077990",
+    "email": "denver@burnhamnationwide.com",
+    "meta_title": "Denver Building Permit Expediting & Code Consulting",
+    "meta_description": "Burnham Nationwide’s Denver office expedites building, zoning and prep demolition permits along Colorado’s Front Range.",
+    "headline": "Denver building permits",
+    "intro_html": "<p>Burnham Nationwide is a leading permit expediting specialist for Denver and the surrounding area. Working along Colorado’s Front Range for the past decade, our expediters pioneered Denver’s Preparatory Demolition and Non-Structural Framing Permit, a streamlined path to building permit approval.</p><p>We know Colorado and municipal building codes and use that knowledge in plan reviews and project advice. Our services also cover landmark approvals, transportation-related approvals, stormwater management and permits, contractor licensing and sign permits.</p>",
+    "image": "/assets/img/offices/denver.jpg",
+    "image_alt": "The gold dome of the Colorado State Capitol with the Rocky Mountains behind",
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Burnham+Nationwide%2C+Denver+Place%2C+999+18th+Street%2C+Suite+3000%2C+Denver%2C+CO+80202",
+    "guide_title": "Guiding you through building permits in Denver",
+    "guide_intro": "Denver’s review paths depend on project size, value and complexity.",
+    "guides": [
+      {
+        "id": "standard-plan-review",
+        "title": "Standard plan review",
+        "body_html": "<p>The most common process for small to medium projects, including new construction, remodels and repairs. Plans are reviewed either as a walk-through or a log-in review.</p><h4>Walk-through review</h4><p>Same-day review for small to medium commercial and residential projects with a total construction value under $500,000 that need no approval from other agencies. Educational and institutional occupancies, food service, warehouse and manufacturing facilities, and marijuana cultivation or extraction are not eligible.</p><h4>Eligible commercial projects</h4><ul class=\"list\"><li>Tenant finish in retail and business properties</li><li>Temporary offices</li><li>B and M occupancies, and S-1 and S-2 tenant improvements</li><li>Non-structural repair after water or fire damage</li><li>Limited non-structural remodels</li></ul><h4>Eligible residential projects</h4><ul class=\"list\"><li>Fences and retaining walls</li><li>Minor interior remodels such as kitchens and baths</li><li>Basement finishes</li><li>Patio covers, decks and patio enclosures</li><li>Non-structural repair after water or fire damage</li><li>Windows and exterior doors on non-landmark properties</li><li>Carports</li></ul><p>If the reviewer finds the project too complex or incomplete, it must be logged in for review.</p>"
+      },
+      {
+        "id": "log-in-review",
+        "title": "Log-in review",
+        "body_html": "<p>For larger or more complex projects, in one of two tracks.</p><h4>Main log review</h4><p>The default for complex projects, submitted and tracked through the Major Project Log. Initial review takes up to 20 business days and each re-review up to 10. Reviews by additional agencies add 10–20 business days.</p><h4>Intermediate project log review</h4><p>For smaller scopes: commercial projects under $1,000,000 in construction value, and residential projects with a Building Official’s approval. Initial review takes up to 10 business days and each re-review up to 5. Additional agency reviews add 5–10 business days.</p>"
+      },
+      {
+        "id": "expanded-prep-demolition",
+        "title": "Expanded prep demolition",
+        "body_html": "<p>The prep demolition permit covers interior demolition, non-structural framing and MEP work only. Structures up to 200 square feet and under 8 feet tall don’t need a permit unless they are landmarked, historic or in a historic district.</p><p>Burnham pioneered phased permitting, which lets construction run continuously through demolition, substructure and full building structure rather than waiting for all plans to be complete.</p>"
+      },
+      {
+        "id": "zoning-process",
+        "title": "Zoning process",
+        "body_html": "<p>Commercial zoning review is handled by either the Site Development Plan (SDP) project coordination team or Commercial Zoning. Zoning permits are issued for uses, construction and signs, though not every project needs one. There are three general paths:</p><ul class=\"list\"><li>Obtain zoning permits during the SDP process (required for certain projects)</li><li>Obtain zoning permits before applying for building permits</li><li>Apply for zoning and building permits at the same time, known as a simultaneous review</li></ul><h4>Site development plans</h4><p>An SDP is required for new commercial construction, major additions, new construction of three or more residential units and some tenant finish projects with a change of occupancy. It runs in three phases: a concept submittal and meeting, a formal SDP phase, and final approval and recording. Building permits are not issued until the final SDP is recorded and zoning permits are issued.</p><h4>Commercial zoning permits</h4><p>For commercial and multifamily projects that don’t need an SDP, such as tenant finishes, small additions, accessory structures, changes of use, signs and telecommunications equipment.</p><h4>Simultaneous review exclusions</h4><ul class=\"list\"><li>Landmark and historic structures, unless there is no exterior work or a Certificate of Appropriateness has been issued</li><li>Projects in a design review district, unless there is no exterior work</li><li>Special zoning reviews such as ZPIN, ZPSE or administrative review</li><li>Projects with an SDP under review</li></ul>"
+      }
+    ],
+    "others": [
+      {
+        "slug": "chicago",
+        "city": "Chicago",
+        "state": "IL"
+      },
+      {
+        "slug": "new-york",
+        "city": "New York",
+        "state": "NY"
+      },
+      {
+        "slug": "los-angeles",
+        "city": "Los Angeles",
+        "state": "CA"
+      },
+      {
+        "slug": "san-francisco",
+        "city": "San Francisco",
+        "state": "CA"
+      },
+      {
+        "slug": "san-jose",
+        "city": "San Jose",
+        "state": "CA"
+      },
+      {
+        "slug": "dallas",
+        "city": "Dallas",
+        "state": "TX"
+      },
+      {
+        "slug": "orlando",
+        "city": "Orlando",
+        "state": "FL"
+      }
+    ]
+  },
+  {
+    "slug": "dallas",
+    "city": "Dallas",
+    "state": "TX",
+    "hq": false,
+    "address_html": "1920 McKinney Ave, Suite 700<br>Dallas, TX 75201",
+    "phone": "214-997-0626",
+    "phone_digits": "2149970626",
+    "email": "dallas@burnhamnationwide.com",
+    "meta_title": "Dallas Permit Expediting & Building Code Consulting",
+    "meta_description": "Burnham Nationwide’s Dallas office provides building permit expediting, zoning reviews, code guidance and approvals across Texas and the Southwest.",
+    "headline": "Dallas building permits",
+    "intro_html": "<p>Burnham Nationwide’s Dallas office handles every type of permit submission for nearly every type of building and structure. We work closely with each client to choose the best submission method for the project’s size, scope and permitting budget.</p><p>The Dallas office also supports work across Texas and the Southwest, including going the final mile for important hand-delivered submissions.</p>",
+    "image": "/assets/img/offices/dallas.jpg",
+    "image_alt": "Dallas skyline and the reflecting pool at City Hall at night",
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Burnham+Nationwide%2C+1920+McKinney+Ave%2C+Suite+700%2C+Dallas%2C+TX+75201",
+    "guide_title": "Services we provide in Dallas",
+    "guide_intro": "The permit and review processes our Dallas team manages.",
+    "guides": [
+      {
+        "id": "building-applications",
+        "title": "Building applications",
+        "body_html": "<p>Standard reviews in person and online through ProjectDox, Q-Team expedited reviews, over-the-counter reviews, third-party reviews, and right-of-way permits for small cell installations and service pole attachments.</p>"
+      },
+      {
+        "id": "zoning",
+        "title": "Zoning",
+        "body_html": "<p>All permit applications undergo concurrent zoning review, including conservation and historic districts, provided no change of use is requested. In Texas, only cities, not counties, can adopt zoning ordinances. Contact our office to find out what applies to your project.</p>"
+      },
+      {
+        "id": "site-plan-reviews-and-unincorporated-areas",
+        "title": "Site plan reviews and unincorporated areas",
+        "body_html": "<p>We manage site plan reviews (SPR). In unincorporated areas, the county enforces regulations covering floodplains, subdivisions, outdoor businesses, communication facility structures and residential and commercial buildings.</p>"
+      },
+      {
+        "id": "asbestos-regulations",
+        "title": "Asbestos regulations",
+        "body_html": "<p>Texas has some of the strictest asbestos requirements in the country under Chapter 296 of the Texas Administrative Code. We help projects navigate them.</p>"
+      }
+    ],
+    "others": [
+      {
+        "slug": "chicago",
+        "city": "Chicago",
+        "state": "IL"
+      },
+      {
+        "slug": "new-york",
+        "city": "New York",
+        "state": "NY"
+      },
+      {
+        "slug": "los-angeles",
+        "city": "Los Angeles",
+        "state": "CA"
+      },
+      {
+        "slug": "san-francisco",
+        "city": "San Francisco",
+        "state": "CA"
+      },
+      {
+        "slug": "san-jose",
+        "city": "San Jose",
+        "state": "CA"
+      },
+      {
+        "slug": "denver",
+        "city": "Denver",
+        "state": "CO"
+      },
+      {
+        "slug": "orlando",
+        "city": "Orlando",
+        "state": "FL"
+      }
+    ]
+  },
+  {
+    "slug": "orlando",
+    "city": "Orlando",
+    "state": "FL",
+    "hq": false,
+    "address_html": "450 South Orange Ave, 3rd Floor<br>Orlando, FL 32801",
+    "phone": "321-300-4048",
+    "phone_digits": "3213004048",
+    "email": "orlando@burnhamnationwide.com",
+    "meta_title": "Orlando Permit Expediting & Building Code Consulting",
+    "meta_description": "Burnham Nationwide’s Orlando office supports permitting, building code reviews, ADA compliance and solar projects across Orlando, Orange County and Florida.",
+    "headline": "Orlando building permits",
+    "intro_html": "<p>Over the past decade, Orlando has been among the national leaders in new residential and commercial construction, driven by Florida’s sustained population growth.</p><p>Burnham has worked in Florida for more than two decades through our national team, and in 2023 opened our first office in Orlando to serve the city and the state. We apply our knowledge of Orlando, Orange County and Florida building codes to plan reviews and project advice.</p>",
+    "image": "/assets/img/offices/orlando.jpg",
+    "image_alt": "Orlando skyline at dusk over Lake Eola",
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Burnham+Nationwide%2C+450+South+Orange+Ave%2C+3rd+Floor%2C+Orlando%2C+FL+32801",
+    "guide_title": "Start your permit correctly and quickly",
+    "guide_intro": "The most common permit types in Orlando and the general flow of working with the City of Orlando and Burnham.",
+    "guides": [
+      {
+        "id": "permit-types-and-project-flow",
+        "title": "Permit types and project flow",
+        "body_html": "<p>New construction and renovations require different permits, with phased checks and notices depending on project scale.</p><h4>Permit types that may be required</h4><ul class=\"list\"><li>Building permit (new and renovation)</li><li>Commercial or residential re-roofing permit</li><li>Electrical permits</li><li>Engineering and fire permits</li><li>Mechanical permits</li><li>Plumbing and gas permits</li></ul><h4>General permit flow</h4><ol class=\"list\"><li>Application submission</li><li>Plan submission</li><li>Notice of commencement</li><li>Plan status checks</li><li>Fee payments</li><li>Permit and plan download</li><li>Inspections, interim and final</li><li>Certificate of occupancy or completion</li></ol>"
+      },
+      {
+        "id": "building-code-compliance-and-resiliency",
+        "title": "Building code compliance and resiliency",
+        "body_html": "<p>A code compliance review is an important early step for many permitted projects. Retrofitting late in the process for MEP or accessibility changes can be complex and expensive.</p><p>Building above code means making the structure and its materials stronger than required; landscaping and water management can also come into play. Investing a little more up front can pay off, sometimes including a better insurance rate.</p><p>The Code Group at Burnham has extensive experience as a licensed third-party reviewer for cities and individual projects. We can review your plans before you submit to avoid costly surprises.</p>"
+      },
+      {
+        "id": "solar-services",
+        "title": "Solar services",
+        "body_html": "<p>For nearly 15 years Burnham has permitted all types of solar arrays, more than 15,000 roofs, and now integrates battery storage and supports EV charging adoption. Our remote verification and inspection app, <a href=\"/our-technology/burnham-eye/\">BurnhamEYE</a>, has been in use for over 10 years.</p><p>Orlando aims to power all municipal operations with 100% renewable energy by 2030, and the whole city by 2050. Common system types include:</p><ul class=\"list\"><li>Solar thermal</li><li>Photovoltaic (solar panels)</li><li>Hybrid systems</li><li>Solar attic fans</li></ul><p>Battery storage is often part of these systems, and we make sure the building can accommodate the loads. Burnham permitted the largest battery storage installation in New York City.</p>"
+      }
+    ],
+    "others": [
+      {
+        "slug": "chicago",
+        "city": "Chicago",
+        "state": "IL"
+      },
+      {
+        "slug": "new-york",
+        "city": "New York",
+        "state": "NY"
+      },
+      {
+        "slug": "los-angeles",
+        "city": "Los Angeles",
+        "state": "CA"
+      },
+      {
+        "slug": "san-francisco",
+        "city": "San Francisco",
+        "state": "CA"
+      },
+      {
+        "slug": "san-jose",
+        "city": "San Jose",
+        "state": "CA"
+      },
+      {
+        "slug": "denver",
+        "city": "Denver",
+        "state": "CO"
+      },
+      {
+        "slug": "dallas",
+        "city": "Dallas",
+        "state": "TX"
+      }
+    ]
+  }
+]

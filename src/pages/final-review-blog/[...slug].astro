@@ -1,0 +1,89 @@
+---
+import type { GetStaticPaths } from 'astro';
+import { Image } from 'astro:assets';
+import { render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostCard from '../../components/PostCard.astro';
+import BlogSubscribe from '../../components/BlogSubscribe.astro';
+import { BLOG, getPosts, getRelated, dateDisplay, primaryTopic, readTime, topicUrl } from '../../lib/blog';
+
+export const getStaticPaths = (async () => {
+  return (await getPosts()).map((post) => ({ params: { slug: post.id }, props: { post } }));
+}) satisfies GetStaticPaths;
+
+const { post } = Astro.props;
+
+// Posts that became portfolio case studies keep their old URL as a redirect
+if (post.data.redirect) return Astro.redirect(post.data.redirect, 301);
+
+const { title, description, date, author, image, imageAlt, topics } = post.data;
+const { Content } = await render(post);
+const topic = primaryTopic(post);
+const related = await getRelated(post);
+const shownDate = dateDisplay(post);
+---
+<BaseLayout title={title} description={description} nav="learn">
+  <div class="page-band">
+    <div class="wrap">
+      <ol class="crumbs"><li><a href="/">Home</a></li><li><a href={BLOG}>The Final Review</a></li>{topic && <li><a href={topicUrl(topic.slug)}>{topic.name}</a></li>}</ol>
+    </div>
+  </div>
+
+  <article>
+    <header class="page-hero page-hero--plain">
+      <div class="wrap--narrow stack">
+        <div class="eyebrow">{topic?.name ?? 'The Final Review'}</div>
+        <h1 class="post-title">{title}</h1>
+        <p class="post-meta">
+          <span>By {author}</span>
+          {shownDate && <span><time datetime={date}>{shownDate}</time></span>}
+          <span>{readTime(post)} min read</span>
+        </p>
+      </div>
+    </header>
+
+    {image && (
+      <div class="post-hero">
+        <Image src={image} alt={imageAlt} widths={[800, 1200, 1600]} sizes="(max-width: 1040px) 100vw, 1040px" loading="eager" fetchpriority="high" />
+      </div>
+    )}
+
+    <div class="section section--tight">
+      <div class="wrap--narrow prose post-body">
+        <Content />
+      </div>
+    </div>
+
+    <footer class="section section--flush-top">
+      <div class="wrap--narrow stack">
+        {topics.length > 0 && (
+          <div class="post-filed">
+            <span class="label">Filed under</span>
+            <ul class="tags">{topics.map((t) => <li><a class="tag" href={topicUrl(t.slug)}>{t.name}</a></li>)}</ul>
+          </div>
+        )}
+        <div class="callout">
+          <div class="callout__title">Questions about your project?</div>
+          <div class="callout__body">Our permit expediters and code consultants answer questions like these every day. <a class="link" href="/contact/">Talk to a project manager</a></div>
+        </div>
+      </div>
+    </footer>
+  </article>
+
+  <section class="section section--muted">
+    <div class="wrap stack stack--lg">
+      <div class="row row--between">
+        <div class="stack stack--sm">
+          <div class="eyebrow">Keep reading</div>
+          <h2 class="h-section">Related articles</h2>
+        </div>
+        <a class="link" href={BLOG}>All articles</a>
+      </div>
+      <div class="grid grid--3">
+        {related.map((p) => <PostCard post={p} showExcerpt={false} />)}
+      </div>
+    </div>
+  </section>
+
+  <BlogSubscribe />
+</BaseLayout>

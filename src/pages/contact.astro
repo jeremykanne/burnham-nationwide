@@ -1,0 +1,62 @@
+---
+import { offices } from '../lib/offices';
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout title="Contact National and Local Offices" description="Contact Burnham Nationwide about a project, service or quote. Call 800 407 7990 or reach any of our 8 offices in Chicago, New York, Los Angeles, San Francisco, San Jose, Denver, Dallas and Orlando." nav="contact">
+  <div class="page-band">
+    <div class="wrap">
+      <ol class="crumbs"><li><a href="/">Home</a></li><li>Contact</li></ol>
+    </div>
+  </div>
+
+  <section class="page-hero">
+    <div class="wrap grid grid--2">
+      <div class="stack">
+        <h1 class="h-display">Tell us about your project.</h1>
+        <p class="lede">Questions about a project, a service or a quote go to the office nearest your site. A project manager will be in touch.</p>
+        <div class="grid" style="--min: 200px;">
+          <div class="stat"><span class="label">Call us</span><a class="h-sm" style="display:block; margin-top: 6px; text-decoration: none; font-family: var(--font-display);" href="tel:8004077990">800 407 7990</a></div>
+          <div class="stat"><span class="label">Email us</span><a style="display:block; margin-top: 6px; font-weight: 700; text-decoration: none; word-break: break-word;" href="mailto:getitdone@burnhamnationwide.com">getitdone@burnhamnationwide.com</a></div>
+        </div>
+        <div class="callout">
+          <div class="callout__title">Helpful to include</div>
+          <div class="callout__body">Project address, scope of work, current design phase and your target construction start. Drawings are welcome but not required.</div>
+        </div>
+      </div>
+
+      <form class="card form" aria-label="Project inquiry" action="#" method="post">
+        <label class="field">Full name<input class="input" type="text" name="name" autocomplete="name" required></label>
+        <label class="field">Company<input class="input" type="text" name="company" autocomplete="organization"></label>
+        <label class="field">Email<input class="input" type="email" name="email" autocomplete="email" required></label>
+        <label class="field">Phone<input class="input" type="tel" name="phone" autocomplete="tel"></label>
+        <label class="field">I am a<select class="input" name="role"><option>Owner or developer</option><option>Architect or engineer</option><option>Contractor</option><option>Municipality</option><option>Other</option></select></label>
+        <label class="field">Service needed<select class="input" name="service"><option>Permit management</option><option>Code consulting</option><option>ADA &amp; accessibility</option><option>Multi-site rollout</option><option>Not sure yet</option></select></label>
+        <label class="field field--full">Project address<input class="input" type="text" name="address" autocomplete="street-address"></label>
+        <label class="field field--full">How can we help?<textarea class="input" name="message" rows="5"></textarea></label>
+        <div class="field--full row row--between" style="align-items: center;">
+          <span class="small">We only use your details to respond to this inquiry.</span>
+          <button class="btn btn--primary" type="submit">Send inquiry</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <section class="section section--muted" id="offices">
+    <div class="wrap stack stack--lg">
+      <div class="stack stack--sm section-head">
+        <div class="eyebrow">Serving clients nationwide</div>
+        <h2 class="h-section">Our offices</h2>
+      </div>
+      <div class="grid grid--4">
+        {offices.map((o) => (
+        <div class="card">
+          <div class="row row--between" style="align-items: center;"><a class="h-sm" style="text-decoration: none; font-family: var(--font-display);" href={`/contact/${o.slug}/`}>{o.city}</a>{o.hq && <span class="chip">HQ</span>}</div>
+          <div class="small" set:html={o.address_html} />
+          <a style="font-size: 14px; font-weight: 700; text-decoration: none;" href={`tel:${o.phone_digits}`}>{o.phone}</a>
+          <a class="small" style="color: var(--gray-900); text-decoration-color: var(--accent); word-break: break-word;" href={`mailto:${o.email}`}>{o.email}</a>
+        </div>
+      ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>

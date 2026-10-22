@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.astro/
+.netlify/
+.DS_Store
+# Pre-Astro build, kept locally for reference only
+legacy/

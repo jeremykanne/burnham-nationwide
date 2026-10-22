@@ -1,0 +1,13 @@
+---
+import BlogListing from '../../components/BlogListing.astro';
+import { BLOG, getPosts, getTopics, paginate } from '../../lib/blog';
+
+const [page] = paginate(await getPosts(), true);
+---
+<BlogListing
+  heading="The Final Review"
+  intro="News, code updates and permitting insight from the Burnham Nationwide team."
+  base={BLOG}
+  topics={await getTopics()}
+  page={page}
+/>

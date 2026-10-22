@@ -1,0 +1,19 @@
+/* about pages — extends burnham.css */
+
+/* History timeline */
+.timeline { margin: 0; padding: 0; list-style: none; border-left: 3px solid var(--border-default); margin-left: 8px; }
+.timeline__item { position: relative; padding: 0 0 36px 32px; }
+.timeline__item:last-child { padding-bottom: 0; }
+.timeline__item::before { content: ""; position: absolute; left: -10px; top: 6px; width: 17px; height: 17px; background: var(--accent); }
+.timeline__year { font-family: var(--font-display); font-weight: 900; font-size: 28px; line-height: 1.1; color: var(--gray-900); }
+.timeline__title { font-family: var(--font-display); font-weight: 800; font-size: 19px; line-height: 1.3; margin-top: 6px; }
+.timeline__body { margin-top: 6px; font-size: 16px; line-height: 1.65; color: var(--text-body); max-width: 680px; }
+
+/* Team */
+.team-group + .team-group { margin-top: 64px; }
+.person__quote { margin-top: 8px; font-size: 14px; line-height: 1.55; color: var(--text-body); }
+
+/* Values */
+.value { border-top: 3px solid var(--accent); padding-top: 18px; display: flex; flex-direction: column; gap: 8px; }
+
+@media (min-width: 960px) { .history-intro { position: sticky; top: 120px; } }

@@ -1,0 +1,108 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PhotoCard from '../../components/PhotoCard.astro';
+import { projects, type Project } from '../../lib/portfolio';
+
+export function getStaticPaths() {
+  return projects.map((project) => ({ params: { slug: project.slug }, props: { project } }));
+}
+
+interface Props {
+  project: Project;
+}
+const { project: p } = Astro.props;
+---
+<BaseLayout title={`${p.title}, ${p.location} | Portfolio`} description={p.summary} nav="portfolio">
+  <div class="page-band">
+    <div class="wrap">
+      <ol class="crumbs"><li><a href="/">Home</a></li><li><a href="/portfolio/">Portfolio</a></li><li>{p.title}</li></ol>
+      <span>{p.sector_labels}</span>
+    </div>
+  </div>
+
+  <section class="page-hero">
+    <div class="wrap grid grid--2 grid--center">
+      <div class="stack">
+        <div class="eyebrow">{p.location} · {p.type}</div>
+        <h1 class="h-display case-title">{p.title}</h1>
+        <p class="h-sm case-headline">{p.headline}</p>
+        <p class="lede">{p.summary}</p>
+      </div>
+      <div class="media media--tall"><img src={p.image} alt={p.image_alt}></div>
+    </div>
+  </section>
+
+  <section class="section section--muted section--tight" aria-label="Project at a glance">
+    <div class="wrap stats stats--light">
+      {p.glance.map((g) => (
+        <div class="stat"><div class="label">{g.label}</div><div class="case-fact">{g.value}</div></div>
+      ))}
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap case-layout">
+      <article class="prose case-body">
+        <Fragment set:html={p.intro_html} />
+        {p.sections.map((s) => (
+          <>
+            <h2>{s.heading}</h2>
+            <Fragment set:html={s.body_html} />
+          </>
+        ))}
+      </article>
+      <aside class="case-aside" aria-label="Project details">
+        <div class="card">
+          <h2 class="h-sm">What Burnham did</h2>
+          <ul class="tags">{p.services.map((s) => <li class="tag">{s.name}</li>)}</ul>
+          <dl class="case-dl">
+            <div><dt class="label">Location</dt><dd>{p.location}</dd></div>
+            <div><dt class="label">Building use</dt><dd>{p.use}</dd></div>
+            <div><dt class="label">Size</dt><dd>{p.size}</dd></div>
+            <div><dt class="label">Sector</dt><dd>{p.sector_labels}</dd></div>
+          </dl>
+          <a class="btn btn--primary" href="/contact/">Discuss a similar project</a>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  {p.quote && (
+    <section class="section section--flush-top">
+      <div class="wrap--narrow" style="padding-inline: var(--gutter);">
+        <figure class="quote">
+          <blockquote>“{p.quote.text}”</blockquote>
+          <figcaption><strong>{p.quote.name}</strong>{p.quote.role}</figcaption>
+        </figure>
+      </div>
+    </section>
+  )}
+
+  <section class="section section--muted">
+    <div class="wrap stack stack--lg">
+      <div class="row row--between">
+        <div class="stack stack--sm section-head">
+          <div class="eyebrow">More projects</div>
+          <h2 class="h-section">Related work.</h2>
+        </div>
+        <a class="link" href={`/portfolio/${p.next.slug}/`}>Next project: {p.next.title}</a>
+      </div>
+      <div class="grid grid--3">
+        {p.related.map((r) => <PhotoCard project={r} />)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap cta-block">
+      <div class="stack stack--sm">
+        <h2>Have a project like this one?</h2>
+        <p>Tell us the address and scope. A project manager will map out the permits and approvals it needs.</p>
+      </div>
+      <div class="row">
+        <a class="btn btn--primary" href="/contact/">Start a project</a>
+        <a class="btn btn--on-dark" href="/portfolio/">All projects</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

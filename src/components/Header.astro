@@ -1,0 +1,94 @@
+---
+interface Props {
+  /** Top-level nav section to mark as current */
+  nav?: string;
+}
+const { nav } = Astro.props;
+
+const sections = [
+  {
+    key: 'what-we-do', label: 'What we do', href: '/what-we-do/permit-management/',
+    items: [
+      { label: 'Permit management', href: '/what-we-do/permit-management/' },
+      { label: 'Code consulting', href: '/what-we-do/code-consulting/' },
+    ],
+  },
+  {
+    key: 'who-we-help', label: 'Who we help', href: '/who-we-help/',
+    items: [
+      { label: 'Owners', href: '/who-we-help/#owners' },
+      { label: 'Architects & engineers', href: '/who-we-help/#architects-engineers' },
+      { label: 'Contractors', href: '/who-we-help/#contractors' },
+      { label: 'Municipalities', href: '/who-we-help/#municipalities' },
+    ],
+  },
+  { key: 'portfolio', label: 'Portfolio', href: '/portfolio/', items: [] },
+  {
+    key: 'technology', label: 'Technology', href: '/our-technology/permit-mapper/',
+    items: [
+      { label: 'Permit Mapper', href: '/our-technology/permit-mapper/' },
+      { label: 'BurnhamEYE', href: '/our-technology/burnham-eye/' },
+    ],
+  },
+  {
+    key: 'about', label: 'About', href: '/about/why-burnham/',
+    items: [
+      { label: 'Why Burnham', href: '/about/why-burnham/' },
+      { label: 'Team', href: '/about/team/' },
+      { label: 'History', href: '/about/history/' },
+      { label: 'Testimonials', href: '/about/testimonials/' },
+      { label: 'Careers', href: '/about/careers/' },
+      { label: 'Diversity & inclusion', href: '/diversity-inclusion/' },
+      { label: 'FAQ', href: '/about/faq/' },
+    ],
+  },
+  {
+    key: 'learn', label: 'Learn', href: '/final-review-blog/',
+    items: [
+      { label: 'Blog: The Final Review', href: '/final-review-blog/' },
+      { label: 'Nationwide permits', href: '/nationwide-permitting-process/' },
+      { label: 'Building code consulting', href: '/code-consulting-process/' },
+      { label: 'Continuing education', href: '/learn/' },
+    ],
+  },
+];
+---
+<div class="util-bar">
+  <div class="wrap">
+    <span class="util-bar__cities">Chicago · New York · Los Angeles · San Francisco · San Jose · Denver · Dallas · Orlando</span>
+    <span class="util-bar__links"><a href="tel:8004077990">800 407 7990</a><a href="mailto:getitdone@burnhamnationwide.com">getitdone@burnhamnationwide.com</a></span>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="wrap site-header__inner">
+    <a class="site-header__logo" href="/" aria-label="Burnham Nationwide home"><img src="/assets/logo.png" alt="Burnham" width="135" height="40"></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav class="site-nav" id="site-nav" aria-label="Primary">
+      <ul class="site-nav__list">
+        {sections.map((s) => (
+          <li class="site-nav__item">
+            <a class:list={['site-nav__link', { 'is-active': s.key === nav }]} aria-current={s.key === nav ? 'true' : undefined} href={s.href}>{s.label}</a>
+            {s.items.length > 0 && (
+              <ul class="site-nav__menu">
+                {s.items.map((i) => <li><a href={i.href}>{i.label}</a></li>)}
+              </ul>
+            )}
+          </li>
+        ))}
+      </ul>
+      <a class="btn btn--primary site-nav__cta" href="/contact/">Start a project</a>
+    </nav>
+  </div>
+</header>
+
+<script>
+  // Mobile menu toggle
+  const toggle = document.querySelector<HTMLButtonElement>('.menu-toggle');
+  const menu = document.getElementById('site-nav');
+  toggle?.addEventListener('click', () => {
+    const open = menu!.classList.toggle('is-open');
+    toggle.setAttribute('aria-expanded', String(open));
+    toggle.textContent = open ? 'Close' : 'Menu';
+  });
+</script>

@@ -1,0 +1,41 @@
+---
+title: "New Federal Legislation to Increase Inclusionary Zoning"
+dateExact: false
+order: 142
+author: "Kevin McKenna"
+topics:
+  - name: "Permit Expediting"
+    slug: "permit-expediting"
+description: "Learn about recent federal legislation to mandate inclusionary zoning in order to help resolve the affordable housing crisis and remove exclusionary zoning practices."
+image: "./images/paul-nylund-79874-unsplash-0811a97f.jpg"
+imageAlt: "New Federal Legislation to Increase Inclusionary Zoning"
+---
+Many cities across the United States are facing an affordable housing crisis. In response, steps are being taken in some parts of the country to use inclusionary zoning to require or stimulate the construction of housing for low- and middle-income households whenever new developments are being built. These efforts are usually at the local level. However, now there is an attempt to mandate inclusionary zoning at the federal level. This summer, New Jersey Senator Cory Booker introduced [Senate Bill 3342](https://www.congress.gov/bill/115th-congress/senate-bill/3342/text). The legislation contains inclusive zoning requirements for federally funded projects in order to encourage more affordable housing as well as reduce discrimination resulting from exclusionary zoning practices.
+
+[![NYC\_Brownstones\_by\_paul-nylund](./images/paul-nylund-79874-unsplash-11995bb5.jpg)](https://unsplash.com/photos/iecsDu416PE)<em>Picture by [Paul Nylund](https://unsplash.com/@pauln)</em>
+
+## Local Inclusionary Zoning
+
+We have previously written about municipal endeavors across the country to change zoning requirements to increase the construction of affordable housing. In 2016, New York City adopted [major zoning changes](/final-review-blog/historic-zoning-changes-new-york-city-zoning-for-quality-and-affordability/), in part, to encourage affordable housing development. The new zoning requirements allow for higher maximum heights, increases in floor area ratios, and elimination of certain on-site parking requirements.  
+
+San Francisco in 2017 adopted several [density bonus programs](/final-review-blog/new-san-francisco-density-bonus-laws/) to create more affordable housing. The same year, [Chicago took additional steps](/final-review-blog/affordable-housing-chicago-adopts-new-developer-requirements/) to improve the city’s inclusionary zoning requirements, and California [adopted a package of laws](/final-review-blog/affordable-housing-chicago-adopts-new-developer-requirements/) to increase affordable housing, including several laws that prevent local communities from using zoning to exclude affordable housing. Senate Bill 3342 would increase inclusionary zoning across the country.
+
+## Requirements of New Federal Bill to Promote Inclusionary Zoning
+
+Senate Bill 3342, named the [Housing, Opportunity, Mobility, and Equity Act of 2018](https://www.congress.gov/bill/115th-congress/senate-bill/3342/text), was introduced on August 1, 2018, and was referred to the Committee on Finance. The bill amends Section 104 of the [Housing and Community Development Act of 1974](https://www.hudexchange.info/resources/documents/Housing-and-Community-Development-Act-1974.pdf) (Act).
+
+The Act authorizes the United States Department of Housing and Urban Development to provide community grants to help develop needed housing based on a variety of factors, known as the [Community Development Block Grant Program (CDBG)](https://www.hud.gov/program_offices/comm_planning/communitydevelopment/programs). The grants are made to states, local governments, and Indian tribes and provide resources to address community development needs. The Act states that at least 70 percent of the federal funds must be used to benefit low- and moderate-income persons. Section 104 of the Act sets forth the qualifications and review process for awarding grants.
+
+In order to increase the availability of affordable housing, Senate Bill 3342 requires those receiving grants under the Act to provide as part of their plan submission: “a strategy to support new inclusive zoning policies, programs, or regulatory initiatives that create a more affordable, elastic, and diverse housing supply and thereby increase economic growth and access to jobs and housing.” The grantee must also provide updates on the strategy and its implementation as part of the required annual performance report.
+
+The grantee, in order to foster more affordable housing, will adopt when policies such as high-density zoning, no requirement for garages and other off-street parking, density bonuses, more efficient permitting, eliminating height restrictions, removal of discretionary approval for certain projects (developed by right), property tax abatement, and less restrictive lot sizes. These are concepts introduced with greater frequency in recent years in local zoning laws designed to stimulate the development of affordable housing.  
+
+Senate Bill 3342 has a number of other important policy recommendations to encourage inclusive land use such as the donation of vacant land to nonprofits, development taxes, and value capture strategies. Additionally, the bill state that the new units “to the maximum extent practicable” should be designated as affordable housing for at least 30 years and represent at least 20 percent of a community’s new housing.
+
+## Other Senate Bill 3342 Provisions
+
+Senate Bill 3342 also amends the Internal Revenue Code to create a tax credit for eligible individuals paying more than 30 percent of their adjusted gross income as rent. Additionally, the bill allows renters to defer payment of 20 percent of the tax credit to a “Rainy Day Fund” where the credit will accrue interest and may be withdrawn at a later date to make necessary payments.  
+
+Although Senate Bill 3342 may not be adopted, it will encourage further discussion and potential bipartisan efforts at the federal level to support inclusionary zoning.
+
+Did the 2018 federal inclusionary zoning bill this post describes ever pass? No, Senate Bill 3342 didn't advance out of committee. However, the push for federal involvement in housing supply and affordability continued, culminating in the bipartisan 21st Century ROAD to Housing Act, passed 85-5 in the Senate and 358-32 in the House in June 2026. This law expands CDBG funding to allow new affordable housing construction, creates a pilot program for converting vacant commercial buildings into affordable housing, and ties some localities' CDBG funding to their housing production - a meaningful federal step toward the goals S. 3342 originally proposed. What is inclusionary zoning and how widespread is it today? Inclusionary zoning is a policy that requires or encourages developers to set aside a fraction of newly constructed housing units to be affordable to lower-income households - used by hundreds of jurisdictions nationwide. Over 800 cities in the U.S. have inclusionary zoning programs, including Boston, Denver, New Orleans, Portland, Sacramento, San Francisco, San Diego, and Washington, DC. Is federal housing policy currently pushing for or against inclusionary zoning? It's mixed. The 2026 ROAD to Housing Act uses CDBG incentives to encourage local housing production rather than mandating inclusionary zoning specifically, while the 2025 "One Big Beautiful Bill" included Low-Income Housing Tax Credit expansions that could support affordable housing development - though that same legislation cut other housing assistance programs. How long must affordable units created through inclusionary zoning remain affordable? his varies by jurisdiction - the original 2018 federal bill proposed a minimum of 30 years, while some state laws go further. Washington State's RCW 36.70A.540 requires that new affordable housing units be maintained as affordable for a minimum of 50 years. What tools do cities typically use alongside inclusionary zoning to increase affordable housing? Common complementary tools include density bonuses (allowing more units in exchange for affordable set-asides), fee-in-lieu programs where developers pay into an affordable housing fund instead of building on-site units, by-right approval processes that speed up permitting for qualifying projects, and property tax abatements for developments that include affordable units.

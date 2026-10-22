@@ -1,0 +1,24 @@
+---
+import type { GetStaticPaths } from 'astro';
+import BlogListing from '../../../../components/BlogListing.astro';
+import { getPosts, getTopics, paginate } from '../../../../lib/blog';
+
+export const getStaticPaths = (async () => {
+  const posts = await getPosts();
+  const topics = await getTopics();
+  return topics.map((topic) => {
+    const tagged = posts.filter((p) => p.data.topics.some((t) => t.slug === topic.slug));
+    return { params: { topic: topic.slug }, props: { topic, topics, page: paginate(tagged, false)[0] } };
+  });
+}) satisfies GetStaticPaths;
+
+const { topic, topics, page } = Astro.props;
+---
+<BlogListing
+  heading={topic.name}
+  intro={`${topic.count} articles filed under ${topic.name}.`}
+  base={topic.url}
+  topicSlug={topic.slug}
+  topics={topics}
+  page={page}
+/>

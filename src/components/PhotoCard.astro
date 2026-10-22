@@ -1,0 +1,18 @@
+---
+import type { ProjectCard } from '../lib/portfolio';
+
+interface Props {
+  project: ProjectCard & { summary?: string };
+  /** Show the one-line summary under the title (portfolio index) */
+  showSummary?: boolean;
+}
+const { project, showSummary = false } = Astro.props;
+---
+<a class="photo-card" href={`/portfolio/${project.slug}/`}>
+  <img src={project.image} alt={project.image_alt} loading="lazy">
+  <div class="photo-card__body">
+    <span class="label">{project.location} · {project.type}</span>
+    <span class="photo-card__title">{project.title}</span>
+    {showSummary && <span class="small">{project.summary}</span>}
+  </div>
+</a>

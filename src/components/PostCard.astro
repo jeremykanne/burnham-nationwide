@@ -1,0 +1,25 @@
+---
+import { Image } from 'astro:assets';
+import { type Post, dateDisplay, excerpt, postUrl, primaryTopic } from '../lib/blog';
+
+interface Props {
+  post: Post;
+  /** false: text-only card (topic, date, title), as on the home page */
+  showImage?: boolean;
+  /** Show the description under the title */
+  showExcerpt?: boolean;
+}
+const { post, showImage = true, showExcerpt = true } = Astro.props;
+const { title, image, redirect } = post.data;
+const label = redirect ? 'Case study' : (primaryTopic(post)?.name ?? 'The Final Review');
+---
+<a class="post-card" href={postUrl(post)}>
+  {showImage && (image
+    ? <Image src={image} alt="" widths={[480, 800]} sizes="(max-width: 700px) 100vw, 400px" loading="lazy" />
+    : <span class="post-card__noimage" aria-hidden="true"><img src="/assets/logo.png" alt=""></span>)}
+  <span class="post-card__body">
+    <span class="post-card__meta"><span>{label}</span><span>{dateDisplay(post)}</span></span>
+    <span class="post-card__title">{title}</span>
+    {showImage && showExcerpt && <span class="post-card__excerpt">{excerpt(post)}</span>}
+  </span>
+</a>

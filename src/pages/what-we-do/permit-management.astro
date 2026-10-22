@@ -1,0 +1,133 @@
+---
+import PhotoCard from '../../components/PhotoCard.astro';
+import { featuredProjects } from '../../lib/portfolio';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+<BaseLayout title="Building Permit Expediting & Commercial Permit Management" description="Burnham's permit expediters review every submittal for completeness, monitor plan review and secure new construction, alteration, licensing, public way and zoning approvals nationwide." nav="what-we-do">
+  <div class="page-band">
+    <div class="wrap">
+      <ol class="crumbs"><li><a href="/">Home</a></li><li>What we do</li><li>Permit management</li></ol>
+      <nav aria-label="On this page"><a href="#permit">Permit</a><a href="#licensing">Licensing</a><a href="#public-way">Public way</a><a href="#land">Land use</a></nav>
+    </div>
+  </div>
+
+  <section class="page-hero">
+    <div class="wrap grid grid--2 grid--center">
+      <div class="stack">
+        <h1 class="h-display">Permit acquisition, <span class="hl-block">simplified.</span></h1>
+        <p class="lede">Our expediters take the lead on your project. We review every submittal package for completeness and accuracy, monitor plan review, and keep owners, municipalities, design and construction teams moving together.</p>
+        <div class="row">
+          <a class="btn btn--primary" href="/contact/">Get started on your permit</a>
+          <a class="btn btn--outline" href="#nationwide">Multi-site rollouts</a>
+        </div>
+      </div>
+      <div class="media media--tall"><img src="/assets/img7828.jpg" alt="A Burnham project manager on a call at her desk"></div>
+    </div>
+  </section>
+
+  <section class="section section--dark section--tight">
+    <div class="wrap grid grid--2 grid--center">
+      <p class="h-section" style="font-size: clamp(26px, 2.8vw, 36px); line-height: 1.25;">No money starts flowing and no shovels go in the ground until a permit is issued.</p>
+      <div class="stats">
+        <div class="stat"><div class="stat__value">8</div><div class="stat__label">offices anchored nationwide</div></div>
+        <div class="stat"><div class="stat__value">3,000</div><div class="stat__label">cities worked in</div></div>
+        <div class="stat"><div class="stat__value">40,000</div><div class="stat__label">multi-site permits pulled</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="permit">
+    <div class="wrap stack stack--lg">
+      <div class="stack stack--sm section-head">
+        <div class="eyebrow">Permits we secure</div>
+        <h2 class="h-section">From demolition to the last tenant build-out.</h2>
+      </div>
+      <div class="grid grid--3">
+        <article class="card">
+          <span class="chip">New construction</span>
+          <h3 class="h-card">The whole life cycle, concept to completion</h3>
+          <ul class="list"><li>Demolition</li><li>Substructure construction</li><li>Full building structure</li><li>Tenant build-outs</li></ul>
+        </article>
+        <article class="card">
+          <span class="chip">Existing buildings</span>
+          <h3 class="h-card">Alterations without the delays</h3>
+          <ul class="list"><li>Building alteration and redevelopment</li><li>Interior demolition and build-out</li><li>Facade repairs</li><li>Building additions</li></ul>
+          <p class="small">Our in-house <a class="link" href="/what-we-do/code-consulting/">code consultants</a> can advise on the provisions that apply to existing buildings.</p>
+        </article>
+        <article class="card">
+          <span class="chip">Commercial</span>
+          <h3 class="h-card">Local experts who know the market</h3>
+          <ul class="list"><li>Hospitality and restaurants</li><li>Mixed-use and commercial buildings</li><li>Sports and entertainment venues</li><li>Historic properties</li><li>Single- and multi-family residential</li><li>Data centers</li></ul>
+        </article>
+      </div>
+      <div class="callout" style="max-width: 900px;">
+        <div class="callout__title">Phased permitting</div>
+        <div class="callout__body">We pioneered phased permitting, so construction teams on high-rise, mixed-use and mission-critical projects can start initial work while detailed design continues.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--muted" id="nationwide">
+    <div class="wrap grid grid--2">
+      <div class="stack">
+        <div class="eyebrow">Nationwide expansion</div>
+        <h2 class="h-section">National reach. Local expertise. One company.</h2>
+        <p class="lede">For decades we have run multi-site permit programs for major corporations. Our in-house research team tracks local code and permitting requirements and writes a due diligence report for every municipality.</p>
+        <ul class="tags">
+          <li class="tag">National retailers</li><li class="tag">Financial institutions</li><li class="tag">Educational facilities</li><li class="tag">Hospitality &amp; restaurants</li>
+        </ul>
+        <div><a class="link" href="/nationwide-permitting-process/">Our nationwide permitting process</a></div>
+      </div>
+      <ol class="steps">
+        <li class="step"><span class="step__num" aria-hidden="true">1</span><div><h3>Research</h3><p>We analyze proposed sites, rule out locations that won’t work, and build your construction schedule around each municipality’s practices.</p></div></li>
+        <li class="step"><span class="step__num" aria-hidden="true">2</span><div><h3>Project management</h3><p>One project manager for the whole program, with every local fee confirmed and every document archived in a database that files to municipal portals anywhere in the country.</p></div></li>
+        <li class="step"><span class="step__num" aria-hidden="true">3</span><div><h3>Adapt</h3><p>When a jurisdiction asks for something unexpected, such as a zoning variance, we absorb it without moving your schedule.</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap grid grid--3" style="--gap: 48px;">
+      <div class="stack stack--sm" id="licensing">
+        <div class="eyebrow">Licensing</div>
+        <h3 class="h-card">After the build-out, open the doors</h3>
+        <p class="body">Business, liquor, contractor and public place of amusement licenses, pop-ups and regulated businesses, plus soil report, health department, noise variance, peak hour and traffic approvals.</p>
+      </div>
+      <div class="stack stack--sm" id="public-way">
+        <div class="eyebrow">Public way</div>
+        <h3 class="h-card">Over, under or on the sidewalk</h3>
+        <p class="body">Permanent public way and grants of privilege, peak hour exemptions, harbor and bridge permits, tents, canopies, sidewalk cafes and building signage.</p>
+      </div>
+      <div class="stack stack--sm" id="land">
+        <div class="eyebrow">Land use &amp; zoning</div>
+        <h3 class="h-card">Zoning compliance before you submit</h3>
+        <p class="body">Land use applications, planned developments, site plans and zoning reports, reviewed ahead of filing to prevent costly delays.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--muted">
+    <div class="wrap stack stack--lg">
+      <div class="row row--between">
+        <div class="stack stack--sm section-head">
+          <div class="eyebrow">Featured projects</div>
+          <h2 class="h-section">Some of our permitting stories.</h2>
+        </div>
+        <a class="link" href="/portfolio/">View all projects</a>
+      </div>
+      <div class="grid grid--4">
+        {featuredProjects.map((p) => <PhotoCard project={p} />)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap cta-block">
+      <div class="stack stack--sm">
+        <h2>Want it done right?</h2>
+        <p>Send us the address and scope, and a project manager will map your permit path.</p>
+      </div>
+      <a class="btn btn--primary" href="/contact/">Contact us about your project</a>
+    </div>
+  </section>
+</BaseLayout>

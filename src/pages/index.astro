@@ -1,0 +1,183 @@
+---
+import PhotoCard from '../components/PhotoCard.astro';
+import PostCard from '../components/PostCard.astro';
+import { featuredProjects } from '../lib/portfolio';
+import { getRecentPosts } from '../lib/blog';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const recentPosts = await getRecentPosts(3);
+---
+<BaseLayout title="Permit Expediting & Building Code Consulting" description="Burnham Nationwide secures building permits and code approvals for complex commercial projects across the US. Permit expediting, code consulting and ADA compliance from 8 offices.">
+  <section class="hero">
+    <div class="hero__copy">
+      <div class="eyebrow">Permit expediting · Code consulting · Accessibility</div>
+      <h1 class="h-display">Simply getting it <span class="hl">done.</span></h1>
+      <p class="lede">Building permits and code approvals for complex commercial projects nationwide, from flagship retail and high-rise towers to data centers. One project manager, every jurisdiction, start to finish.</p>
+      <div class="row">
+        <a class="btn btn--primary" href="/contact/">Start a project</a>
+        <a class="btn btn--on-dark" href="#process">How we work</a>
+      </div>
+      <div class="hero__tagline"><span>Evaluate</span><span aria-hidden="true">/</span><span>Advise</span><span aria-hidden="true">/</span><span>Expedite</span></div>
+    </div>
+    <div class="hero__media">
+      <img src="/assets/hero.jpg" alt="Tower crane over a concrete high-rise under construction" width="2000" height="1335">
+    </div>
+  </section>
+
+  <section class="section section--deep section--tight" aria-label="Burnham by the numbers">
+    <div class="wrap stats">
+      <div class="stat"><div class="stat__value">30+</div><div class="stat__label">years securing permits and code approvals</div></div>
+      <div class="stat"><div class="stat__value">40,000</div><div class="stat__label">multi-site permits pulled</div></div>
+      <div class="stat"><div class="stat__value">3,000</div><div class="stat__label">cities and jurisdictions worked in</div></div>
+      <div class="stat"><div class="stat__value">8</div><div class="stat__label">offices, coast to coast</div></div>
+    </div>
+  </section>
+
+  <section class="section" id="services">
+    <div class="wrap stack stack--lg">
+      <div class="stack stack--sm section-head">
+        <div class="eyebrow">What we do</div>
+        <h2 class="h-section">Permits, codes and accessibility, handled by people who do nothing else.</h2>
+        <p class="lede">We coordinate the approval process, review drawings and documents, and keep every stakeholder moving, from the department of buildings to the design and construction teams.</p>
+      </div>
+      <div class="grid grid--3">
+        <article class="card">
+          <span class="chip">Service 01</span>
+          <h3 class="h-card">Permit Management</h3>
+          <p class="body">New construction and renovation permits of every size, plus the harder applications: licensing, multi-site rollouts, land use and zoning, and public way.</p>
+          <ul class="list">
+            <li>Phased permitting for high-rise and mission-critical work</li>
+            <li>Nationwide multi-site expansion</li>
+            <li>Licensing and public way permits</li>
+          </ul>
+          <div class="card__foot"><a class="link" href="/what-we-do/permit-management/">Explore permit management</a></div>
+        </article>
+        <article class="card">
+          <span class="chip">Service 02</span>
+          <h3 class="h-card">Code Consulting</h3>
+          <p class="body">Licensed professionals led by an ICC-certified architect with four decades of experience, applying local, state and federal code to due diligence and life safety.</p>
+          <ul class="list">
+            <li>Plan review and code analysis</li>
+            <li>Feasibility and due diligence studies</li>
+            <li>Existing-building alterations and additions</li>
+          </ul>
+          <div class="card__foot"><a class="link" href="/what-we-do/code-consulting/">Explore code consulting</a></div>
+        </article>
+        <article class="card">
+          <span class="chip">Service 03</span>
+          <h3 class="h-card">ADA &amp; Accessibility</h3>
+          <p class="body">Accessibility guidelines are complicated and changing. We work through them daily with major corporate clients, from inception to completion.</p>
+          <ul class="list">
+            <li>Accessibility plan review</li>
+            <li>On-site field verification</li>
+            <li>Accessibility upgrade strategy</li>
+          </ul>
+          <div class="card__foot"><a class="link" href="/what-we-do/code-consulting/#accessibility">Explore accessibility</a></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--muted" id="process">
+    <div class="wrap grid grid--2">
+      <div class="stack">
+        <div class="eyebrow">How we work</div>
+        <h2 class="h-section">With you every step, from first review to final sign-off.</h2>
+        <p class="lede">The same project manager stays with your project for its whole life cycle, and every document is archived in a secure database that files directly to municipal portals.</p>
+        <div class="callout">
+          <div class="callout__title">Every week</div>
+          <div class="callout__body">Your team receives a status update covering outstanding documents, open comments and the next required approval.</div>
+        </div>
+      </div>
+      <ol class="steps">
+        <li class="step"><span class="step__num" aria-hidden="true">1</span><div><h3>Evaluate</h3><p>Our research team reviews the site and jurisdiction, then delivers a due diligence report listing every step to permit, with local fees confirmed.</p></div></li>
+        <li class="step"><span class="step__num" aria-hidden="true">2</span><div><h3>Advise</h3><p>Code consultants and expediters check each submittal package for completeness and accuracy before it goes in, so it doesn't come back.</p></div></li>
+        <li class="step"><span class="step__num" aria-hidden="true">3</span><div><h3>Expedite</h3><p>We file, monitor plan review, answer comments and work our municipal relationships until the permit is issued.</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section" id="who">
+    <div class="wrap stack stack--lg">
+      <div class="stack stack--sm section-head">
+        <div class="eyebrow">Who we help</div>
+        <h2 class="h-section">One point of contact for everyone on the project.</h2>
+      </div>
+      <div class="link-rows">
+        <a href="/who-we-help/#owners"><span class="link-rows__title">Owners &amp; developers</span><span class="body">Permit strategy and schedule certainty from site selection through certificate of occupancy.</span></a>
+        <a href="/who-we-help/#architects-engineers"><span class="link-rows__title">Architects &amp; engineers</span><span class="body">Code analysis while you design, and a clean path through plan review once you submit.</span></a>
+        <a href="/who-we-help/#contractors"><span class="link-rows__title">Contractors</span><span class="body">Phased and trade permits that keep crews working while the rest of the design catches up.</span></a>
+        <a href="/who-we-help/#municipalities"><span class="link-rows__title">Municipalities</span><span class="body">Experienced plan review and inspection support for building departments.</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--muted" id="portfolio">
+    <div class="wrap stack stack--lg">
+      <div class="row row--between">
+        <div class="stack stack--sm section-head">
+          <div class="eyebrow">Featured projects</div>
+          <h2 class="h-section">Landmarks, towers and flagships.</h2>
+        </div>
+        <a class="link" href="/portfolio/">View all projects</a>
+      </div>
+      <div class="grid grid--4">
+        {featuredProjects.map((p) => <PhotoCard project={p} />)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap stack stack--lg">
+      <div class="row row--between">
+        <div class="stack stack--sm section-head">
+          <div class="eyebrow">Testimonials</div>
+          <h2 class="h-section">Success built on results.</h2>
+        </div>
+        <a class="link" href="/about/testimonials/">More from our clients</a>
+      </div>
+      <div class="grid grid--3">
+        <figure class="quote">
+          <blockquote>“Burnham is a first-rate operation. I rely on them to coordinate many of the permit-related tasks that I am too busy to do myself.”</blockquote>
+          <figcaption><strong>Rich Neubauer</strong>McDonald’s</figcaption>
+        </figure>
+        <figure class="quote">
+          <blockquote>“They have consistently delivered quality services and fast responses, helping us keep our projects on schedule.”</blockquote>
+          <figcaption><strong>Matt M.</strong>Shake Shack</figcaption>
+        </figure>
+        <figure class="quote">
+          <blockquote>“We have come to rely heavily on Burnham’s expertise. They have developed a professional consulting practice that we are proud to be associated with.”</blockquote>
+          <figcaption><strong>Michael T. Clune</strong>Clune Construction</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--muted" id="learn">
+    <div class="wrap stack stack--lg">
+      <div class="row row--between">
+        <div class="stack stack--sm section-head">
+          <div class="eyebrow">The Final Review</div>
+          <h2 class="h-section">Permitting and code insight.</h2>
+        </div>
+        <a class="link" href="/final-review-blog/">All articles</a>
+      </div>
+      <div class="grid grid--3">
+        {recentPosts.map((post) => <PostCard post={post} showImage={false} />)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap cta-block">
+      <div class="stack stack--sm">
+        <h2>Have a project heading into review?</h2>
+        <p>Tell us the address and scope. A project manager in the nearest office will come back with a permit path and timeline.</p>
+      </div>
+      <div class="row">
+        <a class="btn btn--primary" href="/contact/">Start a project</a>
+        <a class="btn btn--on-dark" href="tel:8004077990">800 407 7990</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

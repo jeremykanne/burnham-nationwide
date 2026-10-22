@@ -1,0 +1,2160 @@
+[
+  {
+    "slug": "obama-library",
+    "title": "Obama Presidential Center",
+    "location": "Chicago, IL",
+    "type": "Cultural campus",
+    "sectors": [
+      "historic",
+      "education",
+      "government"
+    ],
+    "use": "New construction",
+    "size": "100k+ sq ft",
+    "image": "/assets/img/portfolio/obama-library.jpg",
+    "image_alt": "The Obama Presidential Center museum tower, clad in pale stone with a lettered screen at its crown, above a plaza with visitors",
+    "featured": true,
+    "headline": "From first permit to final revision",
+    "summary": "Nearly eight years, five structures and dozens of permit applications for the Obama Presidential Center on Chicago’s South Side.",
+    "services": [
+      {
+        "name": "Permit expediting"
+      },
+      {
+        "name": "Signage permits"
+      },
+      {
+        "name": "Driveway permits"
+      },
+      {
+        "name": "Public way closures"
+      },
+      {
+        "name": "Code consulting"
+      }
+    ],
+    "glance": [
+      {
+        "label": "Engaged",
+        "value": "Since 2017"
+      },
+      {
+        "label": "Structures",
+        "value": "5"
+      },
+      {
+        "label": "Code path",
+        "value": "Grandfathered under the pre-2020 Chicago code"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "A campus built permit by permit",
+        "body_html": "<p>The center comprises four buildings under the Obama Foundation’s direct purview: a museum, a library, a forum and a parking structure. A fifth building, an athletic center, completes the campus.</p><p>Burnham managed permit applications across every structure: foundation permits, house number certificates, full building permits, revision permits, driveway permits, signage and public way closures. Weekly coordination meetings and clear expectations kept the work moving from the first shovel in the ground through occupancy.</p>"
+      },
+      {
+        "heading": "When the smallest permits carry the most weight",
+        "body_html": "<p>A driveway permit that should have been routine took months to close. A contractor had let its license lapse, and the related permits had to be resolved before the driveway permit could move. The parking garage operator could not get its own license without the driveway permit in place. By the time the operator raised it, Burnham was already working the issue. The permit cleared and the garage was licensed.</p>"
+      },
+      {
+        "heading": "The last permits issued under the old Chicago code",
+        "body_html": "<p>Because the permit applications were filed and paid before Chicago’s 2020 code transition deadline, the project was grandfathered under the previous building code, saving the foundation millions in glass standards alone. Every revision and alternative code approval had to stay consistent with that older framework, through the final revision permits, which were in all likelihood the last permits issued under the old Chicago building code.</p>"
+      }
+    ],
+    "intro_html": "<p>Burnham Nationwide has worked on the Obama Presidential Center since 2017, when the team first met with the Obama Foundation at its Hyde Park offices on Harper Court. Nearly eight years, dozens of permit applications and five structures later, the center has opened on Chicago’s South Side.</p>",
+    "quote": {
+      "text": "I’ll never work on a presidential library ever in my life again. It’s who it represents and it’s what it represents.",
+      "name": "Kristina Paprzyca",
+      "role": "Burnham Nationwide"
+    },
+    "sector_keys": "historic education government",
+    "sector_labels": "Special & historic, Education, Government & public",
+    "related": [
+      {
+        "slug": "fulton-market",
+        "title": "MillerKnoll, Fulton Market",
+        "location": "Chicago, IL",
+        "type": "Adaptive reuse showroom",
+        "image": "/assets/img/portfolio/fulton-market.jpg",
+        "image_alt": "MillerKnoll showroom interior with exposed white ductwork, a concrete column, a blue kitchen island and lounge seating"
+      },
+      {
+        "slug": "lincoln-center",
+        "title": "Lincoln Center",
+        "location": "New York, NY",
+        "type": "Cultural",
+        "image": "/assets/img/portfolio/lincoln-center.jpg",
+        "image_alt": "Lincoln Center plaza and fountain in front of the Metropolitan Opera House"
+      },
+      {
+        "slug": "amc-metreon",
+        "title": "AMC Metreon",
+        "location": "San Francisco, CA",
+        "type": "Entertainment",
+        "image": "/assets/img/portfolio/amc-metreon.jpg",
+        "image_alt": "The Metreon entertainment center in downtown San Francisco"
+      }
+    ],
+    "next": {
+      "slug": "fulton-market",
+      "title": "MillerKnoll, Fulton Market"
+    }
+  },
+  {
+    "slug": "fulton-market",
+    "title": "MillerKnoll, Fulton Market",
+    "location": "Chicago, IL",
+    "type": "Adaptive reuse showroom",
+    "sectors": [
+      "commercial",
+      "retail",
+      "historic"
+    ],
+    "use": "Renovation",
+    "size": "100k+ sq ft",
+    "image": "/assets/img/portfolio/fulton-market.jpg",
+    "image_alt": "MillerKnoll showroom interior with exposed white ductwork, a concrete column, a blue kitchen island and lounge seating",
+    "featured": false,
+    "headline": "Breathing new life into a century-old warehouse",
+    "summary": "Code consulting, permitting and zoning research to turn a 100-year-old timber warehouse in the Fulton Market Landmark District into a MillerKnoll showroom.",
+    "services": [
+      {
+        "name": "Code consulting"
+      },
+      {
+        "name": "Permit expediting"
+      },
+      {
+        "name": "Zoning research"
+      }
+    ],
+    "glance": [
+      {
+        "label": "District",
+        "value": "Fulton Market Landmark District"
+      },
+      {
+        "label": "Deadline",
+        "value": "NeoCon, June 2025"
+      },
+      {
+        "label": "Structure",
+        "value": "Heavy timber"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Industrial history meets modern design",
+        "body_html": "<p>Built as an egg distribution warehouse, the building kept its heavy timber structure and raised sidewalks. Though non-contributing within the Landmark District, it was still subject to historic preservation review. Burnham prepared a zoning opinion letter and supported the approvals to remove the loading dock and convert it into a private courtyard designed by Michael Van Valkenburgh Associates.</p>"
+      },
+      {
+        "heading": "Early coordination with the project team",
+        "body_html": "<p>Burnham started several months ahead of permitting, working with MillerKnoll, Lalire March Architects and other stakeholders. The building was split into landlord and tenant fit-out scopes, each needing separate permits and documentation, and Burnham aligned every submission with the project goals.</p>"
+      },
+      {
+        "heading": "Creative code solutions",
+        "body_html": "<p>A raised floor system was proposed to conceal electrical and low-voltage systems. In a heavy timber building, that required Alternative Code Approval Requests from the Department of Buildings and the Fire Prevention Bureau. Burnham also supported plumbing fixture calculations, egress and fire protection coordination for both base building and tenant work.</p>"
+      },
+      {
+        "heading": "Delivered on time for NeoCon",
+        "body_html": "<p>With a fixed deadline tied to the NeoCon trade show in June 2025, Burnham tracked overlapping scopes, supported document revisions and kept stakeholders aligned. The space opened on time.</p>"
+      }
+    ],
+    "intro_html": "<p>Burnham Nationwide provided code consulting and permitting for the transformation of a 100-year-old timber warehouse in Chicago’s Fulton Market Landmark District into a dual-purpose retail and showroom space for MillerKnoll, while preserving the building’s historic character.</p>",
+    "quote": {
+      "text": "The most critical part was securing technical approvals that allowed the design team to achieve a clean, flexible showroom within the constraints of a historic timber building.",
+      "name": "John Kapecki",
+      "role": "Burnham Code Group"
+    },
+    "sector_keys": "commercial retail historic",
+    "sector_labels": "Commercial, Retail, Special & historic",
+    "related": [
+      {
+        "slug": "obama-library",
+        "title": "Obama Presidential Center",
+        "location": "Chicago, IL",
+        "type": "Cultural campus",
+        "image": "/assets/img/portfolio/obama-library.jpg",
+        "image_alt": "The Obama Presidential Center museum tower, clad in pale stone with a lettered screen at its crown, above a plaza with visitors"
+      },
+      {
+        "slug": "salesforce",
+        "title": "Salesforce Tower",
+        "location": "Chicago, IL",
+        "type": "High-rise office",
+        "image": "/assets/img/portfolio/salesforce.jpg",
+        "image_alt": "Salesforce Tower at Wolf Point, a curved glass skyscraper on the Chicago River"
+      },
+      {
+        "slug": "canal-station",
+        "title": "Canal Station",
+        "location": "Chicago, IL",
+        "type": "Office repositioning",
+        "image": "/assets/img/portfolio/canal-station.jpg",
+        "image_alt": "The illuminated Canal Station entrance canopy at dusk, with flags on either side of the glass lobby"
+      }
+    ],
+    "next": {
+      "slug": "salesforce",
+      "title": "Salesforce Tower"
+    }
+  },
+  {
+    "slug": "salesforce",
+    "title": "Salesforce Tower",
+    "location": "Chicago, IL",
+    "type": "High-rise office",
+    "sectors": [
+      "commercial"
+    ],
+    "use": "New construction",
+    "size": "100k+ sq ft",
+    "image": "/assets/img/portfolio/salesforce.jpg",
+    "image_alt": "Salesforce Tower at Wolf Point, a curved glass skyscraper on the Chicago River",
+    "featured": false,
+    "headline": "A complete range of services through unprecedented times",
+    "summary": "Permitting for nearly every floor of the 58-story tower at 333 Wolf Point Plaza, plus public way, signage, licensing and code review.",
+    "services": [
+      {
+        "name": "Permit expediting"
+      },
+      {
+        "name": "Public way permits"
+      },
+      {
+        "name": "Signage permits"
+      },
+      {
+        "name": "Licensing"
+      },
+      {
+        "name": "Code consulting"
+      },
+      {
+        "name": "Accessibility review"
+      }
+    ],
+    "glance": [
+      {
+        "label": "Height",
+        "value": "58 stories"
+      },
+      {
+        "label": "Completed",
+        "value": "2023"
+      },
+      {
+        "label": "Certifications",
+        "value": "LEED v4 Gold (exterior), ILFI Net Zero Carbon"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "A coordinated approach to construction cadence",
+        "body_html": "<p>Burnham permitted nearly every floor of the building, led by Project Executive Kristina Paprzyca. Involved from plan review, the team set a timeline of expected approvals and timed submissions with the city. Burnham’s Public Way team, led by Steve Rodriguez, worked with the Chicago Department of Transportation on crane operations and short-notice street closures in a dense area, including during summer bridge lifts.</p><p>The tower was completed on schedule in 2023, despite a pandemic arriving at groundbreaking and the supply chain and labor shortages that followed.</p>"
+      },
+      {
+        "heading": "Specialized permitting for tenants and signage",
+        "body_html": "<p>Burnham secured a Retail Food Establishment License for two floors and handled the rooftop sign that came with the building’s naming rights. On Burnham’s advice, a dimmer was installed on the sign, which avoided costly rework when it proved unexpectedly bright at first power-up.</p>"
+      },
+      {
+        "heading": "Accessibility and code assurance",
+        "body_html": "<p>The Code Group, led by Christopher E. Chwedyk, AIA, CSI, NCARB, pre-reviewed the plans for full compliance with Chicago’s updated building code and confirmed ADA compliance for the interior build-outs. Where floor occupancy exceeded stair exit capacity, the team applied a horizontal exit: two fire-separated compartments per floor, each able to hold the full floor population with access to an area of refuge.</p>"
+      },
+      {
+        "heading": "What the building achieved",
+        "body_html": "<ul><li>The first building in Chicago to comply with Environmental Product Declarations</li><li>The most accessible building in Salesforce’s portfolio to date</li><li>LEED v4 Gold for the exterior and ILFI Net Zero Carbon certification</li></ul>"
+      }
+    ],
+    "intro_html": "<p>Salesforce Tower at 333 Wolf Point Plaza, feet from the Chicago River, is the tallest and final piece of a three-tower development. It demanded an integrated approach across years and multiple phases of construction.</p>",
+    "quote": null,
+    "sector_keys": "commercial",
+    "sector_labels": "Commercial",
+    "related": [
+      {
+        "slug": "fulton-market",
+        "title": "MillerKnoll, Fulton Market",
+        "location": "Chicago, IL",
+        "type": "Adaptive reuse showroom",
+        "image": "/assets/img/portfolio/fulton-market.jpg",
+        "image_alt": "MillerKnoll showroom interior with exposed white ductwork, a concrete column, a blue kitchen island and lounge seating"
+      },
+      {
+        "slug": "canal-station",
+        "title": "Canal Station",
+        "location": "Chicago, IL",
+        "type": "Office repositioning",
+        "image": "/assets/img/portfolio/canal-station.jpg",
+        "image_alt": "The illuminated Canal Station entrance canopy at dusk, with flags on either side of the glass lobby"
+      },
+      {
+        "slug": "wilshire-grand-center",
+        "title": "Wilshire Grand Center",
+        "location": "Los Angeles, CA",
+        "type": "Mixed-use tower",
+        "image": "/assets/img/portfolio/wilshire-grand-center.jpg",
+        "image_alt": "The Wilshire Grand Center tower rising above downtown Los Angeles"
+      }
+    ],
+    "next": {
+      "slug": "canal-station",
+      "title": "Canal Station"
+    }
+  },
+  {
+    "slug": "canal-station",
+    "title": "Canal Station",
+    "location": "Chicago, IL",
+    "type": "Office repositioning",
+    "sectors": [
+      "commercial"
+    ],
+    "use": "Renovation",
+    "size": "100k+ sq ft",
+    "image": "/assets/img/portfolio/canal-station.jpg",
+    "image_alt": "The illuminated Canal Station entrance canopy at dusk, with flags on either side of the glass lobby",
+    "featured": false,
+    "headline": "Complex permitting in a dynamic urban environment",
+    "summary": "Permits to reposition 801 South Canal, a 6-story, 850,000-square-foot single-tenant office building, into a multi-tenant workplace in the South Loop.",
+    "services": [
+      {
+        "name": "Permit expediting"
+      },
+      {
+        "name": "Bridge and driveway permits"
+      },
+      {
+        "name": "Street closures"
+      },
+      {
+        "name": "Energy code compliance"
+      }
+    ],
+    "glance": [
+      {
+        "label": "Size",
+        "value": "850,000 sq ft"
+      },
+      {
+        "label": "Started",
+        "value": "2021"
+      },
+      {
+        "label": "Clients",
+        "value": "601W Companies and Telos Group"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "The challenge",
+        "body_html": "<p>Work to reposition the building began in early 2021. Building permits were secured through Chicago’s Developer Services program and included:</p><ul><li>Interior demolition permits for levels 1–5</li><li>Bridge and driveway permits, required because the structure sits within 50 feet of a bridge</li><li>Repair and replacement permits to rename floor levels</li><li>A street closure for exterior work</li></ul><p>The project also had to meet Chicago’s elevated energy code standards without delaying the schedule.</p>"
+      },
+      {
+        "heading": "The approach",
+        "body_html": "<p>Burnham assessed site conditions in the Old Post Office District and built a permit strategy covering every city approval. The team helped integrate energy measures, including enhanced insulation, energy-efficient windows and smart HVAC, and kept open lines with city officials so applications moved without delay. Burnham worked alongside Gardner Builders, DW Hammer and Solomon Cordwell Buenz.</p>"
+      },
+      {
+        "heading": "The result",
+        "body_html": "<p>Canal Station now offers windows doubled in size, a fitness center, tenant lounge and outdoor deck, and nearly 400 parking spaces near retail and transit.</p>"
+      }
+    ],
+    "intro_html": "<p>Burnham Nationwide helped transform the former single-tenant office building at 801 South Canal into Canal Station, a revitalized workplace in Chicago’s South Loop, for 601W Companies and Telos Group.</p>",
+    "quote": {
+      "text": "Canal Street was such a refreshing project to work on because we were able to work with our partners at a methodical, scheduled pace. Everything felt measured and smooth.",
+      "name": "Jessica Sulka",
+      "role": "Burnham Project Manager"
+    },
+    "sector_keys": "commercial",
+    "sector_labels": "Commercial",
+    "related": [
+      {
+        "slug": "fulton-market",
+        "title": "MillerKnoll, Fulton Market",
+        "location": "Chicago, IL",
+        "type": "Adaptive reuse showroom",
+        "image": "/assets/img/portfolio/fulton-market.jpg",
+        "image_alt": "MillerKnoll showroom interior with exposed white ductwork, a concrete column, a blue kitchen island and lounge seating"
+      },
+      {
+        "slug": "salesforce",
+        "title": "Salesforce Tower",
+        "location": "Chicago, IL",
+        "type": "High-rise office",
+        "image": "/assets/img/portfolio/salesforce.jpg",
+        "image_alt": "Salesforce Tower at Wolf Point, a curved glass skyscraper on the Chicago River"
+      },
+      {
+        "slug": "wilshire-grand-center",
+        "title": "Wilshire Grand Center",
+        "location": "Los Angeles, CA",
+        "type": "Mixed-use tower",
+        "image": "/assets/img/portfolio/wilshire-grand-center.jpg",
+        "image_alt": "The Wilshire Grand Center tower rising above downtown Los Angeles"
+      }
+    ],
+    "next": {
+      "slug": "wilshire-grand-center",
+      "title": "Wilshire Grand Center"
+    }
+  },
+  {
+    "slug": "wilshire-grand-center",
+    "title": "Wilshire Grand Center",
+    "location": "Los Angeles, CA",
+    "type": "Mixed-use tower",
+    "sectors": [
+      "hospitality",
+      "commercial"
+    ],
+    "use": "New construction",
+    "size": "100k+ sq ft",
+    "image": "/assets/img/portfolio/wilshire-grand-center.jpg",
+    "image_alt": "The Wilshire Grand Center tower rising above downtown Los Angeles",
+    "featured": true,
+    "headline": "Bringing phased permitting to Los Angeles",
+    "summary": "The first use of phased permitting in Los Angeles, weekend downtown street closures and 24/7 construction approvals for the tallest building west of the Mississippi.",
+    "services": [
+      {
+        "name": "Phased permitting"
+      },
+      {
+        "name": "Street closures"
+      },
+      {
+        "name": "Community and police outreach"
+      },
+      {
+        "name": "Permit expediting"
+      }
+    ],
+    "glance": [
+      {
+        "label": "Height",
+        "value": "1,100 ft"
+      },
+      {
+        "label": "Opened",
+        "value": "2017"
+      },
+      {
+        "label": "Owner",
+        "value": "Korean Air"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Pioneering phased permitting",
+        "body_html": "<p>Phased permits let construction begin, on the foundation for example, while architects and engineers finalize the rest of the building. Drawing on its experience in Chicago and New York, Burnham introduced the process to the Los Angeles Department of Building and Safety and worked with Public Works, Transportation, Sanitation and other departments until each was comfortable with it.</p><p>Each phase required approvals from nearly 30 LADBS departments. Burnham handled the full process so the architect and contractor could focus on design and construction. LADBS has since expanded phased permitting to other projects.</p>"
+      },
+      {
+        "heading": "Street closures for a record pour",
+        "body_html": "<p>Building the 18-foot foundation required pouring 21,200 cubic yards of concrete over 20 straight hours, which meant closing downtown streets. Burnham spent hundreds of hours securing approvals from LAPD, LADBS, LADOT, the Bureau of Engineering, the Bureau of Street Services, the Mayor’s Office and Caltrans. On February 16, 2014, Guinness World Records recognized the 82-million-pound pour as the largest continuous concrete pour on record.</p>"
+      },
+      {
+        "heading": "Outreach for 24/7 construction",
+        "body_html": "<p>To meet a March 2017 opening, the contractor worked around the clock. Night work needs approval from LAPD and the surrounding community. Burnham defined exactly which work had to happen at night, presented the schedule to LAPD and responded to community concerns throughout. The tower opened on its target date.</p>"
+      }
+    ],
+    "intro_html": "<p>The Wilshire Grand Center replaced the original Wilshire Grand Hotel, a downtown Los Angeles landmark since 1952. Korean Air developed the new tower to revive the site as an icon of the city. Demolition finished in 2013, construction began in 2014 and the building opened in 2017.</p>",
+    "quote": null,
+    "sector_keys": "hospitality commercial",
+    "sector_labels": "Hospitality, Commercial",
+    "related": [
+      {
+        "slug": "fulton-market",
+        "title": "MillerKnoll, Fulton Market",
+        "location": "Chicago, IL",
+        "type": "Adaptive reuse showroom",
+        "image": "/assets/img/portfolio/fulton-market.jpg",
+        "image_alt": "MillerKnoll showroom interior with exposed white ductwork, a concrete column, a blue kitchen island and lounge seating"
+      },
+      {
+        "slug": "salesforce",
+        "title": "Salesforce Tower",
+        "location": "Chicago, IL",
+        "type": "High-rise office",
+        "image": "/assets/img/portfolio/salesforce.jpg",
+        "image_alt": "Salesforce Tower at Wolf Point, a curved glass skyscraper on the Chicago River"
+      },
+      {
+        "slug": "canal-station",
+        "title": "Canal Station",
+        "location": "Chicago, IL",
+        "type": "Office repositioning",
+        "image": "/assets/img/portfolio/canal-station.jpg",
+        "image_alt": "The illuminated Canal Station entrance canopy at dusk, with flags on either side of the glass lobby"
+      }
+    ],
+    "next": {
+      "slug": "lincoln-center",
+      "title": "Lincoln Center"
+    }
+  },
+  {
+    "slug": "lincoln-center",
+    "title": "Lincoln Center",
+    "location": "New York, NY",
+    "type": "Cultural",
+    "sectors": [
+      "historic"
+    ],
+    "use": "Renovation",
+    "size": "10–50k sq ft",
+    "image": "/assets/img/portfolio/lincoln-center.jpg",
+    "image_alt": "Lincoln Center plaza and fountain in front of the Metropolitan Opera House",
+    "featured": true,
+    "headline": "Helping the show go on",
+    "summary": "Final and temporary Certificates of Occupancy for the Juilliard School and Temporary Place of Assembly certificates for events at the Metropolitan Opera House.",
+    "services": [
+      {
+        "name": "Certificates of Occupancy"
+      },
+      {
+        "name": "Temporary Place of Assembly permits"
+      },
+      {
+        "name": "NYC DOB expediting"
+      }
+    ],
+    "glance": [
+      {
+        "label": "Campus",
+        "value": "16.3 acres, 30 venues"
+      },
+      {
+        "label": "Agency",
+        "value": "NYC Department of Buildings"
+      },
+      {
+        "label": "TCO renewal",
+        "value": "Every 90 days"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "A Final CO for the Juilliard School",
+        "body_html": "<p>Lincoln Center’s 30 indoor and outdoor venues each require their own Certificate of Occupancy, and a decade of renovations and additions triggered new ones. While the Final CO is in progress, Juilliard operates under a Temporary Certificate of Occupancy that must be renewed every 90 days. Burnham handles each renewal, including updating construction sign-offs.</p><p>A Final CO requires the building to be clear of deficiencies and approved for construction, plumbing, electrical and elevators. The NYC DOB issues it once the completed work matches the approved plans, all fees are paid, violations are resolved and every agency sign-off is in place. Burnham works through the paperwork and objections systematically.</p>"
+      },
+      {
+        "heading": "Temporary Place of Assembly certificates",
+        "body_html": "<p>A Temporary Place of Assembly Certificate of Operation is required when 75 or more people gather indoors, or 200 or more outdoors, for events under 30 days. Burnham secured TPAs for several events, including at the Metropolitan Opera House, where its knowledge of the NYC DOB ensured approval in time for the Opening Night Gala.</p>"
+      },
+      {
+        "heading": "One project manager, start to finish",
+        "body_html": "<p>A single Burnham project manager handles the entire Certificate of Occupancy effort, so Juilliard works with the same person from beginning to end.</p>"
+      }
+    ],
+    "intro_html": "<p>Burnham manages the Final Certificate of Occupancy for the Juilliard School at Lincoln Center for the Performing Arts, a 16.3-acre complex in Manhattan, along with the school’s Temporary Certificates of Occupancy and assembly permits for events across the campus.</p>",
+    "quote": null,
+    "sector_keys": "historic",
+    "sector_labels": "Special & historic",
+    "related": [
+      {
+        "slug": "obama-library",
+        "title": "Obama Presidential Center",
+        "location": "Chicago, IL",
+        "type": "Cultural campus",
+        "image": "/assets/img/portfolio/obama-library.jpg",
+        "image_alt": "The Obama Presidential Center museum tower, clad in pale stone with a lettered screen at its crown, above a plaza with visitors"
+      },
+      {
+        "slug": "fulton-market",
+        "title": "MillerKnoll, Fulton Market",
+        "location": "Chicago, IL",
+        "type": "Adaptive reuse showroom",
+        "image": "/assets/img/portfolio/fulton-market.jpg",
+        "image_alt": "MillerKnoll showroom interior with exposed white ductwork, a concrete column, a blue kitchen island and lounge seating"
+      },
+      {
+        "slug": "amc-metreon",
+        "title": "AMC Metreon",
+        "location": "San Francisco, CA",
+        "type": "Entertainment",
+        "image": "/assets/img/portfolio/amc-metreon.jpg",
+        "image_alt": "The Metreon entertainment center in downtown San Francisco"
+      }
+    ],
+    "next": {
+      "slug": "amc-metreon",
+      "title": "AMC Metreon"
+    }
+  },
+  {
+    "slug": "amc-metreon",
+    "title": "AMC Metreon",
+    "location": "San Francisco, CA",
+    "type": "Entertainment",
+    "sectors": [
+      "historic",
+      "retail"
+    ],
+    "use": "Renovation",
+    "size": "1–10k sq ft",
+    "image": "/assets/img/portfolio/amc-metreon.jpg",
+    "image_alt": "The Metreon entertainment center in downtown San Francisco",
+    "featured": true,
+    "headline": "Public health and accessibility approvals for a theater renovation",
+    "summary": "Permits for renovations to the 16-screen AMC Metreon, including Department of Public Health review and California Title 24 accessibility requirements.",
+    "services": [
+      {
+        "name": "Permit expediting"
+      },
+      {
+        "name": "Health department approvals"
+      },
+      {
+        "name": "Accessibility consulting"
+      },
+      {
+        "name": "Egress review"
+      }
+    ],
+    "glance": [
+      {
+        "label": "Screens",
+        "value": "16"
+      },
+      {
+        "label": "Agencies",
+        "value": "SF DBI and DPH"
+      },
+      {
+        "label": "Code",
+        "value": "California Title 24"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Public health requirements",
+        "body_html": "<p>The new concessions and bar triggered San Francisco Department of Public Health plan review and inspection, covering sinks, drainage, food safety and finishes. Burnham coordinated meetings between DPH and the design team and resolved DPH comments quickly so approval was not delayed.</p>"
+      },
+      {
+        "heading": "California accessibility requirements",
+        "body_html": "<p>Burnham mediated between the San Francisco Department of Building Inspection and the out-of-state design team on Title 24 compliance. DBI required accessible seating in specific locations for sight lines, aisle seats with folding arms, and changes affecting egress, handrails, signage and ramps. Burnham marked up the plans to show what the reviewer was asking for and helped the team find cost-effective remedies.</p>"
+      },
+      {
+        "heading": "Demonstrating egress",
+        "body_html": "<p>The Metreon allows exiting directly from the third-floor theater to an outdoor courtyard, which was hard to read from the plans alone. Burnham met with DBI to walk through the building layout and show that the means of egress were adequate.</p>"
+      }
+    ],
+    "intro_html": "<p>The 16-screen AMC Metreon occupies the entire third floor of the four-story Metreon center in downtown San Francisco and houses the largest IMAX in North America. AMC renovated its theaters with new seating layouts, expanded concessions and a new bar, MacGuffin’s Bar &amp; Lounge.</p>",
+    "quote": null,
+    "sector_keys": "historic retail",
+    "sector_labels": "Special & historic, Retail",
+    "related": [
+      {
+        "slug": "obama-library",
+        "title": "Obama Presidential Center",
+        "location": "Chicago, IL",
+        "type": "Cultural campus",
+        "image": "/assets/img/portfolio/obama-library.jpg",
+        "image_alt": "The Obama Presidential Center museum tower, clad in pale stone with a lettered screen at its crown, above a plaza with visitors"
+      },
+      {
+        "slug": "fulton-market",
+        "title": "MillerKnoll, Fulton Market",
+        "location": "Chicago, IL",
+        "type": "Adaptive reuse showroom",
+        "image": "/assets/img/portfolio/fulton-market.jpg",
+        "image_alt": "MillerKnoll showroom interior with exposed white ductwork, a concrete column, a blue kitchen island and lounge seating"
+      },
+      {
+        "slug": "lincoln-center",
+        "title": "Lincoln Center",
+        "location": "New York, NY",
+        "type": "Cultural",
+        "image": "/assets/img/portfolio/lincoln-center.jpg",
+        "image_alt": "Lincoln Center plaza and fountain in front of the Metropolitan Opera House"
+      }
+    ],
+    "next": {
+      "slug": "united-center",
+      "title": "United Center"
+    }
+  },
+  {
+    "slug": "united-center",
+    "title": "United Center",
+    "location": "Chicago, IL",
+    "type": "Sports & entertainment",
+    "sectors": [
+      "historic",
+      "commercial"
+    ],
+    "use": "New construction",
+    "size": "100k+ sq ft",
+    "image": "/assets/img/portfolio/united-center.jpg",
+    "image_alt": "The United Center with its glass atrium addition",
+    "featured": false,
+    "headline": "An integral part of the United Center’s relationship with the city",
+    "summary": "Every permit for a six-story, 190,000-square-foot addition, plus a code variance presentation for 14 kitchen renovations.",
+    "services": [
+      {
+        "name": "Permit expediting"
+      },
+      {
+        "name": "Fire department coordination"
+      },
+      {
+        "name": "Geotechnical and OUC review"
+      },
+      {
+        "name": "Code variance presentation"
+      }
+    ],
+    "glance": [
+      {
+        "label": "Addition",
+        "value": "6 stories, 190,000 sq ft"
+      },
+      {
+        "label": "Kitchens",
+        "value": "14 renovated"
+      },
+      {
+        "label": "Utilities review",
+        "value": "27 agencies via OUC"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Fire department approval",
+        "body_html": "<p>The design included a glass atrium and a bridge from the atrium to the United Center’s second floor. Burnham arranged meetings with the Fire Department’s Chief Engineer, coordinating around the out-of-state design team’s schedules, to address sprinkler and bridge fire safety concerns.</p>"
+      },
+      {
+        "heading": "Geotechnical review and OUC approval",
+        "body_html": "<p>The new foundation connects through the United Center’s basement, requiring caissons deep enough to raise earth retention questions. Geotechnical Permit Review applies to excavation deeper than 12 feet, and the Office of Underground Coordination distributes plans to 27 city agencies and utilities. After two meetings with the geotechnical reviewer, the plans went to OUC and drew a comment from only one utility, which Burnham resolved with the design team.</p>"
+      },
+      {
+        "heading": "Code variance for kitchen renovations",
+        "body_html": "<p>Levy Restaurants planned warming ovens in 14 renovated kitchens. The Chicago Building Code required commercial hoods tied into the exhaust system, which would have been costly and unnecessary for ovens used only for warming. Burnham prepared the application, narrative and presentation for the Committee on Building Standards and Tests, using case studies from other jurisdictions to show the design met the intent of the code. The committee approved it.</p>"
+      }
+    ],
+    "intro_html": "<p>In 2015, construction began on a six-story, 190,000-square-foot building connected to the United Center by a public atrium, with offices for the Bulls, Blackhawks, Levy Restaurants and United Center staff and a 10,000-square-foot store. Burnham expedited every permit for the addition, from foundation and full building permits to the glass atrium and connecting bridge.</p>",
+    "quote": null,
+    "sector_keys": "historic commercial",
+    "sector_labels": "Special & historic, Commercial",
+    "related": [
+      {
+        "slug": "obama-library",
+        "title": "Obama Presidential Center",
+        "location": "Chicago, IL",
+        "type": "Cultural campus",
+        "image": "/assets/img/portfolio/obama-library.jpg",
+        "image_alt": "The Obama Presidential Center museum tower, clad in pale stone with a lettered screen at its crown, above a plaza with visitors"
+      },
+      {
+        "slug": "fulton-market",
+        "title": "MillerKnoll, Fulton Market",
+        "location": "Chicago, IL",
+        "type": "Adaptive reuse showroom",
+        "image": "/assets/img/portfolio/fulton-market.jpg",
+        "image_alt": "MillerKnoll showroom interior with exposed white ductwork, a concrete column, a blue kitchen island and lounge seating"
+      },
+      {
+        "slug": "salesforce",
+        "title": "Salesforce Tower",
+        "location": "Chicago, IL",
+        "type": "High-rise office",
+        "image": "/assets/img/portfolio/salesforce.jpg",
+        "image_alt": "Salesforce Tower at Wolf Point, a curved glass skyscraper on the Chicago River"
+      }
+    ],
+    "next": {
+      "slug": "vista",
+      "title": "Vista Tower"
+    }
+  },
+  {
+    "slug": "vista",
+    "title": "Vista Tower",
+    "location": "Chicago, IL",
+    "type": "Supertall mixed-use",
+    "sectors": [
+      "commercial",
+      "residential",
+      "hospitality"
+    ],
+    "use": "New construction",
+    "size": "100k+ sq ft",
+    "image": "/assets/img/portfolio/vista.jpg",
+    "image_alt": "Vista Tower under construction with a crane at its top, between glass towers in Lakeshore East",
+    "featured": false,
+    "headline": "Clearing Chicago’s third-tallest building to rise",
+    "summary": "Every Vista Tower permit, from the caisson permit through the full build-out, via Chicago’s Direct Developer Services program, plus the Upper Wacker Drive extension.",
+    "services": [
+      {
+        "name": "Direct Developer Services"
+      },
+      {
+        "name": "Public way permits"
+      },
+      {
+        "name": "CDOT approvals"
+      },
+      {
+        "name": "Bridge and electrical permits"
+      }
+    ],
+    "glance": [
+      {
+        "label": "Height",
+        "value": "About 1,190 ft, 101 levels"
+      },
+      {
+        "label": "Program",
+        "value": "406 condos, 192-room hotel"
+      },
+      {
+        "label": "Build-out permit",
+        "value": "Issued May 12, 2017"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Direct Developer Services from the start",
+        "body_html": "<p>Chicago’s Developer Services process is mandatory for buildings over 80 feet and other large projects, with plans reviewed by a third-party consultant through a single point of contact at the Department of Buildings. Burnham was involved in the city’s Direct Developer Services pilot from the start and used it for the foundation, superstructure, full interior build-out and revisions.</p><p>The build-out permit for floors one through 95 was issued on May 12, 2017, after approvals from Planning and Development, Fire Prevention, Geotechnical, Environmental, the Mayor’s Office for People with Disabilities, CDOT and the Office of Underground Coordination. That most recent permit process took about two months.</p>"
+      },
+      {
+        "heading": "New infrastructure on the lakefront",
+        "body_html": "<p>Construction required extending Upper Wacker Drive east toward Lake Michigan to serve the lobby and connect with Harbor Drive. Road extensions need CDOT review separate from the Department of Buildings, and all work on city property needs public way permits. Burnham secured those permits and approvals, along with the bridge permit and electrical permits for the custom fixtures in the new infrastructure.</p>"
+      }
+    ],
+    "intro_html": "<p>Vista Tower at 363 E. Wacker Drive, designed by Studio Gang with architect of record bKL Architecture and developed by Magellan Development Group and Dalian Wanda Group, is Chicago’s third-tallest building. Burnham has served as expediter for all of its permitting since the caisson permit in August 2016.</p>",
+    "quote": null,
+    "sector_keys": "commercial residential hospitality",
+    "sector_labels": "Commercial, Residential, Hospitality",
+    "related": [
+      {
+        "slug": "fulton-market",
+        "title": "MillerKnoll, Fulton Market",
+        "location": "Chicago, IL",
+        "type": "Adaptive reuse showroom",
+        "image": "/assets/img/portfolio/fulton-market.jpg",
+        "image_alt": "MillerKnoll showroom interior with exposed white ductwork, a concrete column, a blue kitchen island and lounge seating"
+      },
+      {
+        "slug": "salesforce",
+        "title": "Salesforce Tower",
+        "location": "Chicago, IL",
+        "type": "High-rise office",
+        "image": "/assets/img/portfolio/salesforce.jpg",
+        "image_alt": "Salesforce Tower at Wolf Point, a curved glass skyscraper on the Chicago River"
+      },
+      {
+        "slug": "canal-station",
+        "title": "Canal Station",
+        "location": "Chicago, IL",
+        "type": "Office repositioning",
+        "image": "/assets/img/portfolio/canal-station.jpg",
+        "image_alt": "The illuminated Canal Station entrance canopy at dusk, with flags on either side of the glass lobby"
+      }
+    ],
+    "next": {
+      "slug": "willis-tower",
+      "title": "Willis Tower"
+    }
+  },
+  {
+    "slug": "willis-tower",
+    "title": "Willis Tower",
+    "location": "Chicago, IL",
+    "type": "High-rise office",
+    "sectors": [
+      "commercial"
+    ],
+    "use": "Renovation",
+    "size": "100k+ sq ft",
+    "image": "/assets/img/portfolio/willis-tower.jpg",
+    "image_alt": "Looking up the black steel facade of Willis Tower with a sun flare",
+    "featured": false,
+    "headline": "Behind the scenes of a $500 million renovation",
+    "summary": "Demolition, superstructure and retail-podium permits for the first major upgrades to the former Sears Tower since 1985.",
+    "services": [
+      {
+        "name": "Direct Developer Services"
+      },
+      {
+        "name": "Structural Peer Review"
+      },
+      {
+        "name": "Standard Plan Review"
+      },
+      {
+        "name": "Temporary entrance permit"
+      }
+    ],
+    "glance": [
+      {
+        "label": "Renovation",
+        "value": "$500 million"
+      },
+      {
+        "label": "Retail phase",
+        "value": "About $50 million"
+      },
+      {
+        "label": "Demolition permit",
+        "value": "Issued August 4, 2017"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Permitting the retail podium",
+        "body_html": "<p>The permit for demolition of levels LL1–LL3 and L1–L3, including the new structural addition at the base, was issued on August 4, 2017. Burnham obtained it through Direct Developer Services, which uses third-party reviewers coordinated through a single point of contact at the Department of Buildings.</p><p>Burnham also used the city’s Structural Peer Review Program, with SOM, the building’s original engineer, engaged as structural reviewer at the owner’s request. The permit also required Department of Planning and Development approval and meetings with CDOT.</p>"
+      },
+      {
+        "heading": "Keeping the building open during construction",
+        "body_html": "<p>Plaza demolition closed the Jackson Street entrance, so Burnham obtained a permit through Standard Plan Review for a temporary entrance on West Adams Street, keeping access open throughout construction.</p>"
+      }
+    ],
+    "intro_html": "<p>The redevelopment of Willis Tower redesigned the base of the SOM-designed skyscraper, adding three floors of retail, a new pedestrian pavilion and a public green space atop the addition, with interiors by Gensler.</p>",
+    "quote": null,
+    "sector_keys": "commercial",
+    "sector_labels": "Commercial",
+    "related": [
+      {
+        "slug": "fulton-market",
+        "title": "MillerKnoll, Fulton Market",
+        "location": "Chicago, IL",
+        "type": "Adaptive reuse showroom",
+        "image": "/assets/img/portfolio/fulton-market.jpg",
+        "image_alt": "MillerKnoll showroom interior with exposed white ductwork, a concrete column, a blue kitchen island and lounge seating"
+      },
+      {
+        "slug": "salesforce",
+        "title": "Salesforce Tower",
+        "location": "Chicago, IL",
+        "type": "High-rise office",
+        "image": "/assets/img/portfolio/salesforce.jpg",
+        "image_alt": "Salesforce Tower at Wolf Point, a curved glass skyscraper on the Chicago River"
+      },
+      {
+        "slug": "canal-station",
+        "title": "Canal Station",
+        "location": "Chicago, IL",
+        "type": "Office repositioning",
+        "image": "/assets/img/portfolio/canal-station.jpg",
+        "image_alt": "The illuminated Canal Station entrance canopy at dusk, with flags on either side of the glass lobby"
+      }
+    ],
+    "next": {
+      "slug": "chicagos-newest-riverfront-development-riverpoint",
+      "title": "River Point"
+    }
+  },
+  {
+    "slug": "chicagos-newest-riverfront-development-riverpoint",
+    "title": "River Point",
+    "location": "Chicago, IL",
+    "type": "High-rise office",
+    "sectors": [
+      "commercial"
+    ],
+    "use": "New construction",
+    "size": "100k+ sq ft",
+    "image": "/assets/img/portfolio/chicagos-newest-riverfront-development-riverpoint.jpg",
+    "image_alt": "River Point office tower beside the Chicago River",
+    "featured": false,
+    "headline": "An overbuild above five rail lines, approved early",
+    "summary": "Permits for the 52-story River Point and its 1.5-acre riverside plaza, built over five Metra lines, with early coordination with CTA, Metra and the Fire Department.",
+    "services": [
+      {
+        "name": "Permit expediting"
+      },
+      {
+        "name": "Office of Underground Coordination"
+      },
+      {
+        "name": "Stakeholder coordination"
+      }
+    ],
+    "glance": [
+      {
+        "label": "Height",
+        "value": "52 stories"
+      },
+      {
+        "label": "Plaza",
+        "value": "1.5 acres"
+      },
+      {
+        "label": "Utilities review",
+        "value": "27 agencies via OUC"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Anticipating the reviewers",
+        "body_html": "<p>The overbuild needed approval from all 27 agencies and utilities in the Office of Underground Coordination. Burnham knew from experience that the schedule depended on engaging those reviewers early, before the formal submission.</p>"
+      },
+      {
+        "heading": "CTA input ahead of deadlines",
+        "body_html": "<p>The CTA Blue Line runs in a tunnel beneath the overbuild, and caisson drilling raised structural concerns. Burnham arranged for the CTA to review preliminary plans early in design. Their comments were built into the design before submission, and CTA approved quickly once OUC distributed the plans.</p>"
+      },
+      {
+        "heading": "Early discussions with Metra",
+        "body_html": "<p>Before the permit process started, Burnham facilitated meetings where the design team showed Metra that rail employees would keep full access to the tracks, including in emergencies. Metra approved.</p>"
+      },
+      {
+        "heading": "A Fire Department walkthrough",
+        "body_html": "<p>Burnham coordinated a site walkthrough with the Chicago Fire Department’s Chief Engineer and advised the design engineers on how to present. The engineers demonstrated tunnel access and fire protection, and the department signed off on time.</p>"
+      }
+    ],
+    "intro_html": "<p>River Point is a 52-story office tower at the confluence of the three branches of the Chicago River, with a new 1.5-acre public riverside plaza and riverwalk extension. Burnham handled permits and approvals for the whole project. The plaza, which sits on an overbuild covering five previously open Metra lines, was the most unusual part.</p>",
+    "quote": null,
+    "sector_keys": "commercial",
+    "sector_labels": "Commercial",
+    "related": [
+      {
+        "slug": "fulton-market",
+        "title": "MillerKnoll, Fulton Market",
+        "location": "Chicago, IL",
+        "type": "Adaptive reuse showroom",
+        "image": "/assets/img/portfolio/fulton-market.jpg",
+        "image_alt": "MillerKnoll showroom interior with exposed white ductwork, a concrete column, a blue kitchen island and lounge seating"
+      },
+      {
+        "slug": "salesforce",
+        "title": "Salesforce Tower",
+        "location": "Chicago, IL",
+        "type": "High-rise office",
+        "image": "/assets/img/portfolio/salesforce.jpg",
+        "image_alt": "Salesforce Tower at Wolf Point, a curved glass skyscraper on the Chicago River"
+      },
+      {
+        "slug": "canal-station",
+        "title": "Canal Station",
+        "location": "Chicago, IL",
+        "type": "Office repositioning",
+        "image": "/assets/img/portfolio/canal-station.jpg",
+        "image_alt": "The illuminated Canal Station entrance canopy at dusk, with flags on either side of the glass lobby"
+      }
+    ],
+    "next": {
+      "slug": "the-kimpton-gray-hotel",
+      "title": "Kimpton Gray Hotel"
+    }
+  },
+  {
+    "slug": "the-kimpton-gray-hotel",
+    "title": "Kimpton Gray Hotel",
+    "location": "Chicago, IL",
+    "type": "Historic hotel",
+    "sectors": [
+      "hospitality",
+      "historic"
+    ],
+    "use": "Renovation",
+    "size": "10–50k sq ft",
+    "image": "/assets/img/portfolio/the-kimpton-gray-hotel.jpg",
+    "image_alt": "The Kimpton Gray Hotel lobby with twin white marble staircases",
+    "featured": false,
+    "headline": "Preserving William Le Baron Jenny’s New York Life Insurance Building",
+    "summary": "A split permit strategy that kept Landmarks Commission review from delaying a 293-room hotel in an 1894 landmark.",
+    "services": [
+      {
+        "name": "Landmark permitting"
+      },
+      {
+        "name": "Phased permits"
+      },
+      {
+        "name": "Grants of Privilege"
+      },
+      {
+        "name": "Sign permits"
+      }
+    ],
+    "glance": [
+      {
+        "label": "Rooms",
+        "value": "293"
+      },
+      {
+        "label": "Building completed",
+        "value": "1894"
+      },
+      {
+        "label": "Architect",
+        "value": "Gensler"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Keeping landmark review off the critical path",
+        "body_html": "<p>Several historic features needed review by the Commission on Chicago Landmarks, which can be lengthy. Burnham split the submittals so those features would not hold up the rest of the project, securing separate permits for exploratory demolition and for interior demolition and structural reinforcing for a new stair.</p><p>The lobby’s original pair of grand marble staircases needed Commission review, so Burnham excluded the first two floors from the general permit. Renovation started on the remaining floors while the Commission reviewed the staircase levels.</p>"
+      },
+      {
+        "heading": "Staging the public way permits",
+        "body_html": "<p>Underground vaults, canopies, awnings, signs and the existing pilasters all needed Grants of Privilege, which require City Council approval. Sign construction permits are usually filed at the same time, but tenant signage was not final. Burnham filed the Grants of Privilege first so the canopies and awnings, also subject to landmark review, could be installed with ample lead time, and advised the out-of-town sign contractor on Chicago’s landmark and sign permit processes.</p>"
+      }
+    ],
+    "intro_html": "<p>The Kimpton Gray Hotel restores the New York Life Insurance Building, completed in 1894 and the oldest remaining building by William Le Baron Jenny using his steel skeleton frame. Kimpton bought the property in 2014 and brought in Gensler to convert it into a 293-room hotel.</p>",
+    "quote": null,
+    "sector_keys": "hospitality historic",
+    "sector_labels": "Hospitality, Special & historic",
+    "related": [
+      {
+        "slug": "obama-library",
+        "title": "Obama Presidential Center",
+        "location": "Chicago, IL",
+        "type": "Cultural campus",
+        "image": "/assets/img/portfolio/obama-library.jpg",
+        "image_alt": "The Obama Presidential Center museum tower, clad in pale stone with a lettered screen at its crown, above a plaza with visitors"
+      },
+      {
+        "slug": "fulton-market",
+        "title": "MillerKnoll, Fulton Market",
+        "location": "Chicago, IL",
+        "type": "Adaptive reuse showroom",
+        "image": "/assets/img/portfolio/fulton-market.jpg",
+        "image_alt": "MillerKnoll showroom interior with exposed white ductwork, a concrete column, a blue kitchen island and lounge seating"
+      },
+      {
+        "slug": "wilshire-grand-center",
+        "title": "Wilshire Grand Center",
+        "location": "Los Angeles, CA",
+        "type": "Mixed-use tower",
+        "image": "/assets/img/portfolio/wilshire-grand-center.jpg",
+        "image_alt": "The Wilshire Grand Center tower rising above downtown Los Angeles"
+      }
+    ],
+    "next": {
+      "slug": "portillos-meet-critical-deadlines",
+      "title": "Portillo’s South Loop"
+    }
+  },
+  {
+    "slug": "portillos-meet-critical-deadlines",
+    "title": "Portillo’s South Loop",
+    "location": "Chicago, IL",
+    "type": "Restaurant",
+    "sectors": [
+      "hospitality"
+    ],
+    "use": "New construction",
+    "size": "10–50k sq ft",
+    "image": "/assets/img/portfolio/portillos-meet-critical-deadlines.jpg",
+    "image_alt": "Rendering of the two-story Portillo’s restaurant in Chicago’s South Loop",
+    "featured": false,
+    "headline": "Meeting a critical opening date",
+    "summary": "An early code review that cut city comments to about 15 and a landscape fix that avoided a new approval, so Portillo’s opened on schedule in May 2016.",
+    "services": [
+      {
+        "name": "Code consulting"
+      },
+      {
+        "name": "Permit expediting"
+      },
+      {
+        "name": "Occupant load and egress"
+      },
+      {
+        "name": "Landscape approval"
+      }
+    ],
+    "glance": [
+      {
+        "label": "Seats",
+        "value": "About 240"
+      },
+      {
+        "label": "City comments",
+        "value": "About 15, versus a typical 40–50"
+      },
+      {
+        "label": "Opened",
+        "value": "May 2016"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "An early, complete code review",
+        "body_html": "<p>With architects based outside Chicago, Burnham’s code consultants reviewed the design early against the Chicago Building Code, including occupant load and egress for Portillo’s customer-flow model. The Department of Buildings returned about 15 comments, where a new two-story building with a new foundation typically draws 40 to 50.</p>"
+      },
+      {
+        "heading": "A landscape problem at the finish line",
+        "body_html": "<p>Late in construction, Novak Construction found there was no soil beneath the sidewalk where the approved landscape plan placed trees. Without the trees, the landscape approval and the Certificate of Occupancy were at risk, and a new landscape submission would have taken at least four weeks.</p><p>Burnham went directly to the city landscape reviewer with a revised design, which was accepted, and the DOB project supervisor allowed the new drawings to be added to the existing permit. The restaurant opened on schedule.</p>"
+      }
+    ],
+    "intro_html": "<p>Portillo’s second Chicago location, in the South Loop, has two floors, rooftop and ground-floor patios and seats about 240 people. Burnham’s permitting and code work helped the chain meet an aggressive grand opening date.</p>",
+    "quote": null,
+    "sector_keys": "hospitality",
+    "sector_labels": "Hospitality",
+    "related": [
+      {
+        "slug": "wilshire-grand-center",
+        "title": "Wilshire Grand Center",
+        "location": "Los Angeles, CA",
+        "type": "Mixed-use tower",
+        "image": "/assets/img/portfolio/wilshire-grand-center.jpg",
+        "image_alt": "The Wilshire Grand Center tower rising above downtown Los Angeles"
+      },
+      {
+        "slug": "vista",
+        "title": "Vista Tower",
+        "location": "Chicago, IL",
+        "type": "Supertall mixed-use",
+        "image": "/assets/img/portfolio/vista.jpg",
+        "image_alt": "Vista Tower under construction with a crane at its top, between glass towers in Lakeshore East"
+      },
+      {
+        "slug": "the-kimpton-gray-hotel",
+        "title": "Kimpton Gray Hotel",
+        "location": "Chicago, IL",
+        "type": "Historic hotel",
+        "image": "/assets/img/portfolio/the-kimpton-gray-hotel.jpg",
+        "image_alt": "The Kimpton Gray Hotel lobby with twin white marble staircases"
+      }
+    ],
+    "next": {
+      "slug": "mansueto-high-school",
+      "title": "Mansueto High School"
+    }
+  },
+  {
+    "slug": "mansueto-high-school",
+    "title": "Mansueto High School",
+    "location": "Chicago, IL",
+    "type": "Education",
+    "sectors": [
+      "education"
+    ],
+    "use": "New construction",
+    "size": "50–100k sq ft",
+    "image": "/assets/img/portfolio/mansueto-high-school.jpg",
+    "image_alt": "A row of brightly colored school lockers",
+    "featured": false,
+    "headline": "Phased permits for a new Brighton Park campus",
+    "summary": "The full permit process for the 67,000-square-foot Noble Network campus, from foundation permit to assembly occupancy placards.",
+    "services": [
+      {
+        "name": "Phased permitting"
+      },
+      {
+        "name": "Structural Peer Review"
+      },
+      {
+        "name": "Public way and driveway permits"
+      },
+      {
+        "name": "Occupancy placards"
+      }
+    ],
+    "glance": [
+      {
+        "label": "Size",
+        "value": "67,000+ sq ft"
+      },
+      {
+        "label": "First permit",
+        "value": "Issued in 8 weeks"
+      },
+      {
+        "label": "Architect",
+        "value": "Wheeler Kearns"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Segmenting the work",
+        "body_html": "<p>Burnham split the work into separate permits to allow concurrent plan review and phased construction. The first, a structural foundation permit for work at grade and below, did not need Office of Underground Coordination review because the building has no basement, and was issued in eight weeks. Foundation work began while the build-out permit was still in review.</p>"
+      },
+      {
+        "heading": "Full build-out approval",
+        "body_html": "<p>The build-out permit was approved by the Department of Buildings, the Mayor’s Office for People with Disabilities and the Fire Prevention Bureau after architectural, electrical, mechanical, plumbing, structural, landscape and environmental sign-offs. Structural review went through the Structural Peer Review Program to save time.</p><p>Burnham also secured driveway and public way permits, the street number assignment, revision permits for the athletic field, and the occupancy placards required for all assembly spaces in education buildings.</p>"
+      }
+    ],
+    "intro_html": "<p>The Noble Network’s Mansueto High School, designed by Wheeler Kearns, opened in September 2017 at West 47th Street and California Avenue as the first Noble charter school in Brighton Park. Burnham handled permitting from the foundation permit through the occupancy placards for the gymnasium and cafeteria.</p>",
+    "quote": null,
+    "sector_keys": "education",
+    "sector_labels": "Education",
+    "related": [
+      {
+        "slug": "obama-library",
+        "title": "Obama Presidential Center",
+        "location": "Chicago, IL",
+        "type": "Cultural campus",
+        "image": "/assets/img/portfolio/obama-library.jpg",
+        "image_alt": "The Obama Presidential Center museum tower, clad in pale stone with a lettered screen at its crown, above a plaza with visitors"
+      },
+      {
+        "slug": "esperanza-health",
+        "title": "Esperanza Health Center",
+        "location": "Chicago, IL",
+        "type": "Healthcare",
+        "image": "/assets/img/portfolio/esperanza-health.jpg",
+        "image_alt": "Esperanza Health Center seen from 47th Street and California Avenue"
+      },
+      {
+        "slug": "fusion-academy",
+        "title": "Fusion Academy",
+        "location": "San Francisco, CA",
+        "type": "Education",
+        "image": "/assets/img/portfolio/fusion-academy.jpg",
+        "image_alt": "The reception desk at Fusion Academy in San Francisco, with lamps and fresh flowers"
+      }
+    ],
+    "next": {
+      "slug": "esperanza-health",
+      "title": "Esperanza Health Center"
+    }
+  },
+  {
+    "slug": "esperanza-health",
+    "title": "Esperanza Health Center",
+    "location": "Chicago, IL",
+    "type": "Healthcare",
+    "sectors": [
+      "education",
+      "hospitality"
+    ],
+    "use": "New construction",
+    "size": "100k+ sq ft",
+    "image": "/assets/img/portfolio/esperanza-health.jpg",
+    "image_alt": "Esperanza Health Center seen from 47th Street and California Avenue",
+    "featured": false,
+    "headline": "Healthcare and community services under one roof",
+    "summary": "Phased permitting through Standard Plan Review for JGMA’s Esperanza Health Center beside Mansueto High School in Brighton Park.",
+    "services": [
+      {
+        "name": "Phased permitting"
+      },
+      {
+        "name": "Standard Plan Review"
+      },
+      {
+        "name": "Multi-agency approvals"
+      }
+    ],
+    "glance": [
+      {
+        "label": "Site",
+        "value": "3 acres"
+      },
+      {
+        "label": "Architect",
+        "value": "JGMA"
+      },
+      {
+        "label": "Review track",
+        "value": "Standard Plan Review"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "The building",
+        "body_html": "<p>The design links an outdoor plaza and an open lobby, with glass walls bringing daylight into spaces that are usually closed and windowless. The site includes walking trails, community gardens, a playground, a meditation garden and a community kitchen.</p>"
+      },
+      {
+        "heading": "Permitting",
+        "body_html": "<p>Projects of this scope need approvals from the Department of Planning and Zoning, City Council and the Bureau of Fire Prevention. Burnham is permitting the project through the Department of Buildings’ Standard Plan Review program, using phased permits so the team can pull foundation permits separately from the full build-out.</p>"
+      }
+    ],
+    "intro_html": "<p>Designed by Juan Gabriel Moreno Architects, the Esperanza Health Center at 4700 S. California Avenue houses Esperanza Health, a community pharmacy and spaces for Mujeres Latinas en Accion and other nonprofits, on a former industrial site next to Mansueto High School.</p>",
+    "quote": null,
+    "sector_keys": "education hospitality",
+    "sector_labels": "Education, Hospitality",
+    "related": [
+      {
+        "slug": "obama-library",
+        "title": "Obama Presidential Center",
+        "location": "Chicago, IL",
+        "type": "Cultural campus",
+        "image": "/assets/img/portfolio/obama-library.jpg",
+        "image_alt": "The Obama Presidential Center museum tower, clad in pale stone with a lettered screen at its crown, above a plaza with visitors"
+      },
+      {
+        "slug": "wilshire-grand-center",
+        "title": "Wilshire Grand Center",
+        "location": "Los Angeles, CA",
+        "type": "Mixed-use tower",
+        "image": "/assets/img/portfolio/wilshire-grand-center.jpg",
+        "image_alt": "The Wilshire Grand Center tower rising above downtown Los Angeles"
+      },
+      {
+        "slug": "vista",
+        "title": "Vista Tower",
+        "location": "Chicago, IL",
+        "type": "Supertall mixed-use",
+        "image": "/assets/img/portfolio/vista.jpg",
+        "image_alt": "Vista Tower under construction with a crane at its top, between glass towers in Lakeshore East"
+      }
+    ],
+    "next": {
+      "slug": "merchandise-mart",
+      "title": "Art on theMART"
+    }
+  },
+  {
+    "slug": "merchandise-mart",
+    "title": "Art on theMART",
+    "location": "Chicago, IL",
+    "type": "Public art installation",
+    "sectors": [
+      "historic"
+    ],
+    "use": "New construction",
+    "size": "50–100k sq ft",
+    "image": "/assets/img/portfolio/merchandise-mart.jpg",
+    "image_alt": "Art on theMART projections illuminating the Merchandise Mart facade along the Chicago River at night",
+    "featured": false,
+    "headline": "The largest permanent digital display in the US",
+    "summary": "Multi-agency approvals, including harbor and bridge permitting, for 34 projectors that light the 2.5-acre river facade of the Merchandise Mart.",
+    "services": [
+      {
+        "name": "Harbor and bridge permits"
+      },
+      {
+        "name": "CDOT approvals"
+      },
+      {
+        "name": "Permit expediting"
+      }
+    ],
+    "glance": [
+      {
+        "label": "Canvas",
+        "value": "2.5-acre, 25-story facade"
+      },
+      {
+        "label": "Projectors",
+        "value": "34"
+      },
+      {
+        "label": "Debut",
+        "value": "September 29, 2018"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "A unique permitting process",
+        "body_html": "<p>The installation sits beside the Chicago River and required an enclosed platform for the projectors above the Riverwalk, so it needed approval from both the Department of Buildings and the Chicago Department of Transportation, harbor and bridge permit submittals, and City Council approval of a 30-year agreement. Burnham’s Chicago team was part of the project team that brought it through.</p>"
+      }
+    ],
+    "intro_html": "<p>Art on theMART projects digital art onto the 25-story river facade of the historic Merchandise Mart. Led by Obscura Digital with Valerio Dewalt Train Associates, it is the largest permanent digital display in the United States.</p>",
+    "quote": null,
+    "sector_keys": "historic",
+    "sector_labels": "Special & historic",
+    "related": [
+      {
+        "slug": "obama-library",
+        "title": "Obama Presidential Center",
+        "location": "Chicago, IL",
+        "type": "Cultural campus",
+        "image": "/assets/img/portfolio/obama-library.jpg",
+        "image_alt": "The Obama Presidential Center museum tower, clad in pale stone with a lettered screen at its crown, above a plaza with visitors"
+      },
+      {
+        "slug": "fulton-market",
+        "title": "MillerKnoll, Fulton Market",
+        "location": "Chicago, IL",
+        "type": "Adaptive reuse showroom",
+        "image": "/assets/img/portfolio/fulton-market.jpg",
+        "image_alt": "MillerKnoll showroom interior with exposed white ductwork, a concrete column, a blue kitchen island and lounge seating"
+      },
+      {
+        "slug": "lincoln-center",
+        "title": "Lincoln Center",
+        "location": "New York, NY",
+        "type": "Cultural",
+        "image": "/assets/img/portfolio/lincoln-center.jpg",
+        "image_alt": "Lincoln Center plaza and fountain in front of the Metropolitan Opera House"
+      }
+    ],
+    "next": {
+      "slug": "convergence-la",
+      "title": "ConvergenceLA at Metropolis"
+    }
+  },
+  {
+    "slug": "convergence-la",
+    "title": "ConvergenceLA at Metropolis",
+    "location": "Los Angeles, CA",
+    "type": "Mixed-use",
+    "sectors": [
+      "residential",
+      "hospitality",
+      "retail"
+    ],
+    "use": "New construction",
+    "size": "100k+ sq ft",
+    "image": "/assets/img/portfolio/convergence-la.jpg",
+    "image_alt": "The ConvergenceLA LED display on the facade of a Metropolis residential tower at its unveiling",
+    "featured": false,
+    "headline": "Permits for Metropolis and its 1,400-square-foot media wall",
+    "summary": "All LADBS permits for Metropolis Phase I, including structural and over-the-counter electrical permits for the ConvergenceLA art screen.",
+    "services": [
+      {
+        "name": "Permit expediting"
+      },
+      {
+        "name": "Structural permits"
+      },
+      {
+        "name": "Express electrical permits"
+      }
+    ],
+    "glance": [
+      {
+        "label": "Screen",
+        "value": "20 ft by 97 ft"
+      },
+      {
+        "label": "Developer",
+        "value": "Greenland USA"
+      },
+      {
+        "label": "Agency",
+        "value": "LADBS"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Expediting services",
+        "body_html": "<p>Burnham’s Los Angeles office secured all permits for Metropolis Phase I through the Los Angeles Department of Building and Safety, including architectural, structural and electrical permits for the art screen. Burnham expedited structural approval for the screen and completed the electrical permit over the counter through LADBS Express Electrical permitting, so the installation debuted on schedule with the Hotel Indigo opening.</p>"
+      }
+    ],
+    "intro_html": "<p>Metropolis LA, developed by Greenland USA, is a downtown mixed-use property with residences, retail and the Hotel Indigo. With Phase I complete, Metropolis activated ConvergenceLA, a 1,400-square-foot transparent LED installation by Refik Anadol Studio and Narduli Studio spanning five stories of the residential tower.</p>",
+    "quote": null,
+    "sector_keys": "residential hospitality retail",
+    "sector_labels": "Residential, Hospitality, Retail",
+    "related": [
+      {
+        "slug": "fulton-market",
+        "title": "MillerKnoll, Fulton Market",
+        "location": "Chicago, IL",
+        "type": "Adaptive reuse showroom",
+        "image": "/assets/img/portfolio/fulton-market.jpg",
+        "image_alt": "MillerKnoll showroom interior with exposed white ductwork, a concrete column, a blue kitchen island and lounge seating"
+      },
+      {
+        "slug": "wilshire-grand-center",
+        "title": "Wilshire Grand Center",
+        "location": "Los Angeles, CA",
+        "type": "Mixed-use tower",
+        "image": "/assets/img/portfolio/wilshire-grand-center.jpg",
+        "image_alt": "The Wilshire Grand Center tower rising above downtown Los Angeles"
+      },
+      {
+        "slug": "amc-metreon",
+        "title": "AMC Metreon",
+        "location": "San Francisco, CA",
+        "type": "Entertainment",
+        "image": "/assets/img/portfolio/amc-metreon.jpg",
+        "image_alt": "The Metreon entertainment center in downtown San Francisco"
+      }
+    ],
+    "next": {
+      "slug": "cavalia",
+      "title": "Cavalia Odysseo"
+    }
+  },
+  {
+    "slug": "cavalia",
+    "title": "Cavalia Odysseo",
+    "location": "Chicago, IL",
+    "type": "Special event",
+    "sectors": [
+      "historic"
+    ],
+    "use": "Signage & special events",
+    "size": "1–10k sq ft",
+    "image": "/assets/img/portfolio/cavalia.jpg",
+    "image_alt": "Horses and riders performing in Cavalia’s Odysseo",
+    "featured": false,
+    "headline": "Tent, bleacher and sign permits for the world’s largest touring show",
+    "summary": "Multi-agency special event approvals for Cavalia’s Odysseo in Soldier Field’s south lot, on a tight timeline.",
+    "services": [
+      {
+        "name": "Special event permits"
+      },
+      {
+        "name": "Tent and bleacher permits"
+      },
+      {
+        "name": "Sign permits"
+      },
+      {
+        "name": "Preliminary inspections"
+      }
+    ],
+    "glance": [
+      {
+        "label": "Venue",
+        "value": "Soldier Field south lot"
+      },
+      {
+        "label": "Approving bodies",
+        "value": "8+"
+      },
+      {
+        "label": "Opened",
+        "value": "April 1"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Navigating Chicago’s requirements",
+        "body_html": "<p>Burnham began with meetings with the Department of Cultural Affairs and Special Events and the Department of Buildings to set strategy. The team secured bleacher and tent permits for the main tent, catering tent, warm-up tents, stables and VIP tents, and gained approvals from multiple commissioners for structures within 20 feet of a tent, which code otherwise prohibits.</p><p>Site and tent plans also needed approval from the Department of Planning and Development, the Police Department, the Chicago Park District, the Fire Prevention Bureau, Soldier Field and the 3rd Ward alderman. Burnham coordinated a preliminary inspection so Cavalia could fix open items before final inspections.</p>"
+      },
+      {
+        "heading": "Sign approvals",
+        "body_html": "<p>The special event sign, installed on stacked shipping containers, needed approval from the alderman, the Park District and DPD, plus special approval from the Department of Buildings’ Deputy Commissioner. Odysseo premiered on April 1 as planned.</p>"
+      }
+    ],
+    "intro_html": "<p>Odysseo, then the largest touring production in the world, uses the same equipment at every stop, so the set had to comply with Chicago’s own building code and special event requirements. Burnham’s Chicago team guided Cavalia through permitting to build the performance space on a short timeline.</p>",
+    "quote": null,
+    "sector_keys": "historic",
+    "sector_labels": "Special & historic",
+    "related": [
+      {
+        "slug": "obama-library",
+        "title": "Obama Presidential Center",
+        "location": "Chicago, IL",
+        "type": "Cultural campus",
+        "image": "/assets/img/portfolio/obama-library.jpg",
+        "image_alt": "The Obama Presidential Center museum tower, clad in pale stone with a lettered screen at its crown, above a plaza with visitors"
+      },
+      {
+        "slug": "fulton-market",
+        "title": "MillerKnoll, Fulton Market",
+        "location": "Chicago, IL",
+        "type": "Adaptive reuse showroom",
+        "image": "/assets/img/portfolio/fulton-market.jpg",
+        "image_alt": "MillerKnoll showroom interior with exposed white ductwork, a concrete column, a blue kitchen island and lounge seating"
+      },
+      {
+        "slug": "lincoln-center",
+        "title": "Lincoln Center",
+        "location": "New York, NY",
+        "type": "Cultural",
+        "image": "/assets/img/portfolio/lincoln-center.jpg",
+        "image_alt": "Lincoln Center plaza and fountain in front of the Metropolitan Opera House"
+      }
+    ],
+    "next": {
+      "slug": "mile-high-city",
+      "title": "WeWork at the Triangle Building"
+    }
+  },
+  {
+    "slug": "mile-high-city",
+    "title": "WeWork at the Triangle Building",
+    "location": "Denver, CO",
+    "type": "Office",
+    "sectors": [
+      "commercial"
+    ],
+    "use": "Renovation",
+    "size": "10–50k sq ft",
+    "image": "/assets/img/portfolio/mile-high-city.jpg",
+    "image_alt": "The Triangle Building, a 10-story glass office building near Denver Union Station",
+    "featured": false,
+    "headline": "A new Denver permit type, created to keep WeWork on schedule",
+    "summary": "Burnham worked with the City of Denver to create a Preparatory Demolition and Non-Structural Framing Permit, now official city policy.",
+    "services": [
+      {
+        "name": "Permit expediting"
+      },
+      {
+        "name": "New permit pathway"
+      },
+      {
+        "name": "Deferred submittals"
+      }
+    ],
+    "glance": [
+      {
+        "label": "Building",
+        "value": "10 stories, LEED Gold"
+      },
+      {
+        "label": "Floors occupied",
+        "value": "3"
+      },
+      {
+        "label": "Standard review",
+        "value": "8+ weeks"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "The challenge",
+        "body_html": "<p>In 2015, same-day review at Denver Development Services required signing up at opening and was unavailable for projects over $300,000, with structural work, or needing more than 15 minutes of review. The standard log-in review took at least eight weeks. The design also included internal stairs between floors, requiring structural calculations that could delay approval.</p>"
+      },
+      {
+        "heading": "A new permit for Denver",
+        "body_html": "<p>Burnham worked with the city to develop a Preparatory Demolition and Non-Structural Framing Permit, common elsewhere for new spaces without a prior tenant but new to Denver. Burnham coordinated meetings between WeWork, the architects and Denver plan examiners, and Denver now has an official policy for this permit. Burnham also arranged for the stair structural plans to be filed as a deferred submittal so the rest of the plans could proceed.</p><p>Burnham also expedited permits for WeWork’s second Denver location, on 17th Street in LoHi.</p>"
+      }
+    ],
+    "intro_html": "<p>WeWork placed one of its first Denver locations on three floors of the Triangle Building at 16th Street Mall and Union Station. With New York and Cleveland architects and a short timeline, WeWork was unfamiliar with Denver’s permit backlog.</p>",
+    "quote": null,
+    "sector_keys": "commercial",
+    "sector_labels": "Commercial",
+    "related": [
+      {
+        "slug": "fulton-market",
+        "title": "MillerKnoll, Fulton Market",
+        "location": "Chicago, IL",
+        "type": "Adaptive reuse showroom",
+        "image": "/assets/img/portfolio/fulton-market.jpg",
+        "image_alt": "MillerKnoll showroom interior with exposed white ductwork, a concrete column, a blue kitchen island and lounge seating"
+      },
+      {
+        "slug": "salesforce",
+        "title": "Salesforce Tower",
+        "location": "Chicago, IL",
+        "type": "High-rise office",
+        "image": "/assets/img/portfolio/salesforce.jpg",
+        "image_alt": "Salesforce Tower at Wolf Point, a curved glass skyscraper on the Chicago River"
+      },
+      {
+        "slug": "canal-station",
+        "title": "Canal Station",
+        "location": "Chicago, IL",
+        "type": "Office repositioning",
+        "image": "/assets/img/portfolio/canal-station.jpg",
+        "image_alt": "The illuminated Canal Station entrance canopy at dusk, with flags on either side of the glass lobby"
+      }
+    ],
+    "next": {
+      "slug": "fusion-academy",
+      "title": "Fusion Academy"
+    }
+  },
+  {
+    "slug": "fusion-academy",
+    "title": "Fusion Academy",
+    "location": "San Francisco, CA",
+    "type": "Education",
+    "sectors": [
+      "education"
+    ],
+    "use": "Renovation",
+    "size": "1–10k sq ft",
+    "image": "/assets/img/portfolio/fusion-academy.jpg",
+    "image_alt": "The reception desk at Fusion Academy in San Francisco, with lamps and fresh flowers",
+    "featured": false,
+    "headline": "An occupancy reclassification that cut the timeline in half",
+    "summary": "Burnham made the case to reclassify Fusion Academy from E to B occupancy, allowing an over-the-counter review: six weeks instead of more than three months.",
+    "services": [
+      {
+        "name": "Code consulting"
+      },
+      {
+        "name": "Occupancy classification"
+      },
+      {
+        "name": "Over-the-counter review"
+      }
+    ],
+    "glance": [
+      {
+        "label": "Timeline",
+        "value": "6 weeks, versus 3+ months"
+      },
+      {
+        "label": "Occupancy",
+        "value": "E to B"
+      },
+      {
+        "label": "Agencies",
+        "value": "SF DBI and SFFD"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Making the case for B occupancy",
+        "body_html": "<p>E occupancy buildings are held to a very high standard for fire safety and accessibility. Burnham helped the architect prepare for a pre-application meeting with the Department of Building Inspection and the Fire Department, presenting evidence that Fusion operates like a B occupancy: no fixed hours and so no mass arrivals, no gym, cafeteria or assembly space, and a much lower occupant load. Supporting plans, egress paths and comparisons with office layouts were submitted.</p><p>DBI and SFFD agreed that the location would follow standard accessibility requirements rather than those for children’s use.</p>"
+      },
+      {
+        "heading": "An over-the-counter review",
+        "body_html": "<p>E occupancy projects go through formal plan review that can take three months or more. The B classification let Burnham secure an over-the-counter review instead, meeting the examiner in person, receiving same-day comments and returning revised drawings to the same examiner. The permit was issued in six weeks.</p>"
+      }
+    ],
+    "intro_html": "<p>Fusion Academy, a one-to-one learning center, planned an interior remodel for a new location in San Francisco’s Levi’s Plaza. Although it provides school-like services, it differs from a traditional school in important ways.</p>",
+    "quote": null,
+    "sector_keys": "education",
+    "sector_labels": "Education",
+    "related": [
+      {
+        "slug": "obama-library",
+        "title": "Obama Presidential Center",
+        "location": "Chicago, IL",
+        "type": "Cultural campus",
+        "image": "/assets/img/portfolio/obama-library.jpg",
+        "image_alt": "The Obama Presidential Center museum tower, clad in pale stone with a lettered screen at its crown, above a plaza with visitors"
+      },
+      {
+        "slug": "mansueto-high-school",
+        "title": "Mansueto High School",
+        "location": "Chicago, IL",
+        "type": "Education",
+        "image": "/assets/img/portfolio/mansueto-high-school.jpg",
+        "image_alt": "A row of brightly colored school lockers"
+      },
+      {
+        "slug": "esperanza-health",
+        "title": "Esperanza Health Center",
+        "location": "Chicago, IL",
+        "type": "Healthcare",
+        "image": "/assets/img/portfolio/esperanza-health.jpg",
+        "image_alt": "Esperanza Health Center seen from 47th Street and California Avenue"
+      }
+    ],
+    "next": {
+      "slug": "wingate-by-wyndham",
+      "title": "Wingate by Wyndham, Almaden Ranch"
+    }
+  },
+  {
+    "slug": "wingate-by-wyndham",
+    "title": "Wingate by Wyndham, Almaden Ranch",
+    "location": "San Jose, CA",
+    "type": "Hotel",
+    "sectors": [
+      "hospitality"
+    ],
+    "use": "New construction",
+    "size": "50–100k sq ft",
+    "image": "/assets/img/portfolio/wingate-by-wyndham.jpg",
+    "image_alt": "A building frame under construction with a crane",
+    "featured": false,
+    "headline": "Piloting San Jose’s electronic plan review",
+    "summary": "The pilot project for San Jose’s electronic plan review, which cut the estimated building review from 8–12 weeks to 6–8.",
+    "services": [
+      {
+        "name": "Permit expediting"
+      },
+      {
+        "name": "Electronic plan review"
+      },
+      {
+        "name": "Health department pre-review"
+      }
+    ],
+    "glance": [
+      {
+        "label": "Building",
+        "value": "4-story hotel"
+      },
+      {
+        "label": "Review time",
+        "value": "6–8 weeks, versus 8–12"
+      },
+      {
+        "label": "Health pre-review",
+        "value": "About 2 hours"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "A simpler submittal",
+        "body_html": "<p>The standard San Jose submittal required seven wet-signed plan sets. Electronic review accepts one set plus digital files routed to every division for concurrent review, and corrections can be made as comments are released. Drawing on similar systems elsewhere, Burnham coordinated the submittal and review, and the Building Division’s estimated review time fell from 8–12 weeks to 6–8 weeks.</p>"
+      },
+      {
+        "heading": "A faster health review",
+        "body_html": "<p>Mid-project, the Santa Clara County Health Department needed to approve the plans before the interior finish permit. Using the electronic sets, Burnham reached the health reviewer directly and got a pre-review in about two hours, so the design team could make corrections before submitting for full review.</p>"
+      }
+    ],
+    "intro_html": "<p>The Wingate by Wyndham at Almaden Ranch, a four-story new hotel at Highway 85 and Almaden Expressway, was the pilot project for San Jose’s electronic plan review system. Burnham joined after planning approval and submitted the construction permit package to the Building Division electronically.</p>",
+    "quote": null,
+    "sector_keys": "hospitality",
+    "sector_labels": "Hospitality",
+    "related": [
+      {
+        "slug": "wilshire-grand-center",
+        "title": "Wilshire Grand Center",
+        "location": "Los Angeles, CA",
+        "type": "Mixed-use tower",
+        "image": "/assets/img/portfolio/wilshire-grand-center.jpg",
+        "image_alt": "The Wilshire Grand Center tower rising above downtown Los Angeles"
+      },
+      {
+        "slug": "vista",
+        "title": "Vista Tower",
+        "location": "Chicago, IL",
+        "type": "Supertall mixed-use",
+        "image": "/assets/img/portfolio/vista.jpg",
+        "image_alt": "Vista Tower under construction with a crane at its top, between glass towers in Lakeshore East"
+      },
+      {
+        "slug": "the-kimpton-gray-hotel",
+        "title": "Kimpton Gray Hotel",
+        "location": "Chicago, IL",
+        "type": "Historic hotel",
+        "image": "/assets/img/portfolio/the-kimpton-gray-hotel.jpg",
+        "image_alt": "The Kimpton Gray Hotel lobby with twin white marble staircases"
+      }
+    ],
+    "next": {
+      "slug": "target-stores-renovations-blend",
+      "title": "Target, State Street"
+    }
+  },
+  {
+    "slug": "target-stores-renovations-blend",
+    "title": "Target, State Street",
+    "location": "Chicago, IL",
+    "type": "Retail rollout",
+    "sectors": [
+      "retail",
+      "historic"
+    ],
+    "use": "Multi-site rollout",
+    "size": "10–50k sq ft",
+    "image": "/assets/img/portfolio/target-stores-renovations-blend.jpg",
+    "image_alt": "The Target store in Louis Sullivan’s historic Sullivan Center on State Street, Chicago",
+    "featured": false,
+    "headline": "Historic requirements and a 600-store remodel program",
+    "summary": "Permitting for Target’s flexible-format store in Louis Sullivan’s landmark Carson Pirie Scott building, and due diligence for its national remodel program.",
+    "services": [
+      {
+        "name": "Multi-site due diligence"
+      },
+      {
+        "name": "Landmark permitting"
+      },
+      {
+        "name": "Permit expediting"
+      }
+    ],
+    "glance": [
+      {
+        "label": "Program",
+        "value": "600+ stores"
+      },
+      {
+        "label": "Landmark built",
+        "value": "1906"
+      },
+      {
+        "label": "Architect partner",
+        "value": "RSP Architects"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "A flagship in a Chicago landmark",
+        "body_html": "<p>Target’s store at 1 S. State Street occupies Louis Sullivan’s former Carson Pirie Scott &amp; Co. building, completed in 1906 and a national and city landmark. Burnham permitted portions of the location and continues to work on upgrades there, drawing on its experience with historic requirements.</p>"
+      },
+      {
+        "heading": "Due diligence at scale",
+        "body_html": "<p>Permitting many stores in a short time takes coordination. Burnham’s due diligence reports give project teams the requirements for each jurisdiction, so timelines can be coordinated across hundreds of stores and design and construction teams stay current on jurisdictional changes.</p>"
+      }
+    ],
+    "intro_html": "<p>Target Corp’s program to remodel more than 600 stores included expanding its flexible-format locations: smaller stores in city centers and near campuses, often in existing buildings. Burnham has served as a single point of contact for much of the project team, including work with RSP Architects.</p>",
+    "quote": null,
+    "sector_keys": "retail historic",
+    "sector_labels": "Retail, Special & historic",
+    "related": [
+      {
+        "slug": "obama-library",
+        "title": "Obama Presidential Center",
+        "location": "Chicago, IL",
+        "type": "Cultural campus",
+        "image": "/assets/img/portfolio/obama-library.jpg",
+        "image_alt": "The Obama Presidential Center museum tower, clad in pale stone with a lettered screen at its crown, above a plaza with visitors"
+      },
+      {
+        "slug": "fulton-market",
+        "title": "MillerKnoll, Fulton Market",
+        "location": "Chicago, IL",
+        "type": "Adaptive reuse showroom",
+        "image": "/assets/img/portfolio/fulton-market.jpg",
+        "image_alt": "MillerKnoll showroom interior with exposed white ductwork, a concrete column, a blue kitchen island and lounge seating"
+      },
+      {
+        "slug": "lincoln-center",
+        "title": "Lincoln Center",
+        "location": "New York, NY",
+        "type": "Cultural",
+        "image": "/assets/img/portfolio/lincoln-center.jpg",
+        "image_alt": "Lincoln Center plaza and fountain in front of the Metropolitan Opera House"
+      }
+    ],
+    "next": {
+      "slug": "nationwide-experience-drives-solutions-during-pep-boys-multi-site-expansion",
+      "title": "Pep Boys expansion"
+    }
+  },
+  {
+    "slug": "nationwide-experience-drives-solutions-during-pep-boys-multi-site-expansion",
+    "title": "Pep Boys expansion",
+    "location": "Lubbock, TX and nationwide",
+    "type": "Retail rollout",
+    "sectors": [
+      "retail"
+    ],
+    "use": "Multi-site rollout",
+    "size": "100k+ sq ft",
+    "image": "/assets/img/portfolio/nationwide-experience-drives-solutions-during-pep-boys-multi-site-expansion.jpg",
+    "image_alt": "A person in a blue shirt signing a document",
+    "featured": false,
+    "headline": "Nationwide experience, local zoning wins",
+    "summary": "Licenses and Certificates of Occupancy for 100+ rebranded locations, and a successful zone change in Lubbock, Texas.",
+    "services": [
+      {
+        "name": "Multi-site licensing"
+      },
+      {
+        "name": "Certificates of Occupancy"
+      },
+      {
+        "name": "Zoning changes"
+      },
+      {
+        "name": "Due diligence reports"
+      }
+    ],
+    "glance": [
+      {
+        "label": "Locations",
+        "value": "100+"
+      },
+      {
+        "label": "Engaged",
+        "value": "2017"
+      },
+      {
+        "label": "Zoning",
+        "value": "C-4 Specific Use to C-4 Limited Use"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "A zoning challenge in Lubbock",
+        "body_html": "<p>One Lubbock, Texas location was zoned C-4 Specific Use, allowing only an automotive brake shop. Pep Boys needed retail and automotive service. The Planning and Zoning Commission agreed, but the City Council was concerned a future owner could sell cars on the lot. Burnham’s local team represented Pep Boys in person, showed that the property was not suited to lot sales, and obtained approval to rezone to C-4 Limited Use.</p>"
+      },
+      {
+        "heading": "One point of contact, every jurisdiction",
+        "body_html": "<p>Burnham provided a due diligence report with business license and operational requirements for every new location and adjusted its approach to each project. Ongoing contact with local building and licensing departments helped Pep Boys resolve unexpected licensing issues and fee disputes. Burnham now serves as permit expediter for current and future Pep Boys rollouts.</p>"
+      }
+    ],
+    "intro_html": "<p>After acquiring Just Brakes, Pep Boys began remodeling former Just Brakes locations across the country. Burnham was first engaged to obtain operational licenses and Certificates of Occupancy for more than 100 locations being rebranded.</p>",
+    "quote": null,
+    "sector_keys": "retail",
+    "sector_labels": "Retail",
+    "related": [
+      {
+        "slug": "fulton-market",
+        "title": "MillerKnoll, Fulton Market",
+        "location": "Chicago, IL",
+        "type": "Adaptive reuse showroom",
+        "image": "/assets/img/portfolio/fulton-market.jpg",
+        "image_alt": "MillerKnoll showroom interior with exposed white ductwork, a concrete column, a blue kitchen island and lounge seating"
+      },
+      {
+        "slug": "amc-metreon",
+        "title": "AMC Metreon",
+        "location": "San Francisco, CA",
+        "type": "Entertainment",
+        "image": "/assets/img/portfolio/amc-metreon.jpg",
+        "image_alt": "The Metreon entertainment center in downtown San Francisco"
+      },
+      {
+        "slug": "convergence-la",
+        "title": "ConvergenceLA at Metropolis",
+        "location": "Los Angeles, CA",
+        "type": "Mixed-use",
+        "image": "/assets/img/portfolio/convergence-la.jpg",
+        "image_alt": "The ConvergenceLA LED display on the facade of a Metropolis residential tower at its unveiling"
+      }
+    ],
+    "next": {
+      "slug": "pro-bono",
+      "title": "Pro bono: a Palos Park home"
+    }
+  },
+  {
+    "slug": "pro-bono",
+    "title": "Pro bono: a Palos Park home",
+    "location": "Palos Park, IL",
+    "type": "Residential accessibility",
+    "sectors": [
+      "residential"
+    ],
+    "use": "Renovation",
+    "size": "1–10k sq ft",
+    "image": "/assets/img/portfolio/pro-bono.jpg",
+    "image_alt": "The Cook County Building in downtown Chicago",
+    "featured": false,
+    "headline": "Helping a resident return home",
+    "summary": "Pro bono help for an elderly, legally blind homeowner whose accessibility remodel had been stopped by Cook County permitting problems.",
+    "services": [
+      {
+        "name": "Pro bono permit assistance"
+      },
+      {
+        "name": "Cook County permitting"
+      },
+      {
+        "name": "Contractor registration"
+      }
+    ],
+    "glance": [
+      {
+        "label": "Jurisdiction",
+        "value": "Unincorporated Cook County"
+      },
+      {
+        "label": "Permit",
+        "value": "Interior remodel, single-family"
+      },
+      {
+        "label": "Fee",
+        "value": "Pro bono"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Why it was confusing",
+        "body_html": "<p>Illinois home rule lets municipalities set their own building codes, but unincorporated areas follow Cook County’s requirements, which differ from most nearby towns. The County’s building and zoning department is in downtown Chicago, about 25 miles away, which she could not visit.</p>"
+      },
+      {
+        "heading": "Fixing the paperwork",
+        "body_html": "<p>Her interior remodel permit had stalled with missing documents, incomplete forms and outstanding Fire Department and Environmental Control approvals. Burnham located her permit in the County system, identified the deficiencies and showed her how to reorganize and resubmit.</p>"
+      },
+      {
+        "heading": "Registering as a contractor",
+        "body_html": "<p>Contractors in unincorporated Cook County must register annually, in person. She chose to act as her own general contractor, and with Burnham’s advice arranged to register off-site. Burnham also helped her prepare the required Letter of Intent. With the right County officials engaged, she completed her remodel and returned home.</p>"
+      }
+    ],
+    "intro_html": "<p>An elderly, legally blind woman in unincorporated Palos Park was remodeling her home so she could move between bedroom and bathroom in her wheelchair. Cook County stopped the work when it found the permits were incomplete, and she had to live elsewhere for more than a year. Burnham volunteered to help.</p>",
+    "quote": null,
+    "sector_keys": "residential",
+    "sector_labels": "Residential",
+    "related": [
+      {
+        "slug": "vista",
+        "title": "Vista Tower",
+        "location": "Chicago, IL",
+        "type": "Supertall mixed-use",
+        "image": "/assets/img/portfolio/vista.jpg",
+        "image_alt": "Vista Tower under construction with a crane at its top, between glass towers in Lakeshore East"
+      },
+      {
+        "slug": "convergence-la",
+        "title": "ConvergenceLA at Metropolis",
+        "location": "Los Angeles, CA",
+        "type": "Mixed-use",
+        "image": "/assets/img/portfolio/convergence-la.jpg",
+        "image_alt": "The ConvergenceLA LED display on the facade of a Metropolis residential tower at its unveiling"
+      },
+      {
+        "slug": "obama-library",
+        "title": "Obama Presidential Center",
+        "location": "Chicago, IL",
+        "type": "Cultural campus",
+        "image": "/assets/img/portfolio/obama-library.jpg",
+        "image_alt": "The Obama Presidential Center museum tower, clad in pale stone with a lettered screen at its crown, above a plaza with visitors"
+      }
+    ],
+    "next": {
+      "slug": "obama-library",
+      "title": "Obama Presidential Center"
+    }
+  }
+]

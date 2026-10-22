@@ -1,0 +1,29 @@
+---
+title: "New Discovery Customer Care Provides Needed Services with New Design"
+dateExact: false
+order: 58
+author: "Valeria Macias"
+topics:
+  - name: "Permit Expediting"
+    slug: "permit-expediting"
+description: "Discover Financial Services announced the opening of a new call center in Chicago’s Chatham neighborhood. Burnham is proud to have assisted with the permitting process."
+---
+In March, Discover Financial Services announced the opening of a new call center in Chicago’s Chatham neighborhood. The goal of the development is to break traditional corporate site selection and bring economic opportunities to different neighborhoods as part of a larger Chicago initiative led by Mayor Lori Lightfoot, [INVEST South/West](https://www.chicago.gov/city/en/sites/invest_sw/home.html). The development is led by developer DL3 Realty, designed by the Gensler team with Burnham assisting with the permitting process. 
+
+Discover’s Director of Community Affairs, Matthew Towson, [noted](https://rejournals.com/why-discover-chose-chatham-for-its-big-customer-service-center-project/) the importance of the location as it will “help contribute to this city’s vitality through jobs that provide economic opportunity for all residents and by supporting community partners.”
+
+## New Discovery Customer Care Location Provides Needed Services with New Design
+
+Located at 86th Street and Cottage Grove, the 100,000 square foot site was formerly a Target with three permits related to the conversion of the “Big Box” retail to a Business Use building, with some small assembly spaces. We chatted with the Burnham Nationwide project manager, Jessica Sulka, who shared insight on the process. 
+
+Our experience with [building use changes](/final-review-blog/the-three-different-types-of-chicago-plan-reviews/) and renovations in the City of Chicago allowed us to assist the design and construction teams with quicker permits and more accurate submittals. The First permit, which was issued in Mid-March, was submit utilizing the Self-Certification permit review process and covers interior and minor exterior alterations to a small portion of the floor in the northeast corner of the building. Submitting under a Self-Cert process requires more documents, however the review process is much quicker. With our expertise; we were able to submit the permit on March 16 and have the permit issued the following business day. 
+
+The remaining work was divided into two additional permits that touch on the core and shell as well as the remainder of the interior space. Due to the scope of the remaining work, one permit went through the Standard Plan application process while the other under a self-certified process. Having Burnham on board allows the project to continue in a timely manner; as our team is knowledgeable regarding the permit applications to submit under and submitting the correct documentation throughout the process. When the proper documentation is not submitted, a project can be delayed; which can cost the development hundreds of thousands. 
+
+Projects of this scope require approvals from multiple city departments including the Department of Planning and Zoning, the Chicago City Council, and the Bureau of Fire Prevention. With the different permit submittals, we are utilizing phased permitting throughout the life of the project, allowing the project team to pull different permits.
+
+Empty retail spaces plague many communities, and the conversion of this “Big Box” retail into a needed job resource can promote repurposings in surrounding areas by providing cost-effective yet impactful renovations. The renovations target blighted or vacant buildings provide a tangible sign of reinvestment in areas. The development at 86th Street and Cottage Grove is not yet complete, but we look forward to seeing the additional growth planned at the site.
+
+Questions regarding the Chicago permitting process? Reach out to our team. 
+
+Is the Discover Chatham call center still open today? Yes - and it's expanding, not closing. Following Capital One's 2025 acquisition of Discover, Capital One has committed to keep the Chatham facility operating and grow it to 1,000 employees, continuing the original jobs commitment from the project's inception. What is Chicago's Self-Certification permit process, and why is it faster? Self-Cert shifts more responsibility onto the design/permitting team — architects and engineers attest that the project meets code rather than waiting for the city to do that review upfront. It requires more complete documentation at submittal, but in exchange, permits can be issued in as little as one business day instead of going through the standard multi-week review queue. Can a single project use both Self-Certification and Standard Plan Review at the same time? Yes - larger projects are often split into multiple permits by scope (e.g., core and shell vs. interior buildout), and each portion can go through whichever process best fits its complexity, as illustrated by this project's multiple, separately-phased permits. What's involved in converting a vacant "big box" retail building into a different use? Beyond standard renovation permitting, big-box conversions to a different occupancy classification (like Business Use, as in this project) typically require sign-off from multiple city departments - Planning and Zoning, City Council, and the Bureau of Fire Prevention — since you're changing how the building is legally classified and used, not just remodeling it. What is Chicago's INVEST South/West initiative? It's a city economic development program targeting long-disinvested South and West Side commercial corridors with public and private investment - this project was one of its earlier flagship examples, predating the program's continuation under the current mayoral administration.

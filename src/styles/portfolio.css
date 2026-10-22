@@ -1,0 +1,26 @@
+/* portfolio pages — extends burnham.css */
+
+/* Index */
+.portfolio-filter { display: flex; flex-direction: column; gap: 12px; }
+.portfolio-filter[hidden] { display: none; }
+.portfolio-filter button.tag { font: inherit; font-size: 14px; font-weight: 600; min-height: 44px; cursor: pointer; }
+.portfolio-filter button.tag[aria-pressed="true"] { background: var(--gray-900); border-color: var(--gray-900); color: var(--white); }
+.portfolio-grid { margin: 0; padding: 0; list-style: none; }
+.portfolio-grid > li { display: flex; }
+.portfolio-grid > li[hidden] { display: none; }
+.portfolio-grid .photo-card { flex: 1; }
+
+/* Case study */
+.case-title { font-size: clamp(36px, 4.4vw, 58px); }
+.case-headline { color: var(--burnham-navy-700); }
+.case-fact { margin-top: 6px; font-family: var(--font-display); font-weight: 800; font-size: 20px; line-height: 1.3; color: var(--gray-900); }
+.case-layout { display: grid; gap: 56px; grid-template-columns: minmax(0, 2fr) minmax(280px, 1fr); align-items: start; }
+.case-body > :first-child { margin-top: 0; }
+.case-aside { position: sticky; top: 108px; }
+.case-dl { margin: 0; display: flex; flex-direction: column; gap: 14px; }
+.case-dl dd { margin: 4px 0 0; font-size: 15px; line-height: 1.5; color: var(--gray-900); }
+
+@media (max-width: 900px) {
+  .case-layout { grid-template-columns: minmax(0, 1fr); gap: 40px; }
+  .case-aside { position: static; }
+}

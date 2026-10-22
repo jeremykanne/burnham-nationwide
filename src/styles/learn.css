@@ -1,0 +1,31 @@
+/* learn pages — extends burnham.css
+   Continuing education, nationwide permitting, code consulting process,
+   office (contact/<city>) pages and legal pages. */
+
+/* Private training checklist on dark ground */
+.learn-points { margin: 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 8px 24px; font-weight: 700; color: var(--white); }
+.learn-points li { display: flex; align-items: center; gap: 10px; }
+.learn-points li::before { content: ""; width: 10px; height: 10px; background: var(--accent); flex: none; }
+
+/* Office pages */
+.office-intro { display: flex; flex-direction: column; gap: 14px; font-size: 17px; line-height: 1.7; color: var(--text-body); max-width: 640px; }
+.office-media { height: clamp(220px, 26vw, 320px); }
+.office-card { gap: 12px; }
+.office-card__address { font-style: normal; font-size: 16px; line-height: 1.6; color: var(--gray-900); }
+.office-card__links { display: flex; flex-direction: column; gap: 4px; font-size: 15px; }
+.office-card__links a { color: var(--gray-900); text-decoration: none; font-weight: 700; word-break: break-word; }
+.office-card__links a:hover { text-decoration: underline; text-decoration-color: var(--accent); }
+
+.office-guides { border-top: 1px solid var(--border-default); }
+.office-guide { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: 16px 56px; padding: 40px 0; border-bottom: 1px solid var(--border-default); scroll-margin-top: 96px; }
+.office-guide > .h-card { grid-column: span 1; }
+@media (min-width: 900px) {
+  .office-guide { grid-template-columns: minmax(0, 1fr) minmax(0, 2fr); }
+}
+.office-guide__body { font-size: 16px; }
+.office-guide__body h4 { font-family: var(--font-body); font-size: 12px; font-weight: 700; letter-spacing: var(--tracking-label); text-transform: uppercase; color: var(--burnham-navy-700); margin-top: 1.6em; }
+.office-guide__body .list { padding-left: 18px; }
+.office-guide__body .list li + li { margin-top: 0; }
+
+/* Anchored sections clear the sticky header */
+#research, #project-management, #burnham-touch, #plan-reviews, #building-zoning, #accessibility, #due-diligence, #webinars, #on-demand, #private-training, #instructors { scroll-margin-top: 96px; }

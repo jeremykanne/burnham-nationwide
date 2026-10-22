@@ -29,6 +29,10 @@ The Burnham Nationwide website, built with [Astro](https://astro.build). Styling
 - **New portfolio project or office:** add an entry to the JSON file in `src/data/`.
 - **Moved page:** add the old → new path to `redirects` in `astro.config.mjs`.
 
+## Deployment
+
+Hosted on Netlify (project `burnham-nationwide`, https://burnham-nationwide.netlify.app). Every push to `main` triggers a build with the settings in `netlify.toml`; pull requests get deploy previews. The repo is connected through a read-only deploy key and a GitHub webhook, so no Netlify GitHub app install is required.
+
 ## Not wired up yet
 
 The contact, careers and newsletter forms post nowhere; connect them to a form service before launch.

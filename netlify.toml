@@ -4,3 +4,10 @@
 
 [build.environment]
   NODE_VERSION = "24"
+
+# Review build: keep every URL out of search engines.
+# Remove this block when the site launches on burnhamnationwide.com.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"

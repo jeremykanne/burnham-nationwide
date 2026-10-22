@@ -31,7 +31,7 @@ The Burnham Nationwide website, built with [Astro](https://astro.build). Styling
 
 ## Deployment
 
-Hosted on Netlify (project `burnham-nationwide`, https://burnham-nationwide.netlify.app). Every push to `main` triggers a build with the settings in `netlify.toml`; pull requests get deploy previews. The repo is connected through a read-only deploy key and a GitHub webhook, so no Netlify GitHub app install is required.
+Hosted on Netlify (project `burnham-nationwide`, https://burnham-nationwide.netlify.app). The site is currently a review build: `netlify.toml` sends `X-Robots-Tag: noindex, nofollow` on every URL, so remove that block before launch or the live site will stay out of search results. Every push to `main` triggers a build with the settings in `netlify.toml`; pull requests get deploy previews. The repo is connected through a read-only deploy key and a GitHub webhook, so no Netlify GitHub app install is required.
 
 ## Not wired up yet
 

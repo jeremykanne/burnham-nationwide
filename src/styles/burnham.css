@@ -134,6 +134,7 @@ a.card { text-decoration: none; color: inherit; transition: border-color var(--f
 a.card:hover { border-color: var(--gray-400); border-top-color: var(--accent); }
 
 .list { margin: 0; padding-left: 18px; font-size: 15px; line-height: 1.9; color: var(--text-body); }
+.section--dark .list, .section--deep .list { color: var(--gray-200); }
 .list--cols { columns: 2 220px; column-gap: 32px; }
 
 /* Photo card (portfolio) */

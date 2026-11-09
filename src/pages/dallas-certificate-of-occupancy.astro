@@ -1,0 +1,129 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import offices from '../data/offices.json';
+
+const dallas = offices.find((o) => o.slug === 'dallas')!;
+const cta = 'Talk to our Dallas certificate of occupancy team';
+const ctaHref = '/contact/dallas/';
+---
+<BaseLayout title="Dallas Certificate of Occupancy Help" description="Burnham Nationwide’s Dallas team helps brokers, owners and asset managers get a City of Dallas certificate of occupancy faster by clearing portal intake the first time." nav="what-we-do">
+  <div class="page-band">
+    <div class="wrap">
+      <ol class="crumbs"><li><a href="/">Home</a></li><li><a href="/contact/dallas/">Dallas</a></li><li>Certificate of occupancy</li></ol>
+    </div>
+  </div>
+
+  <section class="page-hero">
+    <div class="wrap grid grid--2 grid--center">
+      <div class="stack">
+        <h1 class="h-display">Certificate of Occupancy Help for <span class="hl-block">Dallas Projects</span></h1>
+        <p class="lede">Get your certificate of occupancy faster with a team that lives in the Dallas portal and knows how to clear intake the first time.</p>
+        <p class="body">When a tenant is ready to open, a missing certificate of occupancy can stall the entire deal. Burnham Nationwide’s Dallas team helps brokers, owners, and asset managers move through the City of Dallas certificate of occupancy process without losing weeks to a confusing portal or rejected applications.</p>
+        <div class="row">
+          <a class="btn btn--primary" href={ctaHref}>{cta}</a>
+          <a class="btn btn--outline" href={`tel:${dallas.phone_digits}`}>Call {dallas.phone}</a>
+        </div>
+      </div>
+      <div class="media media--tall"><img src={dallas.image} alt={dallas.image_alt}></div>
+    </div>
+  </section>
+
+  <section class="section section--muted">
+    <div class="wrap grid grid--2">
+      <div class="stack stack--sm">
+        <div class="eyebrow">The problem</div>
+        <h2 class="h-section">Why Dallas Certificates of Occupancy Get Stuck</h2>
+        <p class="lede">Most callers thought a simple name change or new tenant would be quick—until they:</p>
+      </div>
+      <div class="stack">
+        <ul class="list">
+          <li>Hit a non‑intuitive Dallas portal</li>
+          <li>Waited 10–11 business days for review</li>
+          <li>Got rejected for missing or mis-labeled information</li>
+          <li>Lost weeks while tenants waited to start operations</li>
+        </ul>
+        <div class="callout">
+          <div class="callout__title">The biggest risk is intake</div>
+          <div class="callout__body">The biggest risk isn’t always inspections. It’s intake—where inconsistent reviewers bounce applications that could have been approved with the right details up front.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap stack stack--lg">
+      <div class="stack stack--sm section-head">
+        <div class="eyebrow">How we help</div>
+        <h2 class="h-section">We Package Your Certificate of Occupancy to Clear Intake Faster</h2>
+        <p class="lede">Burnham Nationwide handles certificates of occupancy every day as part of our permit and close‑out work. For Dallas projects, we:</p>
+      </div>
+      <div class="grid grid--2">
+        <article class="card">
+          <h3 class="h-card">Prepare what Dallas wants to see</h3>
+          <p class="body">We complete and organize the core forms and information so intake reviewers can approve instead of reject.</p>
+        </article>
+        <article class="card">
+          <h3 class="h-card">Work inside the portal for you</h3>
+          <p class="body">Our team knows where applications get stuck and how reviewers interpret the rules.</p>
+        </article>
+        <article class="card">
+          <h3 class="h-card">Protect your schedule</h3>
+          <p class="body">We focus on preventing that first two‑week delay so your tenant can open as planned.</p>
+        </article>
+        <article class="card">
+          <h3 class="h-card">Step into in‑progress applications</h3>
+          <p class="body">If you already started in the portal, we can often use your existing project and move it forward.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--muted">
+    <div class="wrap grid grid--2">
+      <div class="stack stack--sm">
+        <div class="eyebrow">Who it’s for</div>
+        <h2 class="h-section">For Brokers, Owners, and Asset Managers on a Deadline</h2>
+        <p class="lede">This service is a fit if:</p>
+      </div>
+      <div class="stack">
+        <ul class="list">
+          <li>You’re a commercial or industrial broker with a tenant that must open on a specific date</li>
+          <li>You’re a building owner or asset manager under pressure from lenders, buyers, or tenants</li>
+          <li>You’ve logged into the Dallas portal and realized it will take more time than you have</li>
+          <li>You’ve already submitted and are now waiting on comments—or worried about a rejection</li>
+        </ul>
+        <div class="callout">
+          <div class="callout__body">Even “simple” cases like a name change can drag on for a month if the application isn’t right the first time.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--dark">
+    <div class="wrap grid grid--2 grid--center">
+      <div class="stack stack--sm">
+        <div class="eyebrow">Why Burnham</div>
+        <h2 class="h-section">National Experience, Local Focus</h2>
+        <p class="lede">Burnham Nationwide has pushed complex projects to permit and certificate of occupancy for decades in Chicago, New York, Los Angeles, Denver—and now Dallas.</p>
+      </div>
+      <div class="stack">
+        <p class="body">You get:</p>
+        <ul class="list">
+          <li>A specialized approvals team, not a one‑off favor</li>
+          <li>A repeatable process tuned to Dallas certificates of occupancy</li>
+          <li>A long‑term partner for future permits, build‑outs, and tenant improvements</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap cta-block">
+      <div class="stack stack--sm">
+        <h2>Stuck in the Dallas Certificate of Occupancy Process?</h2>
+        <p>Whether you’re just opening an account or already waiting on comments, we can help you understand where you stand and what’s realistic for your timeline.</p>
+      </div>
+      <a class="btn btn--primary" href={ctaHref}>{cta}</a>
+    </div>
+  </section>
+</BaseLayout>

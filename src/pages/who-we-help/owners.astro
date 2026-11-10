@@ -1,0 +1,170 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const cta = 'Talk through your approvals risk';
+const ctaHref = '/contact/';
+
+const steps = [
+  { title: 'Assess approvals risk early', body: 'We review project scope, existing conditions, and jurisdictional nuances to flag where permits, access, and code could affect schedules or operations.' },
+  { title: 'Coordinate permits across scopes and phases', body: 'From interior demolition and structural additions to exterior work and temporary access, we organize permit sequencing so construction and operations can coexist.' },
+  { title: 'Engage reviewers and agencies proactively', body: 'We help your design and construction teams bring questions to the right reviewers early, reducing surprises late in the process.' },
+  { title: 'Support practical, compliant solutions', body: 'When site conditions or program changes create conflicts, we help teams work with officials to find compliant approaches that keep projects moving.' },
+];
+
+const outcomes = [
+  { title: 'Hit critical opening and turnover dates', body: 'Approvals are sequenced and managed with your revenue and occupancy milestones in mind.' },
+  { title: 'Maintain access and operations during work', body: 'Temporary access, phased approvals, and clear coordination help keep buildings usable while upgrades proceed.' },
+  { title: 'Avoid last-minute, high-cost changes', body: 'Early engagement on accessibility, life-safety, and health requirements reduces the risk of late redesigns or delays.' },
+  { title: 'Protect long-term asset value', body: 'Compliance decisions are documented and aligned with future flexibility, not just short-term fixes.' },
+];
+
+const projects = [
+  {
+    title: 'Canal Station',
+    meta: 'Chicago, IL | Office repositioning',
+    role: 'Permit strategy and city coordination',
+    body: 'Converting a single-tenant office building into a multi-tenant workplace required approvals for interior demolition, access, and exterior work. Burnham assessed site-specific requirements and coordinated permits and city communication to support the renovation and new tenant amenities.',
+    impact: 'A coordinated approvals path supported the repositioning plan and tenant improvements without unnecessary rounds of rework or delay.',
+    href: '/portfolio/canal-station/',
+  },
+  {
+    title: 'Willis Tower Redevelopment',
+    meta: 'Chicago, IL | Occupied high-rise renovation',
+    role: 'Phased approvals and temporary-access permitting',
+    body: 'Major improvements had to accommodate continued building access. Burnham coordinated demolition and structural-addition permitting and obtained approval for a temporary West Adams Street entrance, allowing access during work that closed the Jackson Street entrance.',
+    impact: 'Construction advanced while the tower stayed open and accessible, protecting tenant operations and the building’s public presence.',
+    href: '/portfolio/willis-tower/',
+  },
+  {
+    title: 'AMC Metreon Theater',
+    meta: 'San Francisco, CA | Entertainment-property renovation',
+    role: 'Accessibility and public-health review coordination',
+    body: 'Updated seating, concessions, and a new bar introduced interconnected accessibility and health requirements. Burnham worked with reviewers and the design team to address accessible seating, clarify exit routes, and respond to health-department comments, helping develop cost-effective compliance solutions.',
+    impact: 'The renovated venue met accessibility and health expectations without unnecessary redesigns, supporting guest experience and revenue plans.',
+    href: '/portfolio/amc-metreon/',
+  },
+  {
+    title: 'Portillo’s South Loop',
+    meta: 'Chicago, IL | New restaurant development',
+    role: 'Early code review and occupancy-related issue resolution',
+    body: 'An early code review held city comments to about 15, versus a typical 40–50 for a new building. Then an unexpected site condition made the approved sidewalk landscaping unbuildable, putting occupancy approval and the opening date at risk. Burnham coordinated an accepted landscape revision within the existing permit rather than restarting approval, helping the project meet its grand-opening date.',
+    impact: 'A potential opening delay was avoided, preserving planned launch timing and associated revenue.',
+    href: '/portfolio/portillos-meet-critical-deadlines/',
+  },
+];
+---
+<BaseLayout title="Permit & Code Partner for Building Owners, Asset Managers & Developers" description="Burnham helps building owners, asset managers and developers navigate permits and code on complex projects, so they can keep access open, hit opening dates and protect long-term asset value." nav="who-we-help">
+  <div class="page-band">
+    <div class="wrap">
+      <ol class="crumbs"><li><a href="/">Home</a></li><li><a href="/who-we-help/">Who we help</a></li><li>Owners</li></ol>
+    </div>
+  </div>
+
+  <section class="page-hero">
+    <div class="wrap grid grid--2 grid--center">
+      <div class="stack">
+        <div class="eyebrow">For building owners, asset managers &amp; developers</div>
+        <h1 class="h-display">Protect openings, tenants, and asset value by <span class="hl-block">de-risking permits and code.</span></h1>
+        <p class="lede">Burnham helps building owners, asset managers, and developers navigate permits and code on complex projects—so you can keep access open, hit opening dates, and protect long-term value without living in the portals.</p>
+        <div class="row">
+          <a class="btn btn--primary" href={ctaHref}>{cta}</a>
+        </div>
+      </div>
+      <div class="media media--tall"><img src="/assets/img/services/owners.jpg" alt="An owner in a suit walking a manufacturing floor with a worker in a safety vest" width="1500" height="1001"></div>
+    </div>
+  </section>
+
+  <section class="section section--muted">
+    <div class="wrap grid grid--2">
+      <div class="stack stack--sm">
+        <div class="eyebrow">The reality</div>
+        <h2 class="h-section">When approvals become an asset risk</h2>
+        <p class="lede">For owners and asset managers, permits and code are not just paperwork—they directly affect:</p>
+        <ul class="list">
+          <li>Whether you can keep entrances and public access open during major work</li>
+          <li>Whether repositioning and amenity upgrades stay on schedule</li>
+          <li>Whether unexpected code or accessibility issues delay openings or disrupt tenants</li>
+        </ul>
+      </div>
+      <div class="stack">
+        <p class="body"><strong>When approvals slip or issues surface late:</strong></p>
+        <ul class="list">
+          <li>Turnover and opening dates move, impacting revenue</li>
+          <li>Tenants and guests experience disruptions that damage relationships</li>
+          <li>Project teams scramble to resolve issues with limited options and higher costs</li>
+        </ul>
+        <div class="callout">
+          <div class="callout__body">You need a partner whose full-time job is to anticipate and manage those approval risks—so you can focus on the performance and value of the asset.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap grid grid--2">
+      <div class="stack stack--sm">
+        <div class="eyebrow">Our role</div>
+        <h2 class="h-section">How Burnham supports owners and asset managers</h2>
+        <p class="lede">Burnham works alongside your development, asset management, and project teams to:</p>
+        <div class="callout">
+          <div class="callout__body">We do this while respecting your relationships with architects, engineers, contractors, and property teams—our role is to make the approvals side more predictable for everyone.</div>
+        </div>
+      </div>
+      <ol class="steps">
+        {steps.map((s, i) => (
+          <li class="step"><span class="step__num" aria-hidden="true">{i + 1}</span><div><h3>{s.title}</h3><p>{s.body}</p></div></li>
+        ))}
+      </ol>
+    </div>
+  </section>
+
+  <section class="section section--muted">
+    <div class="wrap stack stack--lg">
+      <div class="stack stack--sm section-head">
+        <div class="eyebrow">Outcomes</div>
+        <h2 class="h-section">Outcomes owners care about</h2>
+        <p class="lede">When Burnham manages the permit and code path on your projects, you’re better able to:</p>
+      </div>
+      <div class="grid grid--4">
+        {outcomes.map((o) => (
+          <article class="card">
+            <h3 class="h-card">{o.title}</h3>
+            <p class="body">{o.body}</p>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap stack stack--lg">
+      <div class="stack stack--sm section-head">
+        <div class="eyebrow">Projects</div>
+        <h2 class="h-section">Proof in practice</h2>
+        <p class="lede">Complex projects require clear coordination between project teams and reviewing officials. These examples show how Burnham helps owners and asset managers address agency requirements while protecting access, openings, and asset value.</p>
+      </div>
+      <div class="grid grid--2" style="--gap: 24px;">
+        {projects.map((p) => (
+          <article class="card">
+            <span class="label">{p.meta}</span>
+            <h3 class="h-card">{p.title}</h3>
+            <p class="small"><strong>Burnham role:</strong> {p.role}</p>
+            <p class="body">{p.body}</p>
+            <p class="body"><strong>Owner impact:</strong> {p.impact}</p>
+            <div class="card__foot"><a class="link" href={p.href}>Read the project story</a></div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--flush-top">
+    <div class="wrap cta-block">
+      <div class="stack stack--sm">
+        <h2>Talk through approvals and code risk on your next project.</h2>
+        <p>Share your asset, project scope, and key dates; we’ll help map where permits and code intersect your goals—and how Burnham can help you de-risk the path.</p>
+      </div>
+      <a class="btn btn--primary" href={ctaHref}>{cta}</a>
+    </div>
+  </section>
+</BaseLayout>

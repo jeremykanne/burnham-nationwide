@@ -1,0 +1,156 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const cta = 'Review your next project’s approvals path';
+const ctaHref = '/contact/';
+
+const steps = [
+  { title: 'Front-end approvals strategy for your scope', body: 'We review jurisdictions, code triggers, and documentation requirements so your designs move into submittals with eyes open.' },
+  { title: 'Centralized permit and code management', body: 'One team coordinates submissions, comments, and clarifications for your mechanical, electrical, plumbing, fire/life-safety, civil, or specialty systems across markets.' },
+  { title: 'Early issue flagging with practical options', body: 'Our Code Group collaborates with your engineers to surface issues early, so you’re choosing between informed options—instead of reacting to red-tagged surprises.' },
+  { title: 'Documentation and archives that support your portfolio', body: 'You get traceable records for installations and approvals, not just one-off permit numbers—supporting QA, programs, and future scopes.' },
+];
+
+const outcomes = [
+  { title: 'Schedules that reflect reality—not wishful thinking.' },
+  { title: 'Stronger protection against approvals surprises that can derail commissioning and turnover.' },
+  { title: 'Senior engineers and PMs focused on engineering, not clerical tasks.', body: 'We take on the repetitive, process-heavy work so your experts spend more time on design, coordination, and client decisions.' },
+  { title: 'A single approvals partner who understands your systems.', body: 'We contract with and report to your firm while coordinating with owners, architects, GCs, and AHJs.' },
+  { title: 'Better data across programs and portfolios.', body: 'Tools like BurnhamEYE™ support standardized, geo-tagged, time-stamped documentation of installations and verifications, ready for reporting and audits.', href: '/our-technology/burnham-eye/' },
+];
+
+const projects = [
+  {
+    title: 'United Center Addition',
+    meta: 'Chicago, IL | Arena expansion and infrastructure',
+    role: 'Fire-safety coordination and permit management',
+    body: 'Atrium sprinklers, a connecting bridge, and deep foundations required specialized reviews. Burnham brought architects and engineers together with the Fire Department’s Chief Engineer to address fire-safety concerns, then coordinated geotechnical and underground utility approvals, resolving a utility reviewer’s comment with the design team.',
+    impact: 'Early, direct engagement with fire and utility reviewers reduced uncertainty around specialized systems and supported smoother, coordinated approvals.',
+    href: '/portfolio/united-center/',
+  },
+  {
+    title: 'River Point',
+    meta: 'Chicago, IL | Commercial tower and rail overbuild',
+    role: 'Early agency coordination and approval management',
+    body: 'Building above active rail lines required early answers on structural protection, emergency access, and fire protection. Burnham coordinated preliminary reviews with CTA and Metra before formal submission, then facilitated a Fire Department walkthrough with the design engineers to demonstrate tunnel access and fire protection, supporting timely sign-off.',
+    impact: 'Proactive, multi-agency coordination gave design teams clarity on constraints and acceptance criteria before committing to final systems, helping protect schedule milestones.',
+    href: '/portfolio/chicagos-newest-riverfront-development-riverpoint/',
+  },
+  {
+    title: 'Mansueto High School',
+    meta: 'Chicago, IL | New institutional construction',
+    role: 'Phased permitting and multidisciplinary review coordination',
+    body: 'Foundation work did not have to wait for the full building review. Burnham separated structural foundation work into an initial permit, allowing construction to begin while the build-out remained under review across electrical, mechanical, plumbing, structural, and other disciplines, with required Fire Prevention Bureau approval.',
+    impact: 'Thoughtful phasing of permits aligned with design and construction sequencing, keeping work moving while complex multidisciplinary reviews continued.',
+    href: '/portfolio/mansueto-high-school/',
+  },
+];
+---
+<BaseLayout title="Permit & Code Partner for Engineering & Building-Systems Firms" description="Burnham owns the permit and code path for engineering and building-systems firms, so PMs and senior engineers can solve technical problems instead of getting stuck in portals." nav="who-we-help">
+  <div class="page-band">
+    <div class="wrap">
+      <ol class="crumbs"><li><a href="/">Home</a></li><li><a href="/who-we-help/">Who we help</a></li><li>Engineers</li></ol>
+    </div>
+  </div>
+
+  <section class="page-hero">
+    <div class="wrap grid grid--2 grid--center">
+      <div class="stack">
+        <div class="eyebrow">For engineering &amp; building-systems firms</div>
+        <h1 class="h-display">Protect schedules and systems performance by outsourcing <span class="hl-block">the permit and code path.</span></h1>
+        <p class="lede">For engineering and building-systems firms who lead approvals for their scopes, Burnham owns permits and code so your PMs and senior engineers can solve technical problems instead of getting stuck in portals and politics.</p>
+        <div class="row">
+          <a class="btn btn--primary" href={ctaHref}>{cta}</a>
+        </div>
+      </div>
+      <div class="media media--tall"><img src="/assets/img/services/solar.jpg" alt="An inspector using a tablet beside rows of solar panels, a yellow hard hat resting on a panel" width="1800" height="1202"></div>
+    </div>
+  </section>
+
+  <section class="section section--muted">
+    <div class="wrap grid grid--2">
+      <div class="stack stack--sm">
+        <div class="eyebrow">The reality</div>
+        <h2 class="h-section">When engineering teams become de-facto permit staff</h2>
+        <p class="lede">More and more, engineering and building-systems firms are asked to “just handle” approvals for their scopes—across multiple projects and jurisdictions at once.</p>
+      </div>
+      <div class="stack">
+        <p class="body">That usually means:</p>
+        <ul class="list">
+          <li>PMs cross-checking codes, submittal rules, and portal quirks for dozens of projects.</li>
+          <li>Late discoveries about fire/life-safety or ADA details that force field changes and uncomfortable conversations with owners and GCs.</li>
+          <li>Fragmented local expediters and inconsistent communication, with no portfolio-level visibility across programs.</li>
+        </ul>
+        <div class="callout">
+          <div class="callout__body">You need a partner who understands how your systems interact with codes, agencies, and other disciplines—and who can scale with your volume and complexity without expecting your team to be part-time permit administrators.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap grid grid--2">
+      <div class="stack stack--sm">
+        <div class="eyebrow">Our role</div>
+        <h2 class="h-section">How Burnham supports engineering &amp; systems teams</h2>
+        <p class="lede">We focus on what matters most to you: schedule protection, PM and principal time savings, and reliable handling of complex, multi-agency technical reviews.</p>
+      </div>
+      <ol class="steps">
+        {steps.map((s, i) => (
+          <li class="step"><span class="step__num" aria-hidden="true">{i + 1}</span><div><h3>{s.title}</h3><p>{s.body}</p></div></li>
+        ))}
+      </ol>
+    </div>
+  </section>
+
+  <section class="section section--muted">
+    <div class="wrap stack stack--lg">
+      <div class="stack stack--sm section-head">
+        <div class="eyebrow">Outcomes</div>
+        <h2 class="h-section">Outcomes for engineering partners</h2>
+        <p class="lede">When Burnham owns the permit and code path for your scopes, your teams experience:</p>
+      </div>
+      <div class="grid grid--3">
+        {outcomes.map((o) => (
+          <article class="card">
+            <h3 class="h-card">{o.title}</h3>
+            {o.body && <p class="body">{o.body}</p>}
+            {o.href && <div class="card__foot"><a class="link" href={o.href}>About BurnhamEYE™</a></div>}
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap stack stack--lg">
+      <div class="stack stack--sm section-head">
+        <div class="eyebrow">Projects</div>
+        <h2 class="h-section">Proof in practice</h2>
+        <p class="lede">Engineering schedules depend on more than completed drawings. These projects show how Burnham helps teams address reviewer concerns early, coordinate technical approvals, and keep work moving through phased permitting.</p>
+      </div>
+      <div class="grid grid--3">
+        {projects.map((p) => (
+          <article class="card">
+            <span class="label">{p.meta}</span>
+            <h3 class="h-card">{p.title}</h3>
+            <p class="small"><strong>Burnham role:</strong> {p.role}</p>
+            <p class="body">{p.body}</p>
+            <p class="body"><strong>Engineer impact:</strong> {p.impact}</p>
+            <div class="card__foot"><a class="link" href={p.href}>Read the project story</a></div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--flush-top">
+    <div class="wrap cta-block">
+      <div class="stack stack--sm">
+        <h2>Review the approvals path for your next high-risk or multi-jurisdiction project.</h2>
+        <p>Share your upcoming scope, jurisdictions, and risk concerns; we’ll outline how Burnham can own the permit and code path for your systems.</p>
+      </div>
+      <a class="btn btn--primary" href={ctaHref}>{cta}</a>
+    </div>
+  </section>
+</BaseLayout>

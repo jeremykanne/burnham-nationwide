@@ -1,0 +1,164 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const cta = 'Discuss support for your jurisdiction';
+const ctaHref = '/contact/';
+
+const steps = [
+  { title: 'Manage complex or high-visibility projects', body: 'We support your staff on technically demanding reviews, coordinating with applicants to make sure submissions and responses align with your standards.' },
+  { title: 'Pilot and refine electronic and alternative review processes', body: 'From early electronic plan-review pilots to structured third-party review programs, we help you test, document, and streamline new approaches.' },
+  { title: 'Coordinate multi-agency and infrastructure-adjacent work', body: 'We bring transportation, utilities, fire, and other agencies into the process early, helping ensure their requirements are addressed before they become points of delay.' },
+  { title: 'Prepare clear technical documentation for alternative methods', body: 'Our teams help applicants assemble the narratives, case studies, and supporting documents you need to evaluate and approve alternative code approaches with confidence.' },
+];
+
+const benefits = [
+  { title: 'Additional capacity for complex work', body: 'Support for large or technically challenging projects without lowering standards or overloading staff.' },
+  { title: 'Cleaner, more complete submissions', body: 'Better organized documents and earlier coordination reduce back-and-forth for reviewers and applicants.' },
+  { title: 'Better alignment across departments and agencies', body: 'Early coordination with health, fire, transportation, utilities, and other stakeholders brings issues to light before formal review.' },
+  { title: 'Clearer documentation for decisions', body: 'Structured narratives and supporting materials provide a solid basis for approvals, especially when alternative methods or new technologies are proposed.' },
+];
+
+const projects = [
+  {
+    title: 'Wingate by Wyndham Almaden Ranch',
+    meta: 'San Jose, CA | New hotel construction',
+    role: 'Electronic plan-review pilot participation',
+    body: 'As permit expediter on a project piloting San Jose’s electronic review system, Burnham coordinated the initial submission and helped the design team navigate digital corrections. Burnham also arranged a separate health-department pre-review, allowing initial comments to be addressed before formal submission.',
+    impact: 'Early coordination and structured electronic submissions supported the city’s pilot effort and reduced friction for both reviewers and the applicant.',
+    href: '/portfolio/wingate-by-wyndham/',
+  },
+  {
+    title: 'Vista Tower',
+    meta: 'Chicago, IL | Complex high-rise development',
+    role: 'Direct Developer Services pilot participation',
+    body: 'Burnham participated in Chicago’s Direct Developer Services pilot during Vista Tower permitting. The process used third-party review coordinated through a single point of contact at the Department of Buildings, providing a structured review path for a technically complex development.',
+    impact: 'Third-party review within a formal city program helped maintain standards while creating a clear, managed path for an unusually complex project.',
+    href: '/portfolio/vista/',
+  },
+  {
+    title: 'River Point',
+    meta: 'Chicago, IL | Rail overbuild and public riverside plaza',
+    role: 'Interagency coordination and early technical review',
+    body: 'Construction above active rail lines required careful review of infrastructure protection and emergency access. Burnham coordinated early discussions with CTA and Metra, bringing agency comments into the design before formal submission, and facilitated a Fire Department walkthrough to evaluate access and fire-protection features.',
+    impact: 'Early, coordinated input from multiple agencies led to designs that reflected real-world constraints and supported a smoother formal review.',
+    href: '/portfolio/chicagos-newest-riverfront-development-riverpoint/',
+  },
+  {
+    title: 'United Center Kitchen Renovations',
+    meta: 'Chicago, IL | Commercial kitchen alterations',
+    role: 'Alternative code-approval documentation',
+    body: 'Proposed warming ovens raised questions about commercial exhaust requirements. Burnham prepared the application, technical narrative, and supporting case studies for Chicago’s Committee on Building Standards and Tests, giving officials a documented basis to evaluate and approve the proposed approach.',
+    impact: 'Clear, well-supported documentation enabled thoughtful evaluation of an alternative approach and a defensible approval.',
+    href: '/portfolio/united-center/',
+  },
+];
+---
+<BaseLayout title="Third-Party Plan Review & Approvals Support for Municipalities" description="Burnham partners with municipalities and public agencies to provide scalable third-party plan review and approvals assistance on complex commercial, institutional and multi-site programs." nav="who-we-help">
+  <div class="page-band">
+    <div class="wrap">
+      <ol class="crumbs"><li><a href="/">Home</a></li><li><a href="/who-we-help/">Who we help</a></li><li>Municipalities</li></ol>
+    </div>
+  </div>
+
+  <section class="page-hero">
+    <div class="wrap grid grid--2 grid--center">
+      <div class="stack">
+        <div class="eyebrow">For municipalities &amp; public agencies</div>
+        <h1 class="h-display">Third-party plan review and approvals support for <span class="hl-block">complex projects.</span></h1>
+        <p class="lede">Burnham partners with municipalities and public agencies to provide scalable plan review and approvals assistance on complex commercial, institutional, and multi-site programs—without undermining your authority or standards.</p>
+        <div class="row">
+          <a class="btn btn--primary" href={ctaHref}>{cta}</a>
+        </div>
+      </div>
+      <div class="media media--tall"><img src="/assets/img/services/municipalities.jpg" alt="A domed brick city hall with American flags" width="1500" height="1000"></div>
+    </div>
+  </section>
+
+  <section class="section section--muted">
+    <div class="wrap grid grid--2">
+      <div class="stack stack--sm">
+        <div class="eyebrow">The reality</div>
+        <h2 class="h-section">When complexity and capacity collide</h2>
+        <p class="lede">Cities and public agencies are being asked to do more with the same—or fewer—resources:</p>
+      </div>
+      <div class="stack">
+        <ul class="list">
+          <li>Rising project complexity in high-rise, mixed-use, hospitality, institutional, and infrastructure-adjacent work</li>
+          <li>New technologies, systems, and delivery models that challenge existing processes</li>
+          <li>Expectations for transparency, safety, accessibility, and sustainability from communities and oversight bodies</li>
+        </ul>
+        <div class="callout">
+          <div class="callout__body">When workload spikes or specialized expertise is required, you need outside support that strengthens your process—not a vendor that works around it.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap grid grid--2">
+      <div class="stack stack--sm">
+        <div class="eyebrow">Our role</div>
+        <h2 class="h-section">How Burnham supports jurisdictions</h2>
+        <p class="lede">With decades of experience navigating approvals across thousands of jurisdictions, Burnham brings a disciplined, respectful approach to third-party support.</p>
+        <div class="callout">
+          <div class="callout__body">In every case, your staff remain the authority having jurisdiction. Our role is to help applicants meet your expectations and give your reviewers the information they need.</div>
+        </div>
+      </div>
+      <ol class="steps">
+        {steps.map((s, i) => (
+          <li class="step"><span class="step__num" aria-hidden="true">{i + 1}</span><div><h3>{s.title}</h3><p>{s.body}</p></div></li>
+        ))}
+      </ol>
+    </div>
+  </section>
+
+  <section class="section section--muted">
+    <div class="wrap stack stack--lg">
+      <div class="stack stack--sm section-head">
+        <div class="eyebrow">Benefits</div>
+        <h2 class="h-section">Benefits for cities and agencies</h2>
+        <p class="lede">When you partner with Burnham on select projects or programs, you gain:</p>
+      </div>
+      <div class="grid grid--4">
+        {benefits.map((b) => (
+          <article class="card">
+            <h3 class="h-card">{b.title}</h3>
+            <p class="body">{b.body}</p>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap stack stack--lg">
+      <div class="stack stack--sm section-head">
+        <div class="eyebrow">Projects</div>
+        <h2 class="h-section">Proof in practice</h2>
+        <p class="lede">Complex projects require clear documentation and coordination across reviewing departments. These examples show how Burnham helps project teams address agency requirements and give officials the information needed to evaluate proposed work.</p>
+      </div>
+      <div class="grid grid--2" style="--gap: 24px;">
+        {projects.map((p) => (
+          <article class="card">
+            <span class="label">{p.meta}</span>
+            <h3 class="h-card">{p.title}</h3>
+            <p class="small"><strong>Burnham role:</strong> {p.role}</p>
+            <p class="body">{p.body}</p>
+            <p class="body"><strong>Agency impact:</strong> {p.impact}</p>
+            <div class="card__foot"><a class="link" href={p.href}>Read the project story</a></div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--flush-top">
+    <div class="wrap cta-block">
+      <div class="stack stack--sm">
+        <h2>Discuss third-party plan review or approvals support for your jurisdiction.</h2>
+        <p>Share your project mix, staffing realities, and areas of highest complexity; we’ll outline practical ways Burnham can support your team on select projects or programs—on your terms.</p>
+      </div>
+      <a class="btn btn--primary" href={ctaHref}>{cta}</a>
+    </div>
+  </section>
+</BaseLayout>

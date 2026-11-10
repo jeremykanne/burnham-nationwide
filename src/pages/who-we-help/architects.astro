@@ -1,0 +1,176 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const cta = 'Talk through your permit path';
+const ctaHref = '/contact/';
+
+const steps = [
+  { title: 'Share your upcoming complex project', body: 'We review your scope, jurisdictions, and schedule, and listen to where permits and code have gone wrong for you before.' },
+  { title: 'Get a clear approvals and code strategy', body: 'You receive a realistic view of requirements, likely timelines, key risks, and how we’ll work alongside your team and consultants.' },
+  { title: 'Let us manage permits and code while you lead design', body: 'We handle submittals, comments, clarifications, and status updates—proactively surfacing issues and options.' },
+  { title: 'Deliver with fewer surprises and stronger trust', body: 'You walk into owner and GC meetings with credible answers and fewer last-minute crises.' },
+];
+
+const benefits = [
+  { title: 'Schedule & risk protection', body: 'Fewer surprises, stronger protection against permit and code issues that derail late in the game.' },
+  { title: 'Cognitive load relief for senior staff', body: 'We take on the unglamorous, detail-heavy approvals work so your best people stay focused on design, coordination, and client leadership.' },
+  { title: 'Integrated permit + code expertise', body: 'National permit teams plus an in-house Code Group led by an ICC-certified architect, backed by decades of archives and tools like PermitMapper™ and BurnhamEYE™.' },
+  { title: 'A “just-right” partner for complex work', body: 'Big and experienced enough for multi-jurisdictional towers, campuses, and programs; lean and service-driven enough to remain responsive and personal.' },
+  { title: 'A behind-the-scenes extension of your team', body: 'We help you lead ambitious work with confidence.' },
+];
+
+const projects = [
+  {
+    title: 'Vista Tower',
+    meta: 'Chicago, IL | Mixed-use high-rise',
+    credit: 'Architecture: Studio Gang; architect of record: bKL Architecture',
+    body: 'A tower of this scale—and its surrounding infrastructure—required distinct, concurrent approval paths. Burnham coordinated foundation, superstructure, and build-out permitting, along with transportation and public way approvals for the Upper Wacker Drive extension.',
+    impact: 'Clear separation of approval streams, fewer surprises at each phase, and more time for the design team to focus on performance and coordination instead of chasing agencies.',
+    href: '/portfolio/vista/',
+  },
+  {
+    title: 'Discover Chatham Customer Care Center',
+    meta: 'Chicago, IL | Retail-to-office adaptive reuse',
+    credit: 'Architecture: Gensler',
+    body: 'Converting a former Target into a customer care center required a permitting strategy matched to each scope of work. Burnham organized phased submissions using both self-certification and standard plan review, coordinating documentation and required city approvals.',
+    impact: 'A permit path tailored to the change-of-use complexity, with phased approvals that aligned to design and construction sequencing.',
+    href: '/final-review-blog/new-discovery-customer-care-provides-needed-services-with-new-design/',
+  },
+  {
+    title: 'Willis Tower Redevelopment',
+    meta: 'Chicago, IL | Occupied-building renovation',
+    credit: 'Interiors: Gensler',
+    body: 'Renovating an occupied tower meant addressing construction access and tenant needs alongside the redesign. Burnham supported pre-construction coordination, expedited main building permits, and filed tenant-remodeling permits, including entrance relocations and infrastructure reconfiguration.',
+    impact: 'Approvals that respected live operations, helped protect the tenant experience, and allowed the design and construction teams to move forward with fewer schedule shocks.',
+    href: '/portfolio/willis-tower/',
+  },
+];
+---
+<BaseLayout title="Permit & Code Partner for Architects" description="Burnham owns the permit and code path for complex commercial projects, so architects and design teams can focus on design and coordination instead of chasing cities and late code issues." nav="who-we-help">
+  <div class="page-band">
+    <div class="wrap">
+      <ol class="crumbs"><li><a href="/">Home</a></li><li><a href="/who-we-help/">Who we help</a></li><li>Architects</li></ol>
+    </div>
+  </div>
+
+  <section class="page-hero">
+    <div class="wrap grid grid--2 grid--center">
+      <div class="stack">
+        <div class="eyebrow">For architects &amp; design teams</div>
+        <h1 class="h-display">Keep complex projects on schedule and <span class="hl-block">out of trouble.</span></h1>
+        <p class="lede">Burnham owns the permit and code path for your complex commercial work—so your senior team can focus on design and coordination instead of chasing cities and firefighting late code issues.</p>
+        <div class="row">
+          <a class="btn btn--primary" href={ctaHref}>{cta}</a>
+        </div>
+      </div>
+      <div class="media media--tall"><img src="/assets/img/services/due-diligence.jpg" alt="Architects marking up drawings with a compass and pens" width="1500" height="1000"></div>
+    </div>
+  </section>
+
+  <section class="section section--muted">
+    <div class="wrap grid grid--2">
+      <div class="stack stack--sm">
+        <div class="eyebrow">The reality</div>
+        <h2 class="h-section">The reality architects are living in</h2>
+        <p class="lede">On complex projects, permits and code are no longer a side task—they’re where schedules, budgets, and reputations quietly go sideways.</p>
+      </div>
+      <div class="stack">
+        <ul class="list">
+          <li>Senior architects and PMs are pulled into portals, comments, and clarifications on top of intense design workloads.</li>
+          <li>Local expediters promise speed, then go quiet when reviewers push back.</li>
+          <li>Code and ADA issues surface late, forcing redesigns and awkward conversations with owners and GCs.</li>
+        </ul>
+        <div class="callout">
+          <div class="callout__body">You didn’t build your career to spend it refreshing portals and translating comment letters. You need a partner who treats permits and code as their full-time job—and your reputation as their own.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap grid grid--2">
+      <div class="stack stack--sm">
+        <div class="eyebrow">Our role</div>
+        <h2 class="h-section">Where Burnham fits in your process</h2>
+        <p class="lede">We’re not “just another expediter.” We take ownership of the approvals path so you can lead the work.</p>
+        <p class="body">From early design through approvals, Burnham steps in as the calm, accountable owner of the permit and code journey.</p>
+        <div class="callout">
+          <div class="callout__body">We respect your relationship with the owner and GC. Our role is to extend your capability—not compete with your authority.</div>
+        </div>
+      </div>
+      <ol class="steps">
+        {steps.map((s, i) => (
+          <li class="step"><span class="step__num" aria-hidden="true">{i + 1}</span><div><h3>{s.title}</h3><p>{s.body}</p></div></li>
+        ))}
+      </ol>
+    </div>
+  </section>
+
+  <section class="section section--muted">
+    <div class="wrap stack stack--lg">
+      <div class="stack stack--sm section-head">
+        <div class="eyebrow">Benefits</div>
+        <h2 class="h-section">What you get as a design partner</h2>
+        <p class="lede">For architecture firms delivering complex commercial projects, our services are built around your reality:</p>
+      </div>
+      <div class="grid grid--3">
+        {benefits.map((b) => (
+          <article class="card">
+            <h3 class="h-card">{b.title}</h3>
+            <p class="body">{b.body}</p>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--dark">
+    <div class="wrap grid grid--2">
+      <div class="stack stack--sm">
+        <div class="eyebrow">How we work with you</div>
+        <h2 class="h-section">How we support the way you work</h2>
+        <p class="lede">Architectural teams bring us in at different points, depending on their internal structure and project mix. Common patterns include:</p>
+      </div>
+      <div class="stack">
+        <ul class="list">
+          <li>Design-led teams who want Burnham at schematic or DD to shape a realistic approvals timeline.</li>
+          <li>Program-driven firms who need a repeatable permit and code process across many similar sites.</li>
+          <li>Specialty studios tackling complex renovations, adaptive reuse, or high-profile civic work with intense scrutiny.</li>
+        </ul>
+        <p class="body">In every case, we work within your drawing standards, documentation practices, and communication norms, so our presence reduces friction instead of creating more.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap stack stack--lg">
+      <div class="stack stack--sm section-head">
+        <div class="eyebrow">Projects</div>
+        <h2 class="h-section">Selected project experience</h2>
+        <p class="lede">Complex designs bring distinct approval requirements. These examples show how Burnham supports architectural teams through phased permitting, change-of-use challenges, and multi-agency coordination—without pulling your senior staff into the weeds.</p>
+      </div>
+      <div class="grid grid--3">
+        {projects.map((p) => (
+          <article class="card">
+            <span class="label">{p.meta}</span>
+            <h3 class="h-card">{p.title}</h3>
+            <p class="small">{p.credit}</p>
+            <p class="body">{p.body}</p>
+            <p class="body"><strong>Architect impact:</strong> {p.impact}</p>
+            <div class="card__foot"><a class="link" href={p.href}>Read the project story</a></div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--flush-top">
+    <div class="wrap cta-block">
+      <div class="stack stack--sm">
+        <h2>Talk through the permit path for your next complex project.</h2>
+        <p>Share a current or upcoming project and jurisdiction; we’ll map a practical approvals and code plan you can take back to your team.</p>
+      </div>
+      <a class="btn btn--primary" href={ctaHref}>{cta}</a>
+    </div>
+  </section>
+</BaseLayout>

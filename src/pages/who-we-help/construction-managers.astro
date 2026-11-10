@@ -1,0 +1,190 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const cta = 'Walk your next job’s permit path';
+const ctaHref = '/contact/';
+
+const steps = [
+  { title: 'Precon permit and code review', body: 'We look at your upcoming job, jurisdiction, and milestones to flag where approvals could impact your schedule.' },
+  { title: 'Clear ownership of approvals tasks', body: 'We define exactly what we will own and how we’ll coordinate with your PMs, supers, architect, and owner—no ambiguity.' },
+  { title: 'End-to-end management of submissions and comments', body: 'Our team handles submissions, tracks comments, and keeps you informed so your field leaders aren’t chasing cities.' },
+  { title: 'Realistic, transparent expectation-setting', body: 'We can’t control city staffing, but we can control how early we see issues and how clearly we set expectations with you and your owner.' },
+];
+
+const before = [
+  'Schedules continue to slip because permits are late or kicked back at the worst time.',
+  'Crews sit idle; costs climb; relationships strain.',
+  'Your reputation takes the hit when permits and code go sideways.',
+];
+
+const after = [
+  'Permits and code become a managed, transparent process—not a constant source of anxiety.',
+  'Schedules are more reliable, with fewer days of crews waiting on paperwork.',
+  'Owners and architects experience you as organized, proactive, and in control, even in difficult jurisdictions.',
+  'PMs and supers focus on building and leading, not bureaucratic tasks.',
+  'You become known as the team that handles complex projects and tough cities without drama—earning repeat work and stronger referrals.',
+];
+
+const reasons = [
+  'We own the entire permit + code path, end-to-end.',
+  'We fit into your current process instead of adding noise.',
+  'Our role is to free your PMs and supers, not add more meetings.',
+  'We’ve handled work like yours in tough jurisdictions across thousands of cities.',
+  'Our fee is a fraction of the real cost of a single significant delay or redesign.',
+];
+
+const projects = [
+  {
+    title: 'Mansueto High School',
+    meta: 'Chicago, IL | Ground-up institutional construction',
+    role: 'Phased permitting and revision coordination',
+    body: 'Crews could begin foundation work while the full build-out permit remained under review. Burnham separated structural foundation work into an initial permit, then coordinated subsequent approvals and revision permits as the project progressed.',
+    impact: 'Work started earlier and continued with fewer stop-and-start disruptions while complex reviews caught up.',
+    href: '/portfolio/mansueto-high-school/',
+  },
+  {
+    title: 'River Point',
+    meta: 'Chicago, IL | Commercial tower and rail overbuild',
+    role: 'Early agency coordination and permit management',
+    body: 'Building above active rail lines introduced approval dependencies that could affect the construction schedule. Burnham brought CTA and Metra into preliminary reviews before formal submission, helping the team incorporate structural and emergency-access requirements before designs were finalized.',
+    impact: 'Critical constraints were known and designed-around early, reducing the risk of late redesigns and schedule resets in the field.',
+    href: '/portfolio/chicagos-newest-riverfront-development-riverpoint/',
+  },
+  {
+    title: 'United Center Addition',
+    meta: 'Chicago, IL | Arena expansion and deep foundations',
+    role: 'Geotechnical, utility, and fire-safety approval coordination',
+    body: 'Deep caissons and connections to the existing arena required coordinated reviews. Burnham arranged preliminary geotechnical meetings, advanced the drawings through underground coordination, and worked with the design team to resolve a utility comment and address Fire Department concerns about the atrium and connecting bridge.',
+    impact: 'Key approvals aligned with construction sequencing, helping keep deep foundation and structural work moving without extended holds.',
+    href: '/portfolio/united-center/',
+  },
+  {
+    title: 'Willis Tower Redevelopment',
+    meta: 'Chicago, IL | Occupied high-rise renovation',
+    role: 'Pre-construction coordination and permit expediting',
+    body: 'Construction planning had to account for tenants and public access alongside the renovation. Burnham supported entrance relocations, infrastructure reconfiguration, and tenant moves while expediting main building permits and filing tenant-remodeling permits.',
+    impact: 'Approvals and logistics planning supported construction in an occupied tower, reducing disruption to tenants and maintaining progress on the renovation.',
+    href: '/portfolio/willis-tower/',
+  },
+];
+---
+<BaseLayout title="Permit & Code Partner for General Contractors & Construction Managers" description="Burnham owns the permit and code path for schedule-critical projects, so general contractors and construction managers can keep crews working and owners confident, even in tough jurisdictions." nav="who-we-help">
+  <div class="page-band">
+    <div class="wrap">
+      <ol class="crumbs"><li><a href="/">Home</a></li><li><a href="/who-we-help/">Who we help</a></li><li>Construction managers</li></ol>
+    </div>
+  </div>
+
+  <section class="page-hero">
+    <div class="wrap grid grid--2 grid--center">
+      <div class="stack">
+        <div class="eyebrow">For general contractors &amp; construction managers</div>
+        <h1 class="h-display">Keep crews working and owners confident—<span class="hl-block">even in tough jurisdictions.</span></h1>
+        <p class="lede">Burnham owns the permit and code path for schedule-critical projects, so you’re not juggling portals, idle crews, and late code surprises while trying to run the job.</p>
+        <div class="row">
+          <a class="btn btn--primary" href={ctaHref}>{cta}</a>
+        </div>
+      </div>
+      <div class="media media--tall"><img src="/assets/img/services/contractors.jpg" alt="Three contractors in hard hats reviewing drawings beside a surveying instrument" width="1500" height="791"></div>
+    </div>
+  </section>
+
+  <section class="section section--muted">
+    <div class="wrap grid grid--2">
+      <div class="stack stack--sm">
+        <div class="eyebrow">The reality</div>
+        <h2 class="h-section">The GC’s reality: permits you don’t control, stakes you do</h2>
+        <p class="lede">As a GC or CM, you feel schedule risk in your bones:</p>
+      </div>
+      <div class="stack">
+        <ul class="list">
+          <li>Crews and subs waiting on paperwork that was “supposed to be in any day now.”</li>
+          <li>Last-minute code/ADA comments that explode into re-sequencing, change orders, and weekend work.</li>
+          <li>Owners and architects calling you first when approvals slip—whether or not permits were your formal responsibility.</li>
+        </ul>
+        <div class="callout">
+          <div class="callout__body">Hands-off expediters and DIY processes leave you exposed. When no one truly owns the permit and code path, you’re the one explaining delays and scrambling to catch up.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap grid grid--2">
+      <div class="stack stack--sm">
+        <div class="eyebrow">Our role</div>
+        <h2 class="h-section">Burnham’s role on your project team</h2>
+        <p class="lede">GCs carrying the risk on schedule-critical complex projects shouldn’t be blindsided by permits and code. Burnham steps in as your dedicated permit + code partner.</p>
+        <div class="callout">
+          <div class="callout__body">Our job is to reduce surprises, protect your milestones, and give you clean, credible answers when owners and architects ask, “Where do approvals stand?”</div>
+        </div>
+      </div>
+      <ol class="steps">
+        {steps.map((s, i) => (
+          <li class="step"><span class="step__num" aria-hidden="true">{i + 1}</span><div><h3>{s.title}</h3><p>{s.body}</p></div></li>
+        ))}
+      </ol>
+    </div>
+  </section>
+
+  <section class="section section--muted">
+    <div class="wrap stack stack--lg">
+      <div class="stack stack--sm section-head">
+        <div class="eyebrow">The difference</div>
+        <h2 class="h-section">What changes when you bring Burnham in</h2>
+      </div>
+      <div class="grid grid--2" style="--gap: 24px;">
+        <article class="card card--plain">
+          <h3 class="h-card">If you stay with business as usual:</h3>
+          <ul class="list">{before.map((b) => <li>{b}</li>)}</ul>
+        </article>
+        <article class="card">
+          <h3 class="h-card">When Burnham owns the permit and code path:</h3>
+          <ul class="list">{after.map((a) => <li>{a}</li>)}</ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--dark">
+    <div class="wrap grid grid--2 grid--center">
+      <div class="stack stack--sm">
+        <div class="eyebrow">Why Burnham</div>
+        <h2 class="h-section">Why GCs choose Burnham</h2>
+      </div>
+      <ul class="list">{reasons.map((r) => <li>{r}</li>)}</ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap stack stack--lg">
+      <div class="stack stack--sm section-head">
+        <div class="eyebrow">Projects</div>
+        <h2 class="h-section">Proof in practice</h2>
+        <p class="lede">Permit sequencing, agency reviews, and occupied-site logistics all affect what crews can do next. These projects show how Burnham helps construction teams address approval requirements before they become field constraints.</p>
+      </div>
+      <div class="grid grid--2" style="--gap: 24px;">
+        {projects.map((p) => (
+          <article class="card">
+            <span class="label">{p.meta}</span>
+            <h3 class="h-card">{p.title}</h3>
+            <p class="small"><strong>Burnham role:</strong> {p.role}</p>
+            <p class="body">{p.body}</p>
+            <p class="body"><strong>GC impact:</strong> {p.impact}</p>
+            <div class="card__foot"><a class="link" href={p.href}>Read the project story</a></div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--flush-top">
+    <div class="wrap cta-block">
+      <div class="stack stack--sm">
+        <h2>Walk your next job’s permit path with our team.</h2>
+        <p>Bring a current or upcoming project and jurisdiction; we’ll map where permits and code intersect your schedule—and how we can help you avoid the ugly surprises you’ve seen before.</p>
+      </div>
+      <a class="btn btn--primary" href={ctaHref}>{cta}</a>
+    </div>
+  </section>
+</BaseLayout>
